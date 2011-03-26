@@ -12,7 +12,8 @@ var WshShell = WScript.CreateObject("WScript.Shell");
 
 
 function create_link(filename,target_name,args,icon,desc) {
-	var oShellLink = WshShell.CreateShortcut(source_dir + "\\" + filename);
+	var oShellLink = WshShell.CreateShortcut(source_dir + "\\shortcuts\\" + filename);
+	WScript.Echo("Creating " + source_dir + "\\shortcuts\\" + filename + "...");
 	oShellLink.TargetPath = source_dir + "\\" + target_name;
 	oShellLink.WindowStyle = 0;
 	oShellLink.Arguments = args;
