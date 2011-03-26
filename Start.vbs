@@ -12,31 +12,34 @@ end if
 
 q = chr(34)
 set Args = WScript.Arguments
-have_args = (Args.count > 0)
+
+prog = "Shell.bat"
+
+if Args.count > 0 then 	
+	prog = Args.item(0)
+end if
+
+have_args = (Args.count > 1)
 if have_args then
-    for i = 0 to Args.count -1
+    for i = 1 to Args.count -1
         progargs = progargs & " " & q & Args.item(i) & q
     next
 end if
 
 
+launcher = ""
+params = ""
+
+if strcomp(".ps1",right(prog,4)) = 0 then
+	launcher = q + "%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe" + q
+	params = " -NoExit -NoLogo -File"
+end if 
+
 Dim wsh
 Set wsh = WScript.CreateObject("WScript.Shell")
+script = q + source_dir + "\core\sbin\" + prog + q
 
-launcher = q + "%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe" + q
-script = q + source_dir + "\core\sbin\New-Shell.ps1" + q
-params = "-NoLogo -File"
-
-if have_args then
-cmdline = launcher + " " + params + " " + script + progargs
-else
-cmdline = launcher + " -NoExit " + params + " " + script + progargs
-end if
-
-if have_args  then
-	wsh.run cmdline,0
-else
-	wsh.run cmdline
-end if
-
-
+cmdline = launcher + params + " " + script + progargs
+cmdline = ltrim(cmdline)
+rem WScript.echo cmdline
+wsh.run cmdline
