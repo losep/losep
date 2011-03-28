@@ -26,7 +26,7 @@ function create_link(filename,target_name,args,icon,desc) {
 create_link('Shell.lnk','Start.vbs','','cmd.exe, 0','MyPlace Shell');
 create_link('Power Shell.lnk','Start.vbs','New-Shell.ps1','powershell.exe, 0','MyPlace Power Shell');
 create_link('Cygwin Shell.lnk','Start.vbs', 'Shell.bat cygwin.bat', source_dir + '\\system\\cygwin\\cygwin.ico','MyPlace Cygwin Shell');
-create_link('Total Commander.lnk','Start.vbs','Shell.bat totalcmd.bat', source_dir + '\\system\\app\\totalcmd\\totalcmd.exe, 0', 'Total Commander');
+create_link('Total Commander.lnk','Start.vbs','Shell.bat totalcmd.bat', source_dir + '\\system\\app\\fileman\\totalcmd\\totalcmd.exe, 0', 'Total Commander');
 
 
 
