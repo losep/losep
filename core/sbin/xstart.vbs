@@ -19,7 +19,7 @@ set Args = WScript.Arguments
 
 
 if Args.count < 3 then
-    echo "Usage: WScript.ScriptName <program> <Registry Key> <Data Filename>"
+    echo "Usage: " + WScript.ScriptName + " <program> <Registry Key> <Data Filename>"
     WScript.Quit 0
 end if
 
