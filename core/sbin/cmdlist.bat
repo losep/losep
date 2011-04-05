@@ -1,12 +1,12 @@
 @ECHO OFF
 IF "x%1"=="x" goto NO_ARG
 
-dir %FS_SYSTEM_CMD%\%1.bat
+dir %FS_CORE_CMD%\%1*
 
 goto END
 
 :NO_ARG
-dir %FS_SYSTEM_CMD%\*.bat
+dir %FS_CORE_CMD%\*
 
 :END
 
