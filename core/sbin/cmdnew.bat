@@ -1,4 +1,4 @@
-@ECHO OFF
+@ECHO ON
 
 
 IF !%1==! GOTO USAGE
@@ -18,7 +18,7 @@ goto END
 
 :EDIT
 
-start "FS Editor" "%FS_EDITOR%" "%FS_CORE_CMD%\%1.bat"
+call "%FS_EDITOR%" "%FS_CORE_CMD%\%1.bat"
 
 :END
 
