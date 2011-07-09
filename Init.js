@@ -6,6 +6,7 @@ if (i > 0) {
 else {
 	source_dir = WScript.CurrentDirectory;
 }
+var sbin_dir =  "core\\sbin\\";
 
 //WScript.Echo(source_dir);
 var WshShell = WScript.CreateObject("WScript.Shell");
@@ -23,10 +24,10 @@ function create_link(filename,target_name,args,icon,desc) {
 	oShellLink.Save();
 }
 
-create_link('Shell.lnk','Start.vbs','','cmd.exe, 0','MyPlace Shell');
-create_link('Power Shell.lnk','Start.vbs','New-Shell.ps1','powershell.exe, 0','MyPlace Power Shell');
-create_link('Cygwin Shell.lnk','Start.vbs', 'Shell.bat cygwin.bat', source_dir + '\\system\\cygwin\\cygwin.ico','MyPlace Cygwin Shell');
-create_link('Total Commander.lnk','Start.vbs','Shell.bat totalcmd.bat', source_dir + '\\system\\app\\fileman\\totalcmd\\totalcmd.exe, 0', 'Total Commander');
+create_link('Shell.lnk', sbin_dir + 'mpshell.exe','','cmd.exe, 0','MyPlace Shell');
+create_link('Power Shell.lnk', sbin_dir + 'mpshell.exe','run pwsh.bat','powershell.exe, 0','MyPlace Power Shell');
+create_link('Cygwin Shell.lnk',sbin_dir + 'mpshell.exe','run cygwin.bat', source_dir + '\\system\\cygwin\\cygwin.ico','MyPlace Cygwin Shell');
+create_link('Total Commander.lnk',sbin_dir + 'mpshell.exe','run totalcmd.bat', source_dir + '\\system\\app\\fileman\\totalcmd\\totalcmd.exe, 0', 'Total Commander');
 
 
 

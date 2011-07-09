@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set launcher="%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe"
+set launcher=start "powershell" "%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe"
 set params=-NoLogo -File
 
 if "" == "%~1" goto empty
