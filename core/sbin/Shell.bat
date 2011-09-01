@@ -53,6 +53,7 @@ for %%i in (sbin bin cmd) do if exist %FS_ROOT%\%1\%%i\NUL set NEWPATH=%FS_ROOT%
 if exist %FS_ROOT%\%1\init.bat call %FS_ROOT%\%1\init.bat %*
 for /L %%i in (0,1,25) DO (
     for %%j in (%FS_ROOT%\%1\cmd\auto.d\%%i*.bat) DO call "%%~j" 
+	for %%j in (%FS_ROOT%\%1\app\auto.d\%%i*.bat) DO call "%%~j" 
 )
 goto :eof
 
