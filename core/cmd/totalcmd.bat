@@ -1,1 +1,2 @@
-start "totalcmd" "%FS_SYSTEM_APP%\Fileman\totalcmd\totalcmd.exe"
+@echo off
+progrun fileman\totalcmd totalcmd.exe %1 %2 %3 %4 %5 %6 %7 %8 %9
