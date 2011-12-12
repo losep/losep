@@ -26,7 +26,8 @@ function create_link(filename,target_name,args,icon,desc) {
 
 create_link('Shell.lnk', sbin_dir + 'mpshell.exe','','cmd.exe, 0','MyPlace Shell');
 create_link('Power Shell.lnk', sbin_dir + 'mpshell.exe','run pwsh.bat','powershell.exe, 0','MyPlace Power Shell');
-create_link('Cygwin Shell.lnk',sbin_dir + 'mpshell.exe','call cygwin.bat', source_dir + '\\system\\cygwin\\cygwin.ico','MyPlace Cygwin Shell');
+create_link('Cygwin Shell.lnk',sbin_dir + 'mpshell.exe','call cygwin.bat', source_dir + '\\system\\app\\shell\\cygwin\\cygwin.ico','MyPlace Cygwin Shell');
+create_link('Shell Console.lnk',sbin_dir + 'mpshell.exe','run console2.bat',source_dir + '\\system\\app\\shell\\console2\\console.exe, 0','MyPlace Shell Console');
 create_link('Total Commander.lnk',sbin_dir + 'mpshell.exe','run totalcmd.bat', source_dir + '\\system\\app\\fileman\\totalcmd\\totalcmd.exe, 0', 'Total Commander');
 
 
