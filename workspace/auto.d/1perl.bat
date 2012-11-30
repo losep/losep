@@ -1,0 +1,8 @@
+@echo off
+
+call mpshell.message Initialize [WORKSPACE/Perl]
+SET PERL5LIB=%FS_ROOT%\workspace\perl
+SET NEWPATH=%NEWPATH%;%PERL5LIB%
+SET NEWPATH=%NEWPATH%;%PERL5LIB%\bin
+SET XR_PERL_SOURCE_DIR=%PERL5LIB%
+SET XR_PERL_MODULE_DIR=%PERL5LIB%\modules
