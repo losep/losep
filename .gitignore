@@ -1,13 +1,9 @@
 /appdata/diskimg
-/local/app
 /temp/
-/system/app
-/core/app/*
 /sync.ffs_db
 /*.lnk
 /document/
 /repos/
-/appdata/linux/xiaoranzzz/
 /Files
 /appdata/
 /loseapps/
@@ -15,9 +11,7 @@
 /repos/
 /repos.git
 /shortcuts/
-/system/
 /tmp/
-/workspace/
 /loseapps
 /overjoy
 /repos

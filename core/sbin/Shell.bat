@@ -43,17 +43,23 @@ REM ERRORLEVEL 值初始化成非零值。
 
 :FS_INIT
 if ""=="%~2" goto :eof
-echo [SHELL] Initializing [%2]...
+echo [SHELL] Initialize [%2]
 if not exist %FS_ROOT%\%1\NUL goto :eof
 call :MY_SET FS_%2 %FS_ROOT%\%1
 call :FS_SET %1 %2 cmd CMD
 call :FS_SET %1 %2 app APP
 call :FS_SET %1 %2 data DATA
 for %%i in (sbin bin cmd) do if exist %FS_ROOT%\%1\%%i\NUL set NEWPATH=%FS_ROOT%\%1\%%~ni;!NEWPATH!
+set PATH=%NEWPATH%
 if exist %FS_ROOT%\%1\init.bat call %FS_ROOT%\%1\init.bat %*
 for /L %%i in (0,1,25) DO (
-    for %%j in (%FS_ROOT%\%1\cmd\auto.d\%%i*.bat) DO call "%%~j" 
+	for %%j in (%FS_ROOT%\%1\auto.d\%%i*.bat) DO call "%%~j" 
+)
+for /L %%i in (0,1,25) DO (
 	for %%j in (%FS_ROOT%\%1\app\auto.d\%%i*.bat) DO call "%%~j" 
+)
+for /L %%i in (0,1,25) DO (
+    for %%j in (%FS_ROOT%\%1\cmd\auto.d\%%i*.bat) DO call "%%~j" 
 )
 goto :eof
 
@@ -134,9 +140,11 @@ SET SHELL_D=
 SET SHELL_P=
 call :MY_SET FS_ROOT %FS_ROOT%
 echo [SHELL] Root in "%FS_ROOT%"
+IF "%PATH%" == "" set PATH=%SYSTEMROOT%\system32;%SYSTEMROOT%
 SET SHELL_OLD_PATH=%PATH%
-set NEWPATH=%SYSTEMROOT%\system32
-set NEWPATH=%NEWPATH%;%SYSTEMROOT%
+SET PATH=%~dp0;%PATH%
+rem set NEWPATH=
+rem set PATH=%NEWPATH%;%PATH%
 
 call :FS_INIT core CORE
 call :FS_INIT system SYSTEM
@@ -148,8 +156,9 @@ set FS_CMD=%FS_SYSTEM_CMD%
 echo [SHELL] Initialized.
 
 set PATH=%NEWPATH:\\=\%
+set PATH=%PATH%;%SHELL_OLD_PATH%
 set NEWPATH=
-call PATHADD.BAT "%SHELL_OLD_PATH%"
+
 
 :PATH_E
 REM for %%i in (%PATH%) do echo %%i

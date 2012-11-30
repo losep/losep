@@ -2,7 +2,7 @@
 setlocal
 
 set firefox=%FS_SYSTEM_APP%\internet\firefox\firefox.exe
-for %%d in ("%FS_SYSTEM_APP%\firefox\firefox.exe" "%FS_SYSTEM_APP%\internet\firefox\firefox.exe" "%PROGRAMFILES%\Mozilla Firefox\firefox.exe" ) do (
+for %%d in ("%FS_SYSTEM_APP%\firefox\firefox.exe" "%FS_SYSTEM_APP%\internet\firefox\firefox.exe" "%FS_SYSTEM_APP%\internet\Mozilla firefox\firefox.exe" "%PROGRAMFILES%\Mozilla Firefox\firefox.exe" ) do (
 	if exist "%%~d" (set firefox=%%~d&goto profile)
 )
 

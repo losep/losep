@@ -6,9 +6,9 @@
 
 
 # hlsearch on (H) or off (h):
-~h
+~H
 # Last Search Pattern:
-~Msle0~/\<GitHostsPublic\>
+~MSle0~/system
 
 # Last Substitute Search Pattern:
 ~MSle0&eotect
@@ -40,6 +40,7 @@ $eotect@gmail.com
 :tabnext
 
 # Search String History (newest to oldest):
+?/system
 ? \<GitHostsPublic\>
 ?/fanqiang
 ?/fds
@@ -71,47 +72,46 @@ $eotect@gmail.com
 "0	LINE	0
 	die("No catalogs found\n") unless(ref $cats);
 ""1	LINE	0
-	if [ -n "$OSTYPE" ] ; then
-		source "$HOME/.$OSTYPE"
-	fi
+	auto.d
 "2	LINE	0
-	
+	/appdata/linux/xiaoranzzz/
 "3	LINE	0
-	else
+	/local/app
 "4	LINE	0
-	
+	/core/app/*
 "5	LINE	0
-		if [ -n "$FS_ROOT" ] ; then
-			ln -sfT `cygpath -u "$FS_ROOT"` /myplace
-			if [ -d "/myplace/core/data/linux" ] ; then
-				ln -sfT "/myplace/core/data/linux" "/home"
-			fi
-		fi
+	/system/app
 "6	LINE	0
-	[core "file"]
-		mode = false
+	README.markdown
 "7	LINE	0
-	print Data::Dumper->Dump([$cats],['*cats']);
+	init.bat
 "8	LINE	0
-		pri
+	auto.d
 "9	LINE	0
-	die("No catalogs found\n") unless($cats);
+	/workspace/
 "-	CHAR	0
 	~
 
 # File marks:
-'0  7  0  ~/.bashrc
-'1  3  1  ~/.bash_logout
-'2  110  0  ~/.bashrc
-'3  1  0  /cygdrive/d/myplace/system/app/develop/MinGW/.bashrc
-'4  4  35  ~/.cygwin
-'5  1  0  ~/.bashrc
-'6  12  1  /cygdrive/d/myplace/workspace/perl/modules/MyPlace/.git/config
-'7  53  0  /cygdrive/f/files/repos/PROJECTS
-'8  471  1  /cygdrive/f/files/repos/PROJECTS
-'9  507  0  /cygdrive/d/myplace/workspace/fanqiang/hosts
+'0  2  0  /cygdrive/d/myplace/system/app/.gitignore
+'1  22  0  /cygdrive/d/myplace/.gitignore
+'2  1  0  /cygdrive/d/myplace/system/app/.gitignore
+'3  2  0  /cygdrive/d/myplace/.gitignore
+'4  1  0  /cygdrive/d/myplace/workspace/.gitignore
+'5  15  0  /cygdrive/d/myplace/.gitignore
+'6  7  0  ~/.bashrc
+'7  3  1  ~/.bash_logout
+'8  110  0  ~/.bashrc
+'9  1  0  /cygdrive/d/myplace/system/app/develop/MinGW/.bashrc
 
 # Jumplist (newest first):
+-'  2  0  /cygdrive/d/myplace/system/app/.gitignore
+-'  1  0  /cygdrive/d/myplace/system/app/.gitignore
+-'  22  0  /cygdrive/d/myplace/.gitignore
+-'  1  0  /cygdrive/d/myplace/.gitignore
+-'  2  0  /cygdrive/d/myplace/.gitignore
+-'  1  0  /cygdrive/d/myplace/workspace/.gitignore
+-'  15  0  /cygdrive/d/myplace/.gitignore
 -'  7  0  ~/.bashrc
 -'  1  0  ~/.bashrc
 -'  3  1  ~/.bash_logout
@@ -203,15 +203,29 @@ $eotect@gmail.com
 -'  1  0  /cygdrive/g/Files/Eotect/repos/git/.PROJECTS
 -'  110  0  /cygdrive/g/Files/Eotect/repos/git/.PROJECTS
 -'  1  0  /cygdrive/g/Files/Eotect/repos/git/REPOS
--'  46  0  /cygdrive/g/Files/Eotect/repos/git/REPOS
--'  9  26  /cygdrive/d/myplace/workspace/perl/urlrule/.git/config
--'  1  0  /cygdrive/d/myplace/workspace/perl/urlrule/.git/config
--'  18  19  /cygdrive/d/myplace/workspace/perl/urlrule/2/book.yunduan.cn
--'  1  0  /cygdrive/d/myplace/workspace/perl/urlrule/2/book.yunduan.cn
--'  16  39  /cygdrive/d/myplace/workspace/perl/urlrule/2/book.yunduan.cn
--'  13  48  /cygdrive/d/myplace/workspace/perl/urlrule/1/book.yunduan.cn
 
 # History of marks within files (newest to oldest):
+
+> /cygdrive/d/myplace/system/app/.gitignore
+	"	2	0
+	.	2	0
+	+	2	0
+
+> /cygdrive/d/myplace/.gitignore
+	"	22	0
+	.	7	0
+	+	14	0
+	+	15	0
+	+	3	0
+	+	2	0
+	+	7	0
+
+> /cygdrive/d/myplace/workspace/.gitignore
+	"	1	0
+	.	1	0
+	+	2	0
+	+	16	0
+	+	1	0
 
 > ~/.bashrc
 	"	7	0
@@ -346,53 +360,3 @@ $eotect@gmail.com
 	.	3	0
 	+	2	61
 	+	3	0
-
-> /cygdrive/d/myplace/core/cmd/console2.bat
-	"	3	34
-	^	3	35
-	.	3	35
-	+	3	35
-
-> /cygdrive/d/myplace/workspace/reposman/reposman.pl
-	"	685	55
-	^	685	55
-	.	685	55
-	+	26	12
-	+	27	0
-	+	68	6
-	+	658	16
-	+	663	0
-	+	662	65
-	+	664	22
-	+	665	30
-	+	666	0
-	+	674	0
-	+	666	39
-	+	672	27
-	+	672	10
-	+	671	5
-	+	672	0
-	+	671	46
-	+	828	0
-	+	827	29
-	+	673	18
-	+	669	38
-	+	670	0
-	+	672	26
-	+	666	40
-	+	664	0
-	+	665	30
-	+	1100	0
-	+	1094	0
-	+	1098	28
-	+	1097	37
-	+	1096	0
-	+	1099	16
-	+	685	55
-
-> /cygdrive/g/Files/pictures/incoming/ladies/clean.sh
-	"	2	0
-	^	2	5
-	.	2	0
-	+	2	82
-	+	2	0
