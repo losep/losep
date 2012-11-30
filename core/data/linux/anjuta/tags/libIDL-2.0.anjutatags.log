@@ -1,0 +1,29 @@
+In file included from /tmp/5608_1202642560_1.cpp:1:
+/usr/include/libIDL-2.0/libIDL/IDL.h:27:18: error: glib.h: No such file or directory
+Installing parsers: Asm, Asp, Awk, BETA, C, C++, C#, Fortran, Java, Lisp, Lua, Make, Pascal, Perl, PHP, Python, Ruby, Scheme, Sh, SML, SQL, Tcl, Vera, Verilog, Vim
+    Asm: 
+    Asp: 
+    Awk: 
+    BETA: 
+    C: 
+    C++: 
+    C#: 
+    Fortran: 
+    Java: 
+    Lisp: 
+    Lua: 
+    Make: 
+    Pascal: 
+    Perl: 
+    PHP: 
+    Python: 
+    Ruby: 
+    Scheme: 
+    Sh: 
+    SML: 
+    SQL: 
+    Tcl: 
+    Vera: 
+    Verilog: 
+    Vim: 
+OPENING /tmp/5608_1202642560_2.cpp as C++ language file

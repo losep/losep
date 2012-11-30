@@ -1,0 +1,120 @@
+In file included from /tmp/4813_1202642534_1.cpp:1:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-stock-icons.h:29:26: error: glib/gmacros.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-stock-icons.h:30:32: error: gtk/gtkiconfactory.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-stock-icons.h:31:26: error: gtk/gtkstock.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:31,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-uidefs.h:50:28: error: gdk/gdkkeysyms.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:33,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-about.h:30:27: error: gtk/gtkdialog.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:34,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-app.h:40:28: error: gtk/gtkmenubar.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-app.h:41:28: error: gtk/gtktoolbar.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-app.h:42:27: error: gtk/gtkwindow.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-app.h:44:32: error: bonobo/bonobo-dock.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:35,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-app-helper.h:41:30: error: gtk/gtkstatusbar.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/gnome-app-helper.h:43,
+                 from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:35,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-appbar.h:31:25: error: gtk/gtkhbox.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-appbar.h:32:32: error: gtk/gtkprogressbar.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:36,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-app-util.h:34:35: error: gdk-pixbuf/gdk-pixbuf.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:38,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-authentication-manager.h:28:18: error: glib.h: No such file or directory
+In file included from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:39:41: error: libgnomecanvas/gnome-canvas.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:40:48: error: libgnomecanvas/gnome-canvas-pixbuf.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:41:46: error: libgnomecanvas/gnome-canvas-line.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:42:54: error: libgnomecanvas/gnome-canvas-rect-ellipse.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:43:49: error: libgnomecanvas/gnome-canvas-polygon.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:44:46: error: libgnomecanvas/gnome-canvas-text.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:45:46: error: libgnomecanvas/gnome-canvas-util.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:46:48: error: libgnomecanvas/gnome-canvas-widget.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:47,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-color-picker.h:35:27: error: gtk/gtkbutton.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:48,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-entry.h:38:26: error: gtk/gtkcombo.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-entry.h:39:29: error: gtk/gtkeditable.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:49,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-file-entry.h:39:25: error: gtk/gtkvbox.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:52,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-icon-item.h:35:26: error: gtk/gtkentry.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:53,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-icon-list.h:41:51: error: libgnomecanvas/gnome-canvas-rich-text.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:54,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-icon-sel.h:29:21: error: gtk/gtk.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:55,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-ui-init.h:29:36: error: libgnome/gnome-program.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:57,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-icon-theme.h:25:25: error: glib-object.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-icon-theme.h:26:30: error: gtk/gtkicontheme.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:59,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-icon-lookup.h:27:45: error: libgnomevfs/gnome-vfs-file-info.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:62,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-client.h:31:27: error: gtk/gtkobject.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:66,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-dialog.h:28:21: error: gdk/gdk.h: No such file or directory
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-dialog.h:31:31: error: gtk/gtkaccelgroup.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:77,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-vfs-util.h:33:42: error: libgnomevfs/gnome-vfs-result.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:78,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-pixmap.h:38:26: error: gtk/gtkimage.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:80,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-popup-menu.h:32:25: error: gtk/gtkmenu.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:85,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-help.h:26:33: error: libgnome/gnome-help.h: No such file or directory
+In file included from /usr/include/libgnomeui-2.0/libgnomeui/libgnomeui.h:86,
+                 from /tmp/4813_1202642534_1.cpp:2:
+/usr/include/libgnomeui-2.0/libgnomeui/gnome-url.h:26:32: error: libgnome/gnome-url.h: No such file or directory
+In file included from /tmp/4813_1202642534_1.cpp:25:
+/usr/include/libgnomeui-2.0/gnome.h:5:31: error: libgnome/libgnome.h: No such file or directory
+/usr/include/libgnomeui-2.0/gnome.h:6:43: error: libgnomecanvas/libgnomecanvas.h: No such file or directory
+Installing parsers: Asm, Asp, Awk, BETA, C, C++, C#, Fortran, Java, Lisp, Lua, Make, Pascal, Perl, PHP, Python, Ruby, Scheme, Sh, SML, SQL, Tcl, Vera, Verilog, Vim
+    Asm: 
+    Asp: 
+    Awk: 
+    BETA: 
+    C: 
+    C++: 
+    C#: 
+    Fortran: 
+    Java: 
+    Lisp: 
+    Lua: 
+    Make: 
+    Pascal: 
+    Perl: 
+    PHP: 
+    Python: 
+    Ruby: 
+    Scheme: 
+    Sh: 
+    SML: 
+    SQL: 
+    Tcl: 
+    Vera: 
+    Verilog: 
+    Vim: 
+OPENING /tmp/4813_1202642534_2.cpp as C++ language file

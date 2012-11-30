@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<session>
+  <history>
+    <bookmark name="vcd1" icon="gnome-fs-directory" uri="file:///mnt/vcd1"/>
+    <bookmark name="Computer" icon="gnome-fs-client" uri="computer:"/>
+    <bookmark name="mnt" icon="gnome-fs-directory" uri="file:///mnt"/>
+  </history>
+</session>

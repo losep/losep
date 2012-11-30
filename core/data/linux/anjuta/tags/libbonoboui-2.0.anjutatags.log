@@ -1,0 +1,85 @@
+In file included from /tmp/5555_1202642560_1.cpp:1:
+/usr/include/libbonoboui-2.0/bonobo/bonobo-ui-toolbar-toggle-button-item.h:14:26: error: glib/gmacros.h: No such file or directory
+In file included from /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-toolbar-toggle-button-item.h:15,
+                 from /tmp/5555_1202642560_1.cpp:1:
+/usr/include/libbonoboui-2.0/bonobo/bonobo-ui-toolbar-button-item.h:14:35: error: gdk-pixbuf/gdk-pixbuf.h: No such file or directory
+In file included from /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-toolbar-button-item.h:16,
+                 from /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-toolbar-toggle-button-item.h:15,
+                 from /tmp/5555_1202642560_1.cpp:1:
+/usr/include/libbonoboui-2.0/bonobo/bonobo-ui-toolbar-item.h:14:21: error: gtk/gtk.h: No such file or directory
+In file included from /usr/include/libbonoboui-2.0/bonobo/bonobo-property-control.h:13,
+                 from /tmp/5555_1202642560_1.cpp:2:
+/usr/include/libbonoboui-2.0/bonobo/bonobo-control.h:15:27: error: gtk/gtkobject.h: No such file or directory
+/usr/include/libbonoboui-2.0/bonobo/bonobo-control.h:16:27: error: gtk/gtkwidget.h: No such file or directory
+/usr/include/libbonoboui-2.0/bonobo/bonobo-control.h:17:27: error: gtk/gtkwindow.h: No such file or directory
+/usr/include/libbonoboui-2.0/bonobo/bonobo-control.h:18:25: error: gtk/gtkmenu.h: No such file or directory
+In file included from /usr/include/libbonoboui-2.0/bonobo/bonobo-control.h:22,
+                 from /usr/include/libbonoboui-2.0/bonobo/bonobo-property-control.h:13,
+                 from /tmp/5555_1202642560_1.cpp:2:
+/usr/include/libbonoboui-2.0/bonobo/bonobo-plug.h:30:21: error: gdk/gdk.h: No such file or directory
+/usr/include/libbonoboui-2.0/bonobo/bonobo-plug.h:31:25: error: gtk/gtkplug.h: No such file or directory
+In file included from /usr/include/libbonoboui-2.0/bonobo/bonobo-property-control.h:13,
+                 from /tmp/5555_1202642560_1.cpp:2:
+/usr/include/libbonoboui-2.0/bonobo/bonobo-control.h:23:34: error: bonobo/bonobo-object.h: No such file or directory
+In file included from /usr/include/libbonoboui-2.0/bonobo/bonobo-ui-component.h:15,
+                 from /usr/include/libbonoboui-2.0/bonobo/bonobo-control.h:25,
+                 from /usr/include/libbonoboui-2.0/bonobo/bonobo-property-control.h:13,
+                 from /tmp/5555_1202642560_1.cpp:2:
+/usr/include/libbonoboui-2.0/bonobo/bonobo-ui-node.h:13:18: error: glib.h: No such file or directory
+In file included from /tmp/5555_1202642560_1.cpp:2:
+/usr/include/libbonoboui-2.0/bonobo/bonobo-property-control.h:14:40: error: bonobo/bonobo-event-source.h: No such file or directory
+In file included from /tmp/5555_1202642560_1.cpp:3:
+/usr/include/libbonoboui-2.0/libbonoboui.h:14:23: error: libbonobo.h: No such file or directory
+In file included from /usr/include/libbonoboui-2.0/libbonoboui.h:18,
+                 from /tmp/5555_1202642560_1.cpp:3:
+/usr/include/libbonoboui-2.0/bonobo/bonobo-widget.h:15:24: error: gtk/gtkbin.h: No such file or directory
+/usr/include/libbonoboui-2.0/bonobo/bonobo-widget.h:16:27: error: bonobo/Bonobo.h: No such file or directory
+In file included from /usr/include/libbonoboui-2.0/bonobo/bonobo-widget.h:30,
+                 from /usr/include/libbonoboui-2.0/libbonoboui.h:18,
+                 from /tmp/5555_1202642560_1.cpp:3:
+/usr/include/libbonoboui-2.0/bonobo/bonobo-control-frame.h:18:47: error: bonobo/bonobo-property-bag-client.h: No such file or directory
+In file included from /usr/include/libbonoboui-2.0/bonobo/bonobo-control-frame.h:22,
+                 from /usr/include/libbonoboui-2.0/bonobo/bonobo-widget.h:30,
+                 from /usr/include/libbonoboui-2.0/libbonoboui.h:18,
+                 from /tmp/5555_1202642560_1.cpp:3:
+/usr/include/libbonoboui-2.0/bonobo/bonobo-socket.h:30:27: error: gtk/gtksocket.h: No such file or directory
+In file included from /usr/include/libbonoboui-2.0/libbonoboui.h:24,
+                 from /tmp/5555_1202642560_1.cpp:3:
+/usr/include/libbonoboui-2.0/bonobo/bonobo-ui-main.h:16:32: error: bonobo/bonobo-main.h: No such file or directory
+/usr/include/libbonoboui-2.0/bonobo/bonobo-ui-main.h:17:36: error: libgnome/gnome-program.h: No such file or directory
+In file included from /usr/include/libbonoboui-2.0/libbonoboui.h:32,
+                 from /tmp/5555_1202642560_1.cpp:3:
+/usr/include/libbonoboui-2.0/bonobo/bonobo-canvas-item.h:14:41: error: libgnomecanvas/gnome-canvas.h: No such file or directory
+In file included from /usr/include/libbonoboui-2.0/libbonoboui.h:39,
+                 from /tmp/5555_1202642560_1.cpp:3:
+/usr/include/libbonoboui-2.0/bonobo/bonobo-dock.h:31:25: error: glib-object.h: No such file or directory
+In file included from /usr/include/libbonoboui-2.0/libbonoboui.h:42,
+                 from /tmp/5555_1202642560_1.cpp:3:
+/usr/include/libbonoboui-2.0/bonobo/bonobo-ui-toolbar.h:15:30: error: gtk/gtkcontainer.h: No such file or directory
+Installing parsers: Asm, Asp, Awk, BETA, C, C++, C#, Fortran, Java, Lisp, Lua, Make, Pascal, Perl, PHP, Python, Ruby, Scheme, Sh, SML, SQL, Tcl, Vera, Verilog, Vim
+    Asm: 
+    Asp: 
+    Awk: 
+    BETA: 
+    C: 
+    C++: 
+    C#: 
+    Fortran: 
+    Java: 
+    Lisp: 
+    Lua: 
+    Make: 
+    Pascal: 
+    Perl: 
+    PHP: 
+    Python: 
+    Ruby: 
+    Scheme: 
+    Sh: 
+    SML: 
+    SQL: 
+    Tcl: 
+    Vera: 
+    Verilog: 
+    Vim: 
+OPENING /tmp/5555_1202642560_2.cpp as C++ language file

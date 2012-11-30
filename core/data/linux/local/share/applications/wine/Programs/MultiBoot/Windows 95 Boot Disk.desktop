@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Windows 95 Boot Disk
+Exec=env WINEPREFIX="/home/xiaoranzzz/.wine" wine "C:\\MULTIBOOT\\Win95.exe" 
+Type=Application
+StartupWMClass=Wine
+Icon=6256_win95

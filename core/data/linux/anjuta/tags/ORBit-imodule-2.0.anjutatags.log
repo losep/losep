@@ -1,0 +1,35 @@
+In file included from /tmp/4489_1202642530_1.cpp:1:
+/usr/include/orbit-2.0/ORBitservices/CosNaming.h:7:18: error: glib.h: No such file or directory
+/usr/include/orbit-2.0/ORBitservices/CosNaming.h:9:31: error: orbit/orbit-types.h: No such file or directory
+/usr/include/orbit-2.0/ORBitservices/CosNaming.h:758:44: error: orbit/orb-core/orbit-interface.h: No such file or directory
+/usr/include/orbit-2.0/ORBitservices/CosNaming.h:847:25: error: orbit/orbit.h: No such file or directory
+In file included from /tmp/4489_1202642530_1.cpp:3:
+/usr/include/orbit-2.0/ORBitservices/orbit-imodule.h:27:26: error: glib/gmacros.h: No such file or directory
+/usr/include/orbit-2.0/ORBitservices/orbit-imodule.h:29:24: error: libIDL/IDL.h: No such file or directory
+Installing parsers: Asm, Asp, Awk, BETA, C, C++, C#, Fortran, Java, Lisp, Lua, Make, Pascal, Perl, PHP, Python, Ruby, Scheme, Sh, SML, SQL, Tcl, Vera, Verilog, Vim
+    Asm: 
+    Asp: 
+    Awk: 
+    BETA: 
+    C: 
+    C++: 
+    C#: 
+    Fortran: 
+    Java: 
+    Lisp: 
+    Lua: 
+    Make: 
+    Pascal: 
+    Perl: 
+    PHP: 
+    Python: 
+    Ruby: 
+    Scheme: 
+    Sh: 
+    SML: 
+    SQL: 
+    Tcl: 
+    Vera: 
+    Verilog: 
+    Vim: 
+OPENING /tmp/4489_1202642530_2.cpp as C++ language file

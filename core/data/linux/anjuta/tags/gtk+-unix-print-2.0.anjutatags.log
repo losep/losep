@@ -1,0 +1,38 @@
+In file included from /tmp/4751_1202642533_1.cpp:1:
+/usr/include/gtk-unix-print-2.0/gtk/gtkprintunixdialog.h:22:27: error: gtk/gtkdialog.h: No such file or directory
+In file included from /usr/include/gtk-unix-print-2.0/gtk/gtkprintunixdialog.h:23,
+                 from /tmp/4751_1202642533_1.cpp:1:
+/usr/include/gtk-unix-print-2.0/gtk/gtkprinter.h:22:25: error: glib-object.h: No such file or directory
+/usr/include/gtk-unix-print-2.0/gtk/gtkprinter.h:23:19: error: cairo.h: No such file or directory
+/usr/include/gtk-unix-print-2.0/gtk/gtkprinter.h:24:34: error: gtk/gtkprintsettings.h: No such file or directory
+/usr/include/gtk-unix-print-2.0/gtk/gtkprinter.h:25:30: error: gtk/gtkpagesetup.h: No such file or directory
+In file included from /usr/include/gtk-unix-print-2.0/gtk/gtkprintunixdialog.h:24,
+                 from /tmp/4751_1202642533_1.cpp:1:
+/usr/include/gtk-unix-print-2.0/gtk/gtkprintjob.h:26:35: error: gtk/gtkprintoperation.h: No such file or directory
+Installing parsers: Asm, Asp, Awk, BETA, C, C++, C#, Fortran, Java, Lisp, Lua, Make, Pascal, Perl, PHP, Python, Ruby, Scheme, Sh, SML, SQL, Tcl, Vera, Verilog, Vim
+    Asm: 
+    Asp: 
+    Awk: 
+    BETA: 
+    C: 
+    C++: 
+    C#: 
+    Fortran: 
+    Java: 
+    Lisp: 
+    Lua: 
+    Make: 
+    Pascal: 
+    Perl: 
+    PHP: 
+    Python: 
+    Ruby: 
+    Scheme: 
+    Sh: 
+    SML: 
+    SQL: 
+    Tcl: 
+    Vera: 
+    Verilog: 
+    Vim: 
+OPENING /tmp/4751_1202642533_2.cpp as C++ language file

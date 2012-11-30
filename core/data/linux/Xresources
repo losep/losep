@@ -1,0 +1,127 @@
+! $XTermId: XTerm.ad,v 1.83 2007/03/18 22:41:40 tom Exp $
+! $XFree86: xc/programs/xterm/XTerm.ad,v 3.37 2006/04/10 00:34:36 dickey Exp $
+
+!*saveLines: 1024
+
+*customization: -color
+*saveLines: 4096
+
+!Fixed 
+*vt100*font:-misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+!,-misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+*vt100*font2:-misc-fixed-medium-r-normal--138-120-75-75-c-80-iso10646-1
+*vt100*font3:-misc-fixed-medium-r-normal--14-130-75-75-c-70-iso10646-1
+*vt100*font4:-misc-fixed-medium-r-normal--15-140-75-75-c-90-iso10646-1
+*vt100*font5:-misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+*vt100*font6:-misc-fixed-medium-r-normal--20-200-75-75-c-100-iso10646-1
+*XimFont:-misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+
+*vt100.scrollBar: true
+*vt100.rightScrollBar: true
+*vt100.multiScroll: true
+*vt100.visualBell: true
+*vt100*metaSendsEscape:true
+
+xterm*background: Black
+xterm*foreground: White
+xterm_color*background: Black
+xterm_color*foreground: White
+
+
+
+URxvt.cursorColor:White
+URxvt.color0: black
+URxvt.color1: red3
+URxvt.color2: green3
+URxvt.color3: yellow3
+URxvt.color4: Blue3
+URxvt.color5: magenta3
+URxvt.color6: cyan3
+URxvt.color7: AntiqueWhite
+URxvt.color8: Grey25
+URxvt.color9: Red
+URxvt.color10: Green
+URxvt.color11: Yellow
+URxvt.color12: SteelBlue
+URxvt.color13: Magenta
+URxvt.color14: Cyan
+URxvt.color15: White
+URxvt.colorUL: green
+URxvt.colorBD: yellow
+URxvt.reverseVideo: false
+URxvt.foreground: White
+URxvt.background: Black
+URxvt.scrollBar_right: true
+URxvt.saveLines: 1024
+URxvt.cursorBlink: true
+
+! Examples for custom keysyms overrides
+
+!URxvt.keysym.KP_Up: ^[[A
+!URxvt.keysym.KP_Right: ^[[C
+!URxvt.keysym.KP_Left: ^[[D
+!URxvt.keysym.KP_Down: ^[[B
+!URxvt.keysym.KP_Insert: ^[[2~
+!URxvt.keysym.KP_Delete: ^[[3~
+!URxvt.keysym.KP_Add: +
+!URxvt.keysym.KP_Subtract: -
+!URxvt.keysym.KP_Multiply: *
+!URxvt.keysym.KP_Divide: /
+!URxvt.keysym.KP_Enter: ^M
+!transparency - true or false (default)
+!URxvt*transparent:true
+
+! tint with any color; i.e., blue, red, tomato4, olivedrab2, etc.
+!   some nice listings are at:
+!     http://www.nisrv.com/modules.php?name=Hex_Colors
+!     http://www.htmlgoodies.com/tutorials/colors/article.php/3478921
+!URxvt*tintColor:blue
+
+!shading - 0 to 99 darkens, 101 to 200 lightens.
+!Do not use with tintColor; use a darker or lighter color instead.
+URxvt*shading:40
+
+! scrollback buffer lines - 65535 is max (64 is default)
+URxvt*saveLines:12000
+
+! font color (default is black)
+URxvt*foreground:White
+
+! background color (prior to tinting) (default is white)
+URxvt*background:Black
+
+! xft fonts - anti-aliased xft font setup is nice, but can be choppy
+!URxvt*font: xft:Bitstream Vera Sans Mono:pixelsize=14
+!Rxvt*font: xft:Terminus:pixelsize=16
+
+! traditional fonts - a more traditional font setup in lieu of xft
+!URxvt*font:-*-courier-medium-r-normal-*-*-120-*-*-*-*-iso8859-1
+!URxvt*font:-*-terminus-medium-*-*-*-*-140-*-*-*-*-iso10646-1
+!URxvt*font:-*-courier 10 pitch-*-*-*-*-*-120-*-*-*-*-iso10646-1
+!URxvt*font:-*-courier-*-*-*-*-*-120-*-*-*-*-*-*
+!URxvt*font:-*-courier-medium-*-normal-*-*-140-*-*-*-*-iso8859-1
+!URxvt*font:-*-nimbus mono l-*-*-*-*-*-*-*-*-*-*-*-*
+!URxvt*boldFont:-*-courier-bold-r-normal-*-*-120-*-*-*-*-iso8859-1
+!URxvt*font:-misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+!URxvt*font: -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso10646-1,\
+!terminus-16,\
+!-wenquanyi-wenquanyi bitmap song-medium-r-normal--16-160-75-75-p-80-iso10646-1
+URxvt*font:-*-terminus-medium-*-*-*-*-140-*-*-*-*-iso8859-1, \
+-wenquanyi-wenquanyi bitmap song-medium-r-normal--16-160-75-75-p-80-iso10646-1
+
+! Replace blue folder colors with a lighter shade for clarity. To
+! set colored folders and files within urxvt, xterm, and aterm, add
+! the following line to your ~/.bashrc ($HOME/.bashrc) file under
+! the heading "# User specific aliases and functions":
+!   alias ls="ls -h --color=auto"
+URxvt*color4:RoyalBlue
+URxvt*color12:RoyalBlue
+
+! scrollbar - true (default) or false
+URxvt*scrollBar:true
+
+! scrollbar position - left=false (default) or right=true
+URxvt*scrollBar_right:false
+
+! scrollbar style - rxvt (default), plain, next, or xterm
+URxvt*scrollstyle:rxvt

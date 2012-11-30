@@ -1,0 +1,19 @@
+
+[roxterm profile]
+font=Bitstream Vera Sans Mono 10
+audible_bell=0
+browser=r-firefox
+disable_menu_access=1
+cursor_blinks=1
+hide_mouse=0
+always_show_tabs=0
+hide_menubar=1
+full_screen=0
+visible_bell=1
+cursor_shape=1
+disable_tab_menu_shortcuts=1
+show_tab_status=1
+background_type=0
+saturation=0.497781
+scroll_on_output=1
+scroll_on_keystroke=0

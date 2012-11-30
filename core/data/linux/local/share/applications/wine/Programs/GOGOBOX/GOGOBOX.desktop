@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=GOGOBOX
+Exec=env WINEPREFIX="/home/duel/.wine" wine "C:\\windows\\command\\start.exe" "C:\\Program Files\\NextLink\\GOGOBOX\\GOGOBOX文件传送管理者.url"
+Type=Application
+StartupWMClass=Wine
+Path=/home/duel/.wine/dosdevices/c:/Program Files/NextLink/GOGOBOX
+Icon=3550_shell32.0

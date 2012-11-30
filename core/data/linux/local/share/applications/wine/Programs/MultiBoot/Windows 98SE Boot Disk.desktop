@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Windows 98SE Boot Disk
+Exec=env WINEPREFIX="/home/xiaoranzzz/.wine" wine "C:\\MULTIBOOT\\Win98SE.exe" 
+Type=Application
+StartupWMClass=Wine
+Icon=6256_win98se

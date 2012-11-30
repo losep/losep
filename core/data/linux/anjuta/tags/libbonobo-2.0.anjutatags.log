@@ -1,0 +1,48 @@
+In file included from /usr/include/libbonobo-2.0/bonobo/bonobo-property-bag.h:15,
+                 from /tmp/5536_1202642559_1.cpp:1:
+/usr/include/libbonobo-2.0/bonobo/bonobo-object.h:14:49: error: bonobo-activation/bonobo-activation.h: No such file or directory
+/usr/include/libbonobo-2.0/bonobo/bonobo-object.h:16:25: error: glib-object.h: No such file or directory
+In file included from /usr/include/libbonobo-2.0/bonobo/bonobo-object.h:17,
+                 from /usr/include/libbonobo-2.0/bonobo/bonobo-property-bag.h:15,
+                 from /tmp/5536_1202642559_1.cpp:1:
+/usr/include/libbonobo-2.0/bonobo/Bonobo.h:7:18: error: glib.h: No such file or directory
+/usr/include/libbonobo-2.0/bonobo/Bonobo.h:9:31: error: orbit/orbit-types.h: No such file or directory
+/usr/include/libbonobo-2.0/bonobo/Bonobo.h:17:46: error: bonobo-activation/Bonobo_Unknown.h: No such file or directory
+/usr/include/libbonobo-2.0/bonobo/Bonobo.h:18:53: error: bonobo-activation/Bonobo_GenericFactory.h: No such file or directory
+/usr/include/libbonobo-2.0/bonobo/Bonobo.h:5352:44: error: orbit/orb-core/orbit-interface.h: No such file or directory
+/usr/include/libbonobo-2.0/bonobo/Bonobo.h:6217:25: error: orbit/orbit.h: No such file or directory
+In file included from /usr/include/libbonobo-2.0/bonobo/bonobo-object.h:18,
+                 from /usr/include/libbonobo-2.0/bonobo/bonobo-property-bag.h:15,
+                 from /tmp/5536_1202642559_1.cpp:1:
+/usr/include/libbonobo-2.0/bonobo/bonobo-macros.h:12:26: error: glib/gmacros.h: No such file or directory
+In file included from /usr/include/libbonobo-2.0/bonobo/bonobo-generic-factory.h:16,
+                 from /usr/include/libbonobo-2.0/bonobo/bonobo-shlib-factory.h:17,
+                 from /tmp/5536_1202642559_1.cpp:3:
+/usr/include/libbonobo-2.0/bonobo/bonobo-i18n.h:39:24: error: glib/gi18n.h: No such file or directory
+Installing parsers: Asm, Asp, Awk, BETA, C, C++, C#, Fortran, Java, Lisp, Lua, Make, Pascal, Perl, PHP, Python, Ruby, Scheme, Sh, SML, SQL, Tcl, Vera, Verilog, Vim
+    Asm: 
+    Asp: 
+    Awk: 
+    BETA: 
+    C: 
+    C++: 
+    C#: 
+    Fortran: 
+    Java: 
+    Lisp: 
+    Lua: 
+    Make: 
+    Pascal: 
+    Perl: 
+    PHP: 
+    Python: 
+    Ruby: 
+    Scheme: 
+    Sh: 
+    SML: 
+    SQL: 
+    Tcl: 
+    Vera: 
+    Verilog: 
+    Vim: 
+OPENING /tmp/5536_1202642559_2.cpp as C++ language file

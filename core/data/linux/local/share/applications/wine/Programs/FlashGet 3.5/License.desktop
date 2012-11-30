@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=License
+Exec=env WINEPREFIX="/home/xiaoranzzz/.wine" wine "C:\\windows\\command\\start.exe" "C:\\Program Files\\FlashGet Network\\FlashGet\\LICENSE.TXT"
+Type=Application
+StartupWMClass=Wine
+Path=/home/xiaoranzzz/.wine/dosdevices/c:/Program Files/FlashGet Network/FlashGet
+Icon=3550_shell32.0

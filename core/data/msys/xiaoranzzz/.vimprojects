@@ -1,0 +1,581 @@
+libmyplace=~/workspace/libmyplace CD=. {
+ Makefile
+ Makefile.am
+ Makefile.in
+ TODO.tasks
+ aclocal.m4
+ config.guess
+ config.log
+ config.status
+ config.sub
+ configure
+ configure.ac
+ copying
+ depcomp
+ install
+ install-sh
+ libmyplace.anjuta
+ libtool
+ ltmain.sh
+ missing
+ myconfig.sh
+ myplace-0.1.pc
+ myplace-0.1.pc.in
+    src=./myplace CD=. {
+  FileList.cc
+  FileList.hh
+  FileList.lo
+  HelloWorld.cc
+  HelloWorld.hh
+  HelloWorld.lo
+  Makefile
+  Makefile.am
+  Makefile.in
+  cppcomplete.tags
+  libmyplace-0.1.la
+  libmyplace.la
+  FileList.cc~
+  FileList.hh~
+  FileList.o
+  HelloWorld.cc~
+  HelloWorld.hh~
+  HelloWorld.o
+    }
+}
+
+batchman=/share/workspace/c/batchman CD=/share/wokspace/c/batchman filter="*.ac *.am" {
+ configure.ac
+ Makefile.am
+ Source=src CD=/share/workspace/c/batchman filter="*.c *.h *.am config.h.in" {
+  addtask.c
+  batchman.c
+  dotask.c
+  history.c
+  path.c
+  queue.c
+  readkey.c
+  addtask.h
+  batchman.h
+  config.h
+  dotask.h
+  history.h
+  list.h
+  path.h
+  queue.h
+  readkey.h
+  Makefile.am
+  config.h.in
+ }
+}
+
+lget=/share/workspace/c/lget/lget-0.1 CD=/share/workspace/c/lget/lget-0.1 filter="*.ac *.am *.in *.spec" {
+ Makefile.in
+ configure.bat.in
+ configure.in
+ stamp-h.in
+ lget.spec
+ Source=src CD=/share/workspace/c/lget/lget-0.1 filter="*.c *.h *.am *.ac *.in" {
+  alloca.c
+  ansi2knr.c
+  cmpt.c
+  connect.c
+  convert.c
+  cookies.c
+  ftp-basic.c
+  ftp-ls.c
+  ftp-opie.c
+  ftp.c
+  gen-md5.c
+  getopt.c
+  gnu-md5.c
+  gnutls.c
+  hash.c
+  host.c
+  html-parse.c
+  html-url.c
+  http-ntlm.c
+  http.c
+  init.c
+  log.c
+  main.c
+  mswindows.c
+  netrc.c
+  openssl.c
+  progress.c
+  ptimer.c
+  recur.c
+  res.c
+  retr.c
+  safe-ctype.c
+  snprintf.c
+  test.c
+  url.c
+  utils.c
+  version.c
+  xmalloc.c
+  config-post.h
+  config.h
+  connect.h
+  convert.h
+  cookies.h
+  ftp.h
+  gen-md5.h
+  getopt.h
+  gnu-md5.h
+  hash.h
+  host.h
+  html-parse.h
+  http-ntlm.h
+  http.h
+  init.h
+  lget.h
+  log.h
+  mswindows.h
+  netrc.h
+  options.h
+  progress.h
+  ptimer.h
+  recur.h
+  res.h
+  retr.h
+  safe-ctype.h
+  ssl.h
+  sysdep.h
+  test.h
+  url.h
+  utils.h
+  xmalloc.h
+  Makefile.in
+  config.h.in
+ }
+}
+
+
+zhReader=/myplace/workspace/firefox/zhreader CD=. filter="*" {
+ chrome.manifest
+ install.rdf
+ install.rdfe
+ content=content CD=. {
+  overlay.js
+  overlay.xul
+  pref.js
+  xrlin.pref.js
+ }
+ locale=locale {
+  en-US=en-US {
+   overlay.dtd
+   zhreader.dtd
+  }
+ }
+ skin=skin {
+  zhreader.png
+ }
+}
+
+
+Websaver=/share/workspace/firefox/websaver CD=. filter="*" {
+ chrome.manifest
+ install.rdf
+ websaver.xpi
+ content=content CD=. {
+  contmenu.js
+  contmenu.xul
+  database.js
+  dbopXML.js
+  flatview.js
+  flatview.xul
+  managestore.js
+  managestore.xul
+  options.js
+  options.xul
+  savestore.js
+  savestore.xul
+  setfolder.js
+  setfolder.xul
+  statusbar.js
+  statusbar.xul
+  websaverapp.js
+  websavervar.js
+  xrlin.base.js
+  xrlin.debug.js
+  xrlin.fileio.js
+  xrlin.pref.js
+  xrlin.system.js
+  xrlin.xml.js
+  xrlin.zip.js
+ }
+ defaults=defaults CD=. {
+  preferences=preferences CD=. {
+   prefs.js
+  }
+ }
+ locale=locale CD=. {
+  en-US=en-US CD=. {
+   contents.rdf
+   websaver.description
+   websaver.dtd
+   websaver.properties
+  }
+ }
+ skin=skin CD=. {
+  classic=classic CD=. {
+   browse.png
+   contents.rdf
+   delete.png
+   down.png
+   edit.png
+   managestore.css
+   new.png
+   options.css
+   separator.png
+   up.png
+   websaver.css
+   websaver16.png
+   websaver24.png
+   websaver32.png
+  }
+ }
+}
+
+
+WebSaver2=/myplace/workspace/firefox/websaver2 CD=. filter="*" {
+ CHANGE
+ Changes
+ README.markdown
+ build_extension.sh
+ chrome.manifest
+ config_build.sh
+ install.rdf
+ chrome=chrome {
+  content=content CD=. {
+   cataedit3.js
+   cataedit3.xul
+   catalogHandler.js
+   catalogedit.js
+   catalogedit.xul
+   contmenu.js
+   database.js
+   dbopFS.js
+   dbopWiki.js
+   dbopXML.js
+   flatview.js
+   flatview.xul
+   global.js
+   global.xul
+   managestore.js
+   managestore.xul
+   options.js
+   options.xul
+   pref.js
+   savetopic.js
+   seltopic.js
+   seltopic.xul
+   shared.js
+   statusbar.js
+   tags
+   topicedit.js
+   topicedit.xul
+   xrlin.base.js
+   xrlin.debug.js
+   xrlin.dom.js
+   xrlin.fileio.js
+   xrlin.menu.js
+   xrlin.pref.js
+   xrlin.string.js
+   xrlin.system.js
+   xrlin.utils.js
+   xrlin.window.js
+   xrlin.xml.js
+   xrlin.zip.js
+   xulapps.js
+  }
+  locale=locale {
+   en-US=en-US CD=. {
+    contents.rdf
+    websaver2.description
+    websaver2.dtd
+    websaver2.properties
+   }
+  }
+  skin=skin {
+   classic=classic {
+    browse.png
+    contents.rdf
+    delete.png
+    down.png
+    edit.png
+    managestore.css
+    new.png
+    options.css
+    separator.png
+    up.png
+    websaver2.css
+    websaver216.png
+    websaver224.png
+    websaver232.png
+   }
+  }
+ }
+ defaults=defaults {
+  preferences=preferences {
+   prefs.js
+  }
+ }
+}
+
+
+xrLiN=/share/workspace/firefox/xrlinlib CD=. filter="*" {
+ xrlin.base.js
+ xrlin.debug.js
+ xrlin.dom.js
+ xrlin.fileio.js
+ xrlin.menu.js
+ xrlin.pref.js
+ xrlin.string.js
+ xrlin.system.js
+ xrlin.window.js
+ xrlin.xml.js
+ xrlin.zip.js
+}
+
+gm-scripts=/myplace/workspace/firefox/gm_scripts CD=. filter="*" {
+ bbspanel.user.js
+ config.xml
+ linksnavigator.user.js
+ panel.js
+ searchdirectly.user.js
+ share.js
+ utils.user.js
+ with_jquery.js
+ add_image_elements=add_image_elements {
+  add_image_elements.user.js
+ }
+ eotect_golbal_panel=eotect_golbal_panel {
+  eotect_golbal_panel.user.js
+ }
+ form_filler=form_filler {
+  form_filler.user.js
+ }
+ forum_thread_hack=forum_thread_hack {
+  forum_thread_hack.user.js
+ }
+ google_mod=google_mod {
+  google_mod.user.js
+ }
+ google_reader_helper=google_reader_helper {
+  google_reader_helper.user.js
+ }
+ imagealbumpanel=imagealbumpanel {
+  imagealbumpanel.user.js
+ }
+ invite=invite {
+  invite.user.js
+ }
+ jquery=jquery {
+  jquery-uimin.js
+  jquery.user.js
+  jquerymin.js
+ }
+ jquery_install=jquery_install {
+  jquery-uimin.js
+  jquery.user.js
+  jquerymin.js
+ }
+ linkbucks_skipper=linkbucks_skipper {
+  linkbucks_skipper.user.js
+ }
+ linkspanel=linkspanel {
+  linkspanel.user.js
+  panel.js
+  share.js
+ }
+ objects-catcher=objects-catcher {
+  objects-catcher.user.js
+  panel.js
+ }
+ pages_lister=pages_lister {
+  pages_lister.user.js
+ }
+ qvod=qvod {
+  qvod.user.js
+ }
+ randomformfiller=randomformfiller {
+  randomformfiller.user.js
+ }
+ rapidsharenowaiting=rapidsharenowaiting {
+  rapidsharenowaiting.user.js
+ }
+ redirectionhelper=redirectionhelper {
+  redirectionhelper.user.js
+ }
+ source=source {
+  addimg.user.js
+  eotect_golbal_panel.user.js
+  google_mod.user.js
+  imagealbumpanel.user.js
+  jquery-ui.min.js
+  jquery.js
+  jquery.user.js
+  objects-catcher.user.js
+  panel.js
+  share.js
+  with_jquery.js
+ }
+ websnapr=websnapr {
+  websnapr.user.js
+ }
+}
+
+nightgun=/myplace/workspace/perl/nightgun CD=. filter="*" {
+ Build
+ Build.PL
+ Changes
+ Config.PL
+ Lingua.PL
+ MANIFEST
+ MANIFEST.SKIP
+ META.yml
+ Makefile
+ Makefile.PL
+ configure
+ nightgun-1.1.tar.gz
+ tags
+ bin=bin {
+  nightgun
+ }
+ lib=lib {
+  NightGun.pm
+  MyPlace=MyPlace {
+   Archive.pm
+   Encode.pm
+   Gtk2.pm
+   Archive=Archive CD=. {
+    7z.pm
+    7za.pm
+    7zr.pm
+    Bzip2.pm
+    Gzip.pm
+    Rar.pm
+    Tar.pm
+    Zip.pm
+   }
+  }
+  NightGun=NightGun {
+   App.pm
+   Debug.pm
+   Encode.pm
+   Format.pm
+   Gui.pm
+   History.pm
+   Store.pm
+   StoreLoader.pm
+   Gui=Gui {
+    ContentView.pm
+    HTMLView.pm
+    TextView.pm
+    View.pm
+   }
+   Store=Store CD=. {
+    Archive.pm
+    Base.pm
+    Files.pm
+    LocalMedia.pm
+    WWW.pm
+    WebSaver.pm
+    Zbook.pm
+   }
+  }
+ }
+ share=share {
+  applications=applications {
+   nightgun.desktop
+  }
+  mime=mime {
+   packages=packages {
+    nightgun.xml
+   }
+  }
+  nightgun=nightgun {
+   Unsaved 2.glade
+   default.pm
+   main.glade
+   nightgun.pl
+   nightgun.png
+   doc=doc {
+   }
+   plugins=plugins {
+   }
+  }
+  pixmaps=pixmaps {
+   nightgun.png
+  }
+ }
+}
+
+
+
+wiki=/myplace/workspace/wiki/source cd=. {
+ fixgetid.pl
+ fsencoding.pl
+ tags
+ testzim
+ xrzdebug.pl
+ xrzpage.pl
+ zim.pl
+ zimstyle.pl
+}
+
+tombloo=/myplace/workspace/firefox/extensions/tombloo@brasil.to/chrome/content/ filter="*" {
+ about.xul
+ browser.xul
+ completion.css
+ completion.xml
+ eval.js
+ prefs.css
+ prefs.xul
+ quickPostForm.css
+ quickPostForm.js
+ quickPostForm.xul
+ wsh.js
+ library=library cd=. {
+  00_MochiKit.js
+  00_component.js
+  00_prototype.js
+  01_utility.js
+  10_Database.js
+  10_Progress.js
+  10_TabWatcher.js
+  20_Tombloo.js
+  20_Tumblr.js
+  20_Wedata.js
+  20_model.js
+  21_Clipp.js
+  30_Tombloo.Service.js
+  31_Tombloo.Service.actions.js
+  31_Tombloo.Service.extractors.js
+  40_ui.js
+  login.xul
+  progressDialog.xul
+ }
+}
+
+tombloo-data=/myplace/appdata/firefox/profiles/shared/tombloo/script cd=. filter="*.*" {
+ 19_Model_Common.js
+ 21_Model_115.js
+ 21_Model_Baidu.js
+ 21_Model_Delicious.js
+ 21_Model_Firefox.js
+ 21_Model_Flickr.js
+ 21_Model_GirlFound.js
+ 21_Model_IKeepu.js
+ 21_Model_ImgFave.js
+ 21_Model_Piccsy.js
+ 21_Model_StumbleUpon.js
+ 21_Model_Tumblr.js
+ 21_Model_Visualizeus.js
+ 21_Model_WeHeartIt.js
+ 21_Model_YouDao.js
+ 21_Model_ZooTool.js
+ 22_Model_Clipp.js
+}
+

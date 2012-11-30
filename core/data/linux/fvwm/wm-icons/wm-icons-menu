@@ -1,0 +1,395 @@
+# Automatically generated file. Do not edit (see /usr/share/doc/menu/html/index.html)
+
+DestroyMenu "MenuWmIcons/Applications/Accessibility"
+AddToMenu "MenuWmIcons/Applications/Accessibility" "Accessibility" Title
++ "&Xmag%menu/programs.xpm%" Exec    xmag
+
+DestroyMenu "MenuWmIcons/Applications/Data_Management"
+AddToMenu "MenuWmIcons/Applications/Data_Management" "Data Management" Title
++ "&gjots2%menu/programs.xpm%" Exec    /usr/bin/gjots2
++ "&zim%menu/programs.xpm%" Exec    /usr/bin/zim
+
+DestroyMenu "MenuWmIcons/Applications/Editors"
+AddToMenu "MenuWmIcons/Applications/Editors" "Editors" Title
++ "&e16keyedit%menu/editor.xpm%" Exec    e16keyedit
++ "e16&menuedit2%menu/editor.xpm%" Exec    /usr/bin/e16menuedit2
++ "Ge&dit%menu/editor.xpm%" Exec    /usr/bin/gedit
++ "&GHex%menu/editor.xpm%" Exec    /usr/bin/ghex2
++ "G&VIM%menu/editor.xpm%" Exec    /usr/bin/vim.gtk -g -f
++ "&LeafPad%menu/editor.xpm%" Exec    /usr/bin/leafpad
++ "&wmcb%menu/editor.xpm%" Exec    /usr/bin/wmcb
++ "&Xedit%menu/editor.xpm%" Exec    xedit
+
+DestroyMenu "MenuWmIcons/Applications/Emulators"
+AddToMenu "MenuWmIcons/Applications/Emulators" "Emulators" Title
++ "&Bochs%menu/programs.xpm%" Exec    /usr/bin/bochs
++ "DeSmuME (&Gtk)%menu/programs.xpm%" Exec    /usr/games/desmume
++ "De&SmuME (Gtk-Glade)%menu/programs.xpm%" Exec    /usr/games/desmume-glade
++ "&DOSBox%menu/programs.xpm%" Exec    /usr/bin/dosbox
++ "Dos &Emulator%menu/programs.xpm%" Exec    /usr/bin/xdosemu
++ "&ZSNES%menu/programs.xpm%" Exec    /usr/bin/zsnes
+
+DestroyMenu "MenuWmIcons/Applications/File_Management"
+AddToMenu "MenuWmIcons/Applications/File_Management" "File Management" Title
++ "&Baobab%menu/programs.xpm%" Exec    /usr/bin/baobab
++ "&File-Roller%menu/programs.xpm%" Exec    /usr/bin/file-roller
++ "&GNOME Search Tool%menu/programs.xpm%" Exec    /usr/bin/gnome-search-tool
++ "&mc%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "mc" -e /usr/bin/mc
++ "&Nautilus%menu/programs.xpm%" Exec    /usr/bin/nautilus
+
+DestroyMenu "MenuWmIcons/Applications/Graphics"
+AddToMenu "MenuWmIcons/Applications/Graphics" "Graphics" Title
++ "&Dia (GNOME)%menu/programs.xpm%" Exec    /usr/bin/dia-gnome
++ "&GNOME Screenshot Tool%menu/programs.xpm%" Exec    /usr/bin/gnome-panel-screenshot
++ "GNU &Paint%menu/programs.xpm%" Exec    /usr/bin/gpaint
++ "g&tkfontsel%menu/programs.xpm%" Exec    gtkfontsel
++ "&ImageMagick%menu/programs.xpm%" Exec    /usr/bin/display logo:
++ "&mtPaint%menu/programs.xpm%" Exec    /usr/bin/mtpaint
++ "&X Window Snapshot%menu/programs.xpm%" Exec    xwd | xwud
+
+DestroyMenu "MenuWmIcons/Applications/Network/Communication"
+AddToMenu "MenuWmIcons/Applications/Network/Communication" "Communication" Title
++ "&Evolution%menu/programs.xpm%" Exec    /usr/bin/evolution
++ "&Mutt%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Mutt" -e /usr/bin/mutt
++ "&Pidgin%menu/programs.xpm%" Exec    /usr/bin/pidgin
++ "&Xbiff%menu/programs.xpm%" Exec    xbiff
+
+DestroyMenu "MenuWmIcons/Applications/Network/File_Transfer"
+AddToMenu "MenuWmIcons/Applications/Network/File_Transfer" "File Transfer" Title
++ "&Deluge BitTorrent Client%menu/programs.xpm%" Exec    /usr/bin/deluge
++ "&gFTP%menu/programs.xpm%" Exec    /usr/bin/gftp-gtk
+
+DestroyMenu "MenuWmIcons/Applications/Network/Monitoring"
+AddToMenu "MenuWmIcons/Applications/Network/Monitoring" "Monitoring" Title
++ "&pppstatus%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "pppstatus" -e /usr/bin/pppstatus
+
+DestroyMenu "MenuWmIcons/Applications/Network/Web_Browsing"
+AddToMenu "MenuWmIcons/Applications/Network/Web_Browsing" "Web Browsing" Title
++ "&Epiphany web browser (Gecko)%menu/programs.xpm%" Exec    /usr/bin/epiphany-gecko
++ "&Iceweasel%menu/programs.xpm%" Exec    iceweasel
++ "&Links 2%menu/programs.xpm%" Exec    /usr/bin/links2 -g
++ "Links &2 (text)%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Links 2 (text)" -e /usr/bin/links2
+
+DestroyMenu "MenuWmIcons/Applications/Network/Web_News"
+AddToMenu "MenuWmIcons/Applications/Network/Web_News" "Web News" Title
++ "&Liferea: Linux Feed Reader%menu/programs.xpm%" Exec    /usr/bin/liferea
+
+DestroyMenu "MenuWmIcons/Applications/Network"
+AddToMenu "MenuWmIcons/Applications/Network" "Network" Title
++ "am&ule%menu/programs.xpm%" Exec    /usr/bin/amule
++ "&aMule Remote GUI%menu/programs.xpm%" Exec    /usr/bin/amulegui
++ "&Communication%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Network/Communication"
++ "&Downloader for X%menu/programs.xpm%" Exec    /usr/bin/nt
++ "&File Transfer%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Network/File_Transfer"
++ "Gn&oeMoe%menu/programs.xpm%" Exec    /usr/bin/gnoemoe
++ "&GNOME blog poster%menu/programs.xpm%" Exec    /usr/bin/gnome-blog-poster
++ "&Lynx%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Lynx" -e /usr/bin/lynx
++ "&Monitoring%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Network/Monitoring"
++ "&Telnet%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Telnet" -e /usr/bin/telnet
++ "&Web Browsing%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Network/Web_Browsing"
++ "Web &News%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Network/Web_News"
+
+DestroyMenu "MenuWmIcons/Applications/Office"
+AddToMenu "MenuWmIcons/Applications/Office" "Office" Title
++ "&OpenOffice.org Calc%menu/programs.xpm%" Exec    /usr/bin/oocalc
++ "OpenOffice.org &Writer%menu/programs.xpm%" Exec    /usr/bin/oowriter
+
+DestroyMenu "MenuWmIcons/Applications/Programming"
+AddToMenu "MenuWmIcons/Applications/Programming" "Programming" Title
++ "&anjuta%menu/programs.xpm%" Exec    /usr/bin/anjuta
++ "&DevHelp%menu/programs.xpm%" Exec    /usr/bin/devhelp
++ "&GDB%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "GDB" -e /usr/bin/gdb
++ "G&eany%menu/programs.xpm%" Exec    /usr/bin/geany
++ "Glade &3%menu/programs.xpm%" Exec    /usr/bin/glade-3
++ "&Python (v2.4)%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Python (v2.4)" -e /usr/bin/python2.4
++ "Python (&v2.5)%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Python (v2.5)" -e /usr/bin/python2.5
++ "&regexxer%menu/programs.xpm%" Exec    /usr/bin/regexxer
++ "&Tclsh8.4%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Tclsh8.4" -e /usr/bin/tclsh8.4
+
+DestroyMenu "MenuWmIcons/Applications/Project_Management"
+AddToMenu "MenuWmIcons/Applications/Project_Management" "Project Management" Title
++ "&Planner%menu/programs.xpm%" Exec    /usr/bin/planner
+
+DestroyMenu "MenuWmIcons/Applications/Science/Engineering"
+AddToMenu "MenuWmIcons/Applications/Science/Engineering" "Engineering" Title
++ "&Dia%menu/programs.xpm%" Exec    /usr/bin/dia-normal
+
+DestroyMenu "MenuWmIcons/Applications/Science/Mathematics"
+AddToMenu "MenuWmIcons/Applications/Science/Mathematics" "Mathematics" Title
++ "&Bc%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Bc" -e /usr/bin/bc
++ "&Dc%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Dc" -e /usr/bin/dc
++ "&GCalcTool%menu/programs.xpm%" Exec    /usr/bin/gcalctool
++ "&Xcalc%menu/programs.xpm%" Exec    xcalc
+
+DestroyMenu "MenuWmIcons/Applications/Science"
+AddToMenu "MenuWmIcons/Applications/Science" "Science" Title
++ "&Engineering%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Science/Engineering"
++ "&Mathematics%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Science/Mathematics"
+
+DestroyMenu "MenuWmIcons/Applications/Shells"
+AddToMenu "MenuWmIcons/Applications/Shells" "Shells" Title
++ "&Bash%menu/file.xpm%" Exec /usr/bin/X11/xterm -T "Bash" -e /bin/bash --login
++ "&Dash%menu/file.xpm%" Exec /usr/bin/X11/xterm -T "Dash" -e /bin/dash -i
++ "&Sh%menu/file.xpm%" Exec /usr/bin/X11/xterm -T "Sh" -e /bin/sh --login
++ "&tcsh%menu/file.xpm%" Exec /usr/bin/X11/xterm -T "tcsh" -e /bin/tcsh
+
+DestroyMenu "MenuWmIcons/Applications/Sound"
+AddToMenu "MenuWmIcons/Applications/Sound" "Sound" Title
++ "&Amarok%menu/programs.xpm%" Exec    /usr/bin/amarok
++ "&easytag%menu/programs.xpm%" Exec    /usr/bin/easytag
++ "&gmix (Gnome 2.0 Mixer)%menu/programs.xpm%" Exec    /usr/bin/gnome-volume-control
++ "gnome-cd (Gnome 2.0 &CD Player)%menu/programs.xpm%" Exec    /usr/bin/gnome-cd
++ "grecord (GNOME &2.0 Recorder)%menu/programs.xpm%" Exec    /usr/bin/gnome-sound-recorder
++ "&Rhythmbox%menu/programs.xpm%" Exec    /usr/bin/rhythmbox
++ "&vumeter (Gnome 2.0 Volume Meter)%menu/programs.xpm%" Exec    /usr/bin/vumeter
++ "&WMMixer%menu/programs.xpm%" Exec    /usr/bin/wmmixer
++ "WMMixer (&Docked)%menu/programs.xpm%" Exec    /usr/bin/wmmixer -w
++ "wmX&MMS%menu/programs.xpm%" Exec    /usr/bin/wmxmms
++ "&XMMS%menu/programs.xpm%" Exec    /usr/bin/xmms
+
+DestroyMenu "MenuWmIcons/Applications/System/Administration"
+AddToMenu "MenuWmIcons/Applications/System/Administration" "Administration" Title
++ "alsaconf%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "alsaconf" -e su-to-root -p root -c /usr/sbin/alsaconf
++ "&Aptitude%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Aptitude" -e /usr/bin/aptitude
++ "&bbrun%menu/programs.xpm%" Exec    /usr/bin/bbrun
++ "Debian &Task selector%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Debian Task selector" -e su-to-root -c tasksel
++ "&DSL/PPPoE configuration tool%menu/unknown.xpm%" Exec /usr/bin/X11/xterm -T "DSL/PPPoE configuration tool" -e /usr/sbin/pppoeconf
++ "&Editres%menu/programs.xpm%" Exec    editres
++ "GDM &flexiserver%menu/programs.xpm%" Exec    gdmflexiserver
++ "GD&M flexiserver in Xnest%menu/programs.xpm%" Exec    gdmflexiserver -n
++ "&GDM Photo Setup%menu/programs.xpm%" Exec    gdmphotosetup
++ "GDM &Setup%menu/programs.xpm%" Exec    su-to-root -X -p root -c /usr/sbin/gdmsetup
++ "Gnome &Control Center%menu/programs.xpm%" Exec    /usr/bin/gnome-control-center
++ "GNOME &partition editor%menu/programs.xpm%" Exec    su-to-root -X -c /usr/bin/gparted
++ "GTK+ &2.0 theme manager%menu/programs.xpm%" Exec    /usr/bin/gtk-chtheme
++ "&KControl%menu/programs.xpm%" Exec    /usr/bin/kcontrol
++ "Kicker%menu/programs.xpm%" Exec    /usr/bin/kicker
++ "K&InfoCenter%menu/programs.xpm%" Exec    /usr/bin/kinfocenter
++ "&Openbox Configuration Manager%menu/programs.xpm%" Exec    /usr/bin/obconf
++ "Orp&haner (all)%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Orphaner (all)" -e su-to-root -c '/usr/sbin/orphaner -a'
++ "Orphaner - editkeep%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Orphaner - editkeep" -e su-to-root -c '/usr/sbin/editkeep'
++ "Orphaner (&libs)%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Orphaner (libs)" -e su-to-root -c /usr/sbin/orphaner
++ "&QtConfig%menu/programs.xpm%" Exec    /usr/bin/qtconfig-qt4
++ "&Xclipboard%menu/programs.xpm%" Exec    xclipboard
++ "Xfo&ntsel%menu/programs.xpm%" Exec    xfontsel
++ "Xkill%menu/programs.xpm%" Exec    xkill
++ "X&refresh%menu/programs.xpm%" Exec    xrefresh
+
+DestroyMenu "MenuWmIcons/Applications/System/Hardware"
+AddToMenu "MenuWmIcons/Applications/System/Hardware" "Hardware" Title
++ "&GNOME Floppy Formatter%menu/programs.xpm%" Exec    /usr/bin/gfloppy
++ "&Xvidtune%menu/programs.xpm%" Exec    xvidtune
+
+DestroyMenu "MenuWmIcons/Applications/System/Language_Environment"
+AddToMenu "MenuWmIcons/Applications/System/Language_Environment" "Language Environment" Title
++ "&Belarusian environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Belarusian environment" -e /usr/bin/set-language-env -l be
++ "Bulgarian &environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Bulgarian environment" -e /usr/bin/set-language-env -l bg
++ "&Catalan environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Catalan environment" -e /usr/bin/set-language-env -l ca
++ "&Danish environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Danish environment" -e /usr/bin/set-language-env -l da
++ "&French environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "French environment" -e /usr/bin/set-language-env -l fr
++ "&German environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "German environment" -e /usr/bin/set-language-env -l de
++ "&Japanese environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Japanese environment" -e /usr/bin/set-language-env -l ja
++ "&Korean environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Korean environment" -e /usr/bin/set-language-env -l ko
++ "&Lithuanian environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Lithuanian environment" -e /usr/bin/set-language-env -l lt
++ "&Macedonian environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Macedonian environment" -e /usr/bin/set-language-env -l mk
++ "&Native Language Environment%menu/programs.xpm%" Exec    /usr/bin/tklanguage
++ "Nati&ve Language Environment - remove%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Native Language Environment - remove" -e /usr/bin/set-language-env -r
++ "&Polish environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Polish environment" -e /usr/bin/set-language-env -l pl
++ "&Russian environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Russian environment" -e /usr/bin/set-language-env -l ru
++ "&Serbian environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Serbian environment" -e /usr/bin/set-language-env -l sr
++ "Sp&anish environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Spanish environment" -e /usr/bin/set-language-env -l es
++ "&Thai environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Thai environment" -e /usr/bin/set-language-env -l th
++ "Turk&ish environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Turkish environment" -e /usr/bin/set-language-env -l tr
++ "&Ukrainian environment%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Ukrainian environment" -e /usr/bin/set-language-env -l uk
+
+DestroyMenu "MenuWmIcons/Applications/System/Monitoring"
+AddToMenu "MenuWmIcons/Applications/System/Monitoring" "Monitoring" Title
++ "&GNOME Log Viewer%menu/programs.xpm%" Exec    /usr/bin/gnome-system-log
++ "&Pstree%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Pstree" -e /usr/bin/pstree.x11
++ "&Top%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "Top" -e /usr/bin/top
++ "&wmCPU%menu/programs.xpm%" Exec    /usr/bin/wmcpu
++ "w&mmisc%menu/programs.xpm%" Exec    /usr/bin/wmmisc
++ "wm&sysmon%menu/programs.xpm%" Exec    /usr/bin/wmsysmon
++ "wmt&op%menu/programs.xpm%" Exec    /usr/bin/wmtop
++ "&Xconsole%menu/programs.xpm%" Exec    xconsole -file /dev/xconsole
++ "X&ev%menu/programs.xpm%" Exec    x-terminal-emulator -e xev
++ "X&load%menu/programs.xpm%" Exec    xload
+
+DestroyMenu "MenuWmIcons/Applications/System/Package_Management"
+AddToMenu "MenuWmIcons/Applications/System/Package_Management" "Package Management" Title
++ "&Synaptic Package Manager%menu/programs.xpm%" Exec    /usr/bin/su-to-root -X -c /usr/sbin/synaptic
++ "&xara-gtk%menu/programs.xpm%" Exec    /usr/bin/xara
+
+DestroyMenu "MenuWmIcons/Applications/System"
+AddToMenu "MenuWmIcons/Applications/System" "System" Title
++ "&Administration%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/System/Administration"
++ "Gk&Debconf%menu/programs.xpm%" Exec    /usr/bin/gkdebconf
++ "&GNOME Network Tool%menu/programs.xpm%" Exec    /usr/bin/gnome-nettool
++ "GNOME s&ystem monitor%menu/programs.xpm%" Exec    /usr/bin/gnome-system-monitor
++ "&Hardware%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/System/Hardware"
++ "&Language Environment%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/System/Language_Environment"
++ "&Monitoring%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/System/Monitoring"
++ "Mountapp%menu/programs.xpm%" Exec    /usr/bin/mount.app
++ "&Network Admin%menu/programs.xpm%" Exec    /usr/bin/network-admin
++ "&Openbox Menu Editor%menu/programs.xpm%" Exec    /usr/bin/obmenu
++ "&Package Management%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/System/Package_Management"
++ "r&eportbug%menu/programs.xpm%" Exec /usr/bin/X11/xterm -T "reportbug" -e /usr/bin/reportbug --exit-prompt
++ "&ROX Filer%menu/programs.xpm%" Exec    /usr/bin/rox
++ "&Services Admin%menu/programs.xpm%" Exec    /usr/bin/services-admin
++ "Shares Adm&in%menu/programs.xpm%" Exec    /usr/bin/shares-admin
++ "&Time Admin%menu/programs.xpm%" Exec    /usr/bin/time-admin
++ "&User accounts Admin%menu/programs.xpm%" Exec    /usr/bin/users-admin
++ "&WMmon%menu/programs.xpm%" Exec    /usr/bin/wmmon
++ "wmmount%menu/programs.xpm%" Exec    wmmount -- -w -s
++ "WMnd%menu/programs.xpm%" Exec    /usr/bin/wmnd
+
+DestroyMenu "MenuWmIcons/Applications/Terminal_Emulators"
+AddToMenu "MenuWmIcons/Applications/Terminal_Emulators" "Terminal Emulators" Title
++ "&Eterm%menu/programs.xpm%" Exec    /usr/bin/Eterm
++ "&Gnome Terminal%menu/programs.xpm%" Exec    /usr/bin/gnome-terminal
++ "&Tilda terminal%menu/programs.xpm%" Exec    /usr/bin/tilda
++ "XTe&rm%menu/programs.xpm%" Exec    xterm
++ "&X-Terminal as root (GKsu)%menu/programs.xpm%" Exec    /usr/bin/gksu -u root /usr/bin/x-terminal-emulator
++ "XTerm (&Unicode)%menu/programs.xpm%" Exec    uxterm
+
+DestroyMenu "MenuWmIcons/Applications/Text"
+AddToMenu "MenuWmIcons/Applications/Text" "Text" Title
++ "&Character map%menu/programs.xpm%" Exec    /usr/bin/gucharmap
++ "&GNOME Dictionary%menu/programs.xpm%" Exec    /usr/bin/gnome-dictionary
++ "Guten&Py%menu/programs.xpm%" Exec    /usr/bin/gutenpy.py
++ "&stardic (fanti)%menu/programs.xpm%" Exec    /usr/bin/stardic-ft
++ "stardic (&jianti)%menu/programs.xpm%" Exec    /usr/bin/stardic
++ "s&tardict%menu/programs.xpm%" Exec    /usr/bin/stardict
+
+DestroyMenu "MenuWmIcons/Applications/Tools"
+AddToMenu "MenuWmIcons/Applications/Tools" "Tools" Title
++ "&aMule Link Creator%menu/programs.xpm%" Exec    /usr/bin/alc
++ "aMule &Stats%menu/programs.xpm%" Exec    /usr/bin/wxcas
++ "a&ppbar%menu/programs.xpm%" Exec    /usr/bin/aewm++_appbar
++ "&bbsload%menu/programs.xpm%" Exec    /usr/bin/bbsload
++ "&fbpager%menu/programs.xpm%" Exec    /usr/bin/fbpager
++ "f&luxconf%menu/programs.xpm%" Exec    /usr/bin/fluxconf
++ "fl&uxkeys%menu/programs.xpm%" Exec    /usr/bin/fluxkeys
++ "flu&xmenu%menu/programs.xpm%" Exec    /usr/bin/fluxmenu
++ "fspanel (aewm++-&goodies version)%menu/programs.xpm%" Exec    /usr/bin/aewm++_fspanel
++ "&wmcpuload%menu/programs.xpm%" Exec    /usr/bin/wmcpuload
+
+DestroyMenu "MenuWmIcons/Applications/Video"
+AddToMenu "MenuWmIcons/Applications/Video" "Video" Title
++ "&SMPlayer%menu/programs.xpm%" Exec    smplayer
+
+DestroyMenu "MenuWmIcons/Applications/Viewers"
+AddToMenu "MenuWmIcons/Applications/Viewers" "Viewers" Title
++ "&comix%menu/programs.xpm%" Exec    /usr/bin/comix
++ "&E-book reader%menu/programs.xpm%" Exec    FBReader
++ "E&vince%menu/programs.xpm%" Exec    /usr/bin/evince
++ "Eye &of GNOME%menu/programs.xpm%" Exec    /usr/bin/eog
++ "&GImageView%menu/programs.xpm%" Exec    /usr/bin/gimv
++ "GnoC&HM%menu/programs.xpm%" Exec    /usr/bin/gnochm
++ "gThumb &Image Viewer%menu/programs.xpm%" Exec    /usr/bin/gthumb
++ "GV%menu/programs.xpm%" Exec    /usr/bin/gv
++ "&QComicBook%menu/programs.xpm%" Exec    /usr/bin/qcomicbook
++ "&Xditview%menu/programs.xpm%" Exec    xditview
++ "X&pdf%menu/programs.xpm%" Exec    /usr/bin/xpdf
+
+DestroyMenu "MenuWmIcons/Applications"
+AddToMenu "MenuWmIcons/Applications" "Applications" Title
++ "&Accessibility%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Accessibility"
++ "&Data Management%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Data_Management"
++ "&Editors%menu/editor.xpm%" PopUp "MenuWmIcons/Applications/Editors"
++ "E&mulators%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Emulators"
++ "&File Management%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/File_Management"
++ "&Graphics%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Graphics"
++ "&Network%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Network"
++ "&Office%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Office"
++ "&Programming%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Programming"
++ "P&roject Management%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Project_Management"
++ "&Science%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Science"
++ "S&hells%menu/file.xpm%" PopUp "MenuWmIcons/Applications/Shells"
++ "So&und%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Sound"
++ "S&ystem%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/System"
++ "&Terminal Emulators%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Terminal_Emulators"
++ "Te&xt%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Text"
++ "Too&ls%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Tools"
++ "&Video%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Video"
++ "V&iewers%menu/programs.xpm%" PopUp "MenuWmIcons/Applications/Viewers"
+
+DestroyMenu "MenuWmIcons/Games/Action"
+AddToMenu "MenuWmIcons/Games/Action" "Action" Title
++ "&SuperTux%menu/unknown.xpm%" Exec    /usr/games/supertux
+
+DestroyMenu "MenuWmIcons/Games/Adventure"
+AddToMenu "MenuWmIcons/Games/Adventure" "Adventure" Title
++ "&GNOME-Mud%menu/unknown.xpm%" Exec    /usr/games/gnome-mud
++ "&Tintin++%menu/unknown.xpm%" Exec /usr/bin/X11/xterm -T "Tintin++" -e /usr/games/tt++
+
+DestroyMenu "MenuWmIcons/Games/Toys"
+AddToMenu "MenuWmIcons/Games/Toys" "Toys" Title
++ "&Oclock%menu/unknown.xpm%" Exec    oclock
++ "&Screenlets%menu/unknown.xpm%" Exec    screenlets-manager
++ "&Xclock (analog)%menu/unknown.xpm%" Exec    xclock -analog
++ "Xclock (&digital)%menu/unknown.xpm%" Exec    xclock -digital -update 1
++ "X&eyes%menu/unknown.xpm%" Exec    xeyes
++ "X&logo%menu/unknown.xpm%" Exec    xlogo
++ "X&penguins - start%menu/unknown.xpm%" Exec    /usr/bin/xpenguins
++ "Xpe&nguins - stop%menu/unknown.xpm%" Exec    /usr/bin/xpenguins-stop
+
+DestroyMenu "MenuWmIcons/Games"
+AddToMenu "MenuWmIcons/Games" "Games" Title
++ "&Action%menu/folder.xpm%" PopUp "MenuWmIcons/Games/Action"
++ "A&dventure%menu/folder.xpm%" PopUp "MenuWmIcons/Games/Adventure"
++ "&Toys%menu/folder.xpm%" PopUp "MenuWmIcons/Games/Toys"
+
+DestroyMenu "MenuWmIcons/Help"
+AddToMenu "MenuWmIcons/Help" "Help" Title
++ "&APT HOWTO%menu/unknown.xpm%" Exec    /usr/bin/apt-howto
++ "&Debian Reference%menu/unknown.xpm%" Exec    /usr/bin/debian-reference
++ "Doc-&Central%menu/unknown.xpm%" Exec /usr/bin/X11/xterm -T "Doc-Central" -e /usr/bin/doccentral
++ "&Info%menu/unknown.xpm%" Exec /usr/bin/X11/xterm -T "Info" -e info
++ "&Man2html%menu/unknown.xpm%" Exec    /usr/bin/hman -P sensible-browser
++ "&Xman%menu/unknown.xpm%" Exec    xman
++ "&yelp%menu/unknown.xpm%" Exec    /usr/bin/yelp
+
+DestroyMenu "MenuWmIcons/Screen/Locking"
+AddToMenu "MenuWmIcons/Screen/Locking" "Locking" Title
++ "&Lock Screen (XScreenSaver)%menu/unknown.xpm%" Exec    /usr/bin/xscreensaver-command -lock
+
+DestroyMenu "MenuWmIcons/Screen/Saving"
+AddToMenu "MenuWmIcons/Screen/Saving" "Saving" Title
++ "&Activate ScreenSaver (Next)%menu/unknown.xpm%" Exec    /usr/bin/xscreensaver-command -next
++ "Activate ScreenSaver (&Previous)%menu/unknown.xpm%" Exec    /usr/bin/xscreensaver-command -prev
++ "A&ctivate ScreenSaver (Random)%menu/unknown.xpm%" Exec    /usr/bin/xscreensaver-command -activate
++ "&Demo Screen Hacks%menu/unknown.xpm%" Exec    /usr/bin/xscreensaver-command -demo
++ "Disable &XScreenSaver%menu/unknown.xpm%" Exec    /usr/bin/xscreensaver-command -exit
++ "&Enable XScreenSaver%menu/unknown.xpm%" Exec    /usr/bin/xscreensaver
++ "&Reinitialize XScreenSaver%menu/unknown.xpm%" Exec    /usr/bin/xscreensaver-command -restart
++ "&ScreenSaver Preferences%menu/unknown.xpm%" Exec    /usr/bin/xscreensaver-command -prefs
+
+DestroyMenu "MenuWmIcons/Screen"
+AddToMenu "MenuWmIcons/Screen" "Screen" Title
++ "&Locking%menu/folder.xpm%" PopUp "MenuWmIcons/Screen/Locking"
++ "&Saving%menu/folder.xpm%" PopUp "MenuWmIcons/Screen/Saving"
+
+DestroyMenu "MenuWmIcons/Window_Managers"
+AddToMenu "MenuWmIcons/Window_Managers" "Window Managers" Title
++ "aewm++%menu/unknown.xpm%" Restart /usr/bin/aewm++
++ "&AfterStep%menu/unknown.xpm%" Restart /usr/bin/afterstep
++ "&e16%menu/unknown.xpm%" Restart /usr/bin/e16
++ "Flux&Box%menu/unknown.xpm%" Restart /usr/bin/startfluxbox
++ "Flw&m%menu/unknown.xpm%" Restart /usr/bin/flwm
++ "&FVWM%menu/unknown.xpm%" Restart /usr/bin/fvwm2
++ "&lwm%menu/unknown.xpm%" Restart /usr/bin/lwm
++ "&Openbox%menu/unknown.xpm%" Restart /usr/bin/openbox
++ "&StumpWM%menu/unknown.xpm%" Restart stumpwm
++ "&Twm%menu/unknown.xpm%" Restart twm
++ "&uwm%menu/unknown.xpm%" Restart /usr/bin/uwm
++ "&wm2%menu/unknown.xpm%" Restart /usr/bin/wm2
+
+DestroyMenu "MenuWmIcons"
+AddToMenu "MenuWmIcons" "Debian" Title
++ "&Applications%menu/programs.xpm%" PopUp "MenuWmIcons/Applications"
++ "&Games%menu/folder.xpm%" PopUp "MenuWmIcons/Games"
++ "&Help%menu/folder.xpm%" PopUp "MenuWmIcons/Help"
++ "&Screen%menu/folder.xpm%" PopUp "MenuWmIcons/Screen"
++ "&Window Managers%menu/folder.xpm%" PopUp "MenuWmIcons/Window_Managers"
+

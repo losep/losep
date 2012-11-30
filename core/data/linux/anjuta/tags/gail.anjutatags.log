@@ -1,0 +1,34 @@
+In file included from /tmp/5278_1202642555_1.cpp:1:
+/usr/include/gail-1.0/gail/gailwidget.h:23:31: error: gtk/gtkaccessible.h: No such file or directory
+In file included from /usr/include/gail-1.0/libgail-util/gail-util.h:1,
+                 from /tmp/5278_1202642555_1.cpp:2:
+/usr/include/gail-1.0/libgail-util/gailmisc.h:27:25: error: glib-object.h: No such file or directory
+/usr/include/gail-1.0/libgail-util/gailmisc.h:28:21: error: gtk/gtk.h: No such file or directory
+/usr/include/gail-1.0/libgail-util/gailmisc.h:29:25: error: pango/pango.h: No such file or directory
+Installing parsers: Asm, Asp, Awk, BETA, C, C++, C#, Fortran, Java, Lisp, Lua, Make, Pascal, Perl, PHP, Python, Ruby, Scheme, Sh, SML, SQL, Tcl, Vera, Verilog, Vim
+    Asm: 
+    Asp: 
+    Awk: 
+    BETA: 
+    C: 
+    C++: 
+    C#: 
+    Fortran: 
+    Java: 
+    Lisp: 
+    Lua: 
+    Make: 
+    Pascal: 
+    Perl: 
+    PHP: 
+    Python: 
+    Ruby: 
+    Scheme: 
+    Sh: 
+    SML: 
+    SQL: 
+    Tcl: 
+    Vera: 
+    Verilog: 
+    Vim: 
+OPENING /tmp/5278_1202642555_2.cpp as C++ language file

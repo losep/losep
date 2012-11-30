@@ -1,0 +1,6 @@
+if [ -n "$FS_ROOT" ] ; then
+	ln -sfT `cygpath -u "$FS_ROOT"` /myplace
+	if [ -d "/myplace/core/data/cygwin" ] ; then
+		ln -sfT "/myplace/core/data/cygwin" "/home"
+	fi
+fi

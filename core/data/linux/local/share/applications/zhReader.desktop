@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=zhReader
+Name[en_CA]=zhReader
+Name[en_GB]=zhReader
+Name[zh_CN]=zhReader
+Comment=Open zipfile and read it in firefox
+Comment[en_CA]=Open zipfile and read it in firefox
+Comment[en_GB]=Open zipfile and read it in firefox
+Comment[zh_CN]=Open zipfile and read it in firefox
+Exec=zhreader %F
+Icon=zhreader.png
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Application;MyPlace;
+X-Desktop-File-Install-Version=0.10
+GenericName[en_US]=zhReader
+MimeType=application/x-zip;application/zip;

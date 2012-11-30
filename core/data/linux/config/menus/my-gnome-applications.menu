@@ -1,0 +1,42 @@
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/gnome-applications.menu</MergeFile>
+	<Menu>
+		<Name>MyPlace</Name>
+		<Directory>myplace.directory</Directory>
+		<AppDir>/myplace/appdata/xdg/applications</AppDir>
+		<Include>
+			<Category>MyPlace</Category>
+		</Include>
+	</Menu>
+	<Menu>
+		<Name>Debian</Name>
+		<DirectoryDir>/home/xiaoranzzz/.local/share/desktop-directories</DirectoryDir>
+	</Menu>
+	<Layout>
+		<Merge type="menus"/>
+		<Menuname>Accessories</Menuname>
+		<Menuname>Debian</Menuname>
+		<Menuname>Education</Menuname>
+		<Menuname>Games</Menuname>
+		<Menuname>Graphics</Menuname>
+		<Menuname>Internet</Menuname>
+		<Menuname>MyPlace</Menuname>
+		<Menuname>Office</Menuname>
+		<Menuname>Development</Menuname>
+		<Menuname>Other</Menuname>
+		<Menuname>Science</Menuname>
+		<Menuname>Multimedia</Menuname>
+		<Menuname>System</Menuname>
+		<Menuname>Universal Access</Menuname>
+		<Menuname>wine-wine</Menuname>
+		<Merge type="files"/>
+	</Layout>
+	<Menu>
+		<Name>wine-wine</Name>
+		<DirectoryDir>/home/xiaoranzzz/.local/share/desktop-directories</DirectoryDir>
+	</Menu>
+</Menu>

@@ -1,0 +1,32 @@
+In file included from /tmp/5661_1202642561_1.cpp:1:
+/usr/include/pango-1.0/pango/pango-matrix.h:25:18: error: glib.h: No such file or directory
+/usr/include/pango-1.0/pango/pango-matrix.h:26:25: error: glib-object.h: No such file or directory
+In file included from /tmp/5661_1202642561_1.cpp:38:
+/usr/include/pango-1.0/pango/pangocairo.h:28:19: error: cairo.h: No such file or directory
+Installing parsers: Asm, Asp, Awk, BETA, C, C++, C#, Fortran, Java, Lisp, Lua, Make, Pascal, Perl, PHP, Python, Ruby, Scheme, Sh, SML, SQL, Tcl, Vera, Verilog, Vim
+    Asm: 
+    Asp: 
+    Awk: 
+    BETA: 
+    C: 
+    C++: 
+    C#: 
+    Fortran: 
+    Java: 
+    Lisp: 
+    Lua: 
+    Make: 
+    Pascal: 
+    Perl: 
+    PHP: 
+    Python: 
+    Ruby: 
+    Scheme: 
+    Sh: 
+    SML: 
+    SQL: 
+    Tcl: 
+    Vera: 
+    Verilog: 
+    Vim: 
+OPENING /tmp/5661_1202642561_2.cpp as C++ language file

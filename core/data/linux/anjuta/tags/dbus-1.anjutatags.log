@@ -1,0 +1,67 @@
+In file included from /tmp/4458_1202642529_1.cpp:1:
+/usr/include/dbus-1.0/dbus/dbus-macros.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /tmp/4458_1202642529_1.cpp:2:
+/usr/include/dbus-1.0/dbus/dbus-types.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /usr/include/dbus-1.0/dbus/dbus-types.h:31,
+                 from /tmp/4458_1202642529_1.cpp:2:
+/usr/lib/dbus-1.0/include/dbus/dbus-arch-deps.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /usr/lib/dbus-1.0/include/dbus/dbus-arch-deps.h:30,
+                 from /usr/include/dbus-1.0/dbus/dbus-types.h:31,
+                 from /tmp/4458_1202642529_1.cpp:2:
+/usr/include/dbus-1.0/dbus/dbus-macros.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /tmp/4458_1202642529_1.cpp:3:
+/usr/include/dbus-1.0/dbus/dbus-memory.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /usr/include/dbus-1.0/dbus/dbus-memory.h:30,
+                 from /tmp/4458_1202642529_1.cpp:3:
+/usr/include/dbus-1.0/dbus/dbus-macros.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /tmp/4458_1202642529_1.cpp:5:
+/usr/include/dbus-1.0/dbus/dbus-message.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /tmp/4458_1202642529_1.cpp:6:
+/usr/include/dbus-1.0/dbus/dbus-misc.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /tmp/4458_1202642529_1.cpp:7:
+/usr/include/dbus-1.0/dbus/dbus-python.h:32:20: error: Python.h: No such file or directory
+In file included from /tmp/4458_1202642529_1.cpp:8:
+/usr/include/dbus-1.0/dbus/dbus-pending-call.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /tmp/4458_1202642529_1.cpp:10:
+/usr/include/dbus-1.0/dbus/dbus-address.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /tmp/4458_1202642529_1.cpp:11:
+/usr/include/dbus-1.0/dbus/dbus-server.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /tmp/4458_1202642529_1.cpp:12:
+/usr/include/dbus-1.0/dbus/dbus-bus.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /tmp/4458_1202642529_1.cpp:14:
+/usr/include/dbus-1.0/dbus/dbus-connection.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /tmp/4458_1202642529_1.cpp:15:
+/usr/include/dbus-1.0/dbus/dbus-signature.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /tmp/4458_1202642529_1.cpp:16:
+/usr/include/dbus-1.0/dbus/dbus-errors.h:25:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /tmp/4458_1202642529_1.cpp:17:
+/usr/include/dbus-1.0/dbus/dbus-threads.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+In file included from /tmp/4458_1202642529_1.cpp:18:
+/usr/lib/dbus-1.0/include/dbus/dbus-arch-deps.h:24:2: error: #error "Only <dbus/dbus.h> can be included directly, this file may disappear or change contents."
+Installing parsers: Asm, Asp, Awk, BETA, C, C++, C#, Fortran, Java, Lisp, Lua, Make, Pascal, Perl, PHP, Python, Ruby, Scheme, Sh, SML, SQL, Tcl, Vera, Verilog, Vim
+    Asm: 
+    Asp: 
+    Awk: 
+    BETA: 
+    C: 
+    C++: 
+    C#: 
+    Fortran: 
+    Java: 
+    Lisp: 
+    Lua: 
+    Make: 
+    Pascal: 
+    Perl: 
+    PHP: 
+    Python: 
+    Ruby: 
+    Scheme: 
+    Sh: 
+    SML: 
+    SQL: 
+    Tcl: 
+    Vera: 
+    Verilog: 
+    Vim: 
+OPENING /tmp/4458_1202642529_2.cpp as C++ language file

@@ -1,0 +1,53 @@
+app-editors/gvim cscope
+app-editors/vim bash-completion vim-pager vim-with-x cscope
+app-editors/vim-core bash-completion
+app-emulation/qemu-softmmu alsa kqemu sdl
+app-i18n/scim-tables zh jp
+app-misc/mc 7zip
+app-text/djvu jpeg
+app-text/evince dbus djvu tiff t1lib
+app-text/ghostscript-gpl djvu
+app-text/poppler jpeg
+dev-db/sqlite tcl
+dev-lang/perl ithreads doc
+dev-libs/DirectFB jpeg png sdl
+dev-ml/lablgtk svg glade gnomecanvas
+dev-perl/glib-perl xml
+dev-util/libconf xml
+gnome-base/gnome-applets acpi gstreamer
+gnome-base/gnome-mount gnome
+gnome-base/libgnomeui jpeg
+gnome-base/nautilus gnome
+gnome-extra/gnome-media mad ogg vorbis
+media-libs/gd fontconfig jpeg png truetype xpm
+media-libs/imlib2 jpeg mmx png tiff
+media-libs/tiff jpeg
+media-libs/win32codecs real quicktime
+media-plugins/audacious-plugins mp3 flac aac wma musepack wavpack
+media-sound/amarok -opengl -python
+media-sound/mpg123 mmx oss sdl sse
+media-sound/rhythmbox flac libnotify mad tagwriting -python vorbis
+media-video/ffmpeg a52 aac encode ogg sdl theora threads v4l x264 xvid vorbis imlib
+media-video/mplayer X alsa -iconv -ipv6 mp3 opengl unicode xv 3dnow 3dnowext a52 aac amrnb amrwb dts mad mp2 musepack real theora win32codecs x264 xvid aalib -arts dga directfb fbcon -gif jpeg libcaca oss png sdl svga cdparanoia -dvb dvd i8x0 -joystick -lirc -matorx mmx mmxext rtc sse sse2 ssse3 -v4l -v4l2 xvmc -bidi bl -color-console -doc -encode -gtk -ipv6 lzo -md5sum -samba -truetype xscreensaver quicktime cpudetection srt v4l v4l2 bindist encode
+media-video/totem -python -a52 -ffmpeg -flac -hal -mad -mpeg -nsplugin -ogg -theora -vorbis -xv
+net-dialup/ppp dhcp
+net-im/pidgin -ncurses -perl -tcl qq -dbus
+net-news/liferea gnutls gtkhtml
+net-p2p/amule daemon upnp
+net-p2p/mldonkey gd gnutella magic
+net-print/cups jpeg png
+net-www/mozplugger firefox
+net-www/mplayerplug-in divx gmedia quicktime realmedia wmp
+sys-apps/hal acpi
+sys-apps/man-pages -nls -linguas_zh_CN
+sys-devel/libperl ithreads
+sys-fs/ntfs3g suid
+sys-fs/ntfsprogs fuse gnome
+sys-libs/db tcl
+sys-libs/slang png
+www-client/epiphany -python
+www-client/mozilla-firefox -zh -zh_CN -xulrunner
+www-client/mozilla-firefox-bin -zh -zh_CN
+x11-libs/gtk+ jpeg tiff vim-syntax
+x11-libs/qt qt3support jpeg png gif sqlite3
+x11-wm/fluxbox truetype imlib disableslit

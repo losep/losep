@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="profile" mtime="1246467408" type="string">
+                <stringvalue>Default</stringvalue>
+        </entry>
+        <entry name="password" mtime="1246467408" type="string">
+                <stringvalue></stringvalue>
+        </entry>
+        <entry name="playername" mtime="1246467408" type="string">
+                <stringvalue></stringvalue>
+        </entry>
+        <entry name="port" mtime="1246467408" type="string">
+                <stringvalue>6667</stringvalue>
+        </entry>
+        <entry name="hostname" mtime="1246467408" type="string">
+                <stringvalue>localhost</stringvalue>
+        </entry>
+        <entry name="name" mtime="1246467408" type="string">
+                <stringvalue>local6667</stringvalue>
+        </entry>
+</gconf>

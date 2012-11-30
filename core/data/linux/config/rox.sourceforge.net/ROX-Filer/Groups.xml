@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<groups>
+  <group name="1">
+    <directory>/mnt/mulhome/debian/xiaoranzzz</directory>
+    <item>Desktop</item>
+    <item>document</item>
+    <item>ed2k</item>
+    <item>GNUstep</item>
+    <item>iMacros</item>
+    <item>photo</item>
+    <item>pictures</item>
+    <item>public</item>
+    <item>stories</item>
+    <item>tmp</item>
+  </group>
+</groups>

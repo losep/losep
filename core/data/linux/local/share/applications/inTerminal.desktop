@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=In Terminal
+Comment=Open Terminal Window
+Exec=interminal %D
+Icon=terminal
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Application;MyPlace;
+X-Desktop-File-Install-Version=0.10
+GenericName[en_US]=In Terminal

@@ -1,0 +1,26 @@
+
+[Added Associations]
+application/epub+zip=FBReader.desktop;
+text/plain=leafpad.desktop;
+application/x-nightgun-zbook=nightgun.desktop;file-roller.desktop;
+application/x-extension-do_sync_from_bedroom_to_bookroom=gedit.desktop;
+application/zip=file-roller.desktop;
+application/x-rar=file-roller.desktop;
+video/mp4=mplayer-nogui-usercustom-usercustom-usercustom-usercustom-1.desktop;smplayer.desktop;totem.desktop;vlc.desktop;ghb.desktop;smplayer_enqueue.desktop;gnome-mplayer.desktop;
+x-scheme-handler/http=epiphany-newtab.desktop;
+x-scheme-handler/https=epiphany-newtab.desktop
+x-scheme-handler/mailto=kde4-kmailservice.desktop;
+text/calendar=leafpad.desktop;
+audio/x-vorbis+ogg=kde4-amarok.desktop;
+video/x-ogm+ogg=smplayer.desktop;gnome-mplayer.desktop;
+image/jpeg=shotwell-viewer.desktop;eog.desktop;fehdir-usercreated.desktop;
+
+[Default Applications]
+x-scheme-handler/http=epiphany-newtab.desktop
+x-scheme-handler/mailto=evolution.desktop
+text/calendar=evolution.desktop
+audio/x-vorbis+ogg=totem.desktop
+video/x-ogm+ogg=smplayer.desktop
+image/jpeg=shotwell-viewer.desktop
+x-scheme-handler/http=epiphany-newtab.desktop
+x-scheme-handler/https=epiphany-newtab.desktop

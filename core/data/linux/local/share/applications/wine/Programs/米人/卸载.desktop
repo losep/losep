@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=卸载
+Exec=env WINEPREFIX="/home/xiaoranzzz/.wine" wine "C:\\Program Files\\NamiRobot\\uninstaller.exe" 
+Type=Application
+StartupWMClass=Wine
+Path=/home/xiaoranzzz/.wine/dosdevices/c:/windows/profiles/xiaoranzzz/Start Menu/Programs/米人
+Icon=d2ff_uninstaller.0

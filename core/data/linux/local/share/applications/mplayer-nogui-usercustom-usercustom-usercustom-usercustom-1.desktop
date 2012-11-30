@@ -1,0 +1,15 @@
+
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Mplayer(No GUI)
+Comment=Play movies and songs
+Exec=mplayer %F
+Icon=mplayer
+Terminal=false
+Type=Application
+Categories=Application;MyPlace;
+StartupNotify=false
+MimeType=video/x-ms-wmv;
+GenericName[en_US]=
+NoDisplay=true

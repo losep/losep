@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=启动 迷你快车(FlashGetMini)
+Exec=env WINEPREFIX="/home/xiaoranzzz/.qvodplayer" wine "C:\\Program Files\\FlashGet Network\\FlashGet Mini\\FlashGetMini.exe" 
+Type=Application
+StartupWMClass=Wine
+Path=/home/xiaoranzzz/.qvodplayer/dosdevices/c:/windows/temp
+Icon=d930_miniflashget

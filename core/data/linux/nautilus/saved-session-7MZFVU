@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<session>
+  <history>
+    <bookmark name="download" icon="gnome-fs-directory" uri="file:///myplace/wdata/download"/>
+    <bookmark name="wdata" icon="gnome-fs-directory" uri="file:///myplace/wdata"/>
+    <bookmark name="Computer" icon="gnome-fs-client" uri="computer:"/>
+    <bookmark name="xiaoranzzz" icon="user-home" uri="file:///home/xiaoranzzz"/>
+    <bookmark name="/" icon="gnome-fs-directory" uri="file:///"/>
+    <bookmark name="data" icon="gnome-fs-directory" uri="file:///myplace/wdata/data"/>
+    <bookmark name="zcmd" icon="gnome-fs-bookmark-missing" uri="file:///myplace/wdata/src/zcmd"/>
+    <bookmark name="src" icon="gnome-fs-bookmark-missing" uri="file:///myplace/wdata/src"/>
+    <bookmark name="emulation" icon="gnome-fs-directory" uri="file:///myplace/wdata/emulation"/>
+    <bookmark name="perl" icon="gnome-fs-bookmark-missing" uri="file:///myplace/wdata/perl"/>
+    <bookmark name="roy" icon="gnome-fs-bookmark-missing" uri="file:///myplace/wdata/named%20guest/roy"/>
+    <bookmark name="named guest" icon="gnome-fs-bookmark-missing" uri="file:///myplace/wdata/named%20guest"/>
+    <bookmark name="Temp" icon="gnome-fs-directory" uri="file:///myplace/wdata/Temp"/>
+    <bookmark name="uwsys" icon="gnome-fs-bookmark-missing" uri="file:///myplace/wdata/uwsys"/>
+  </history>
+</session>

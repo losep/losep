@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=卸载百度地址栏
+Exec=env WINEPREFIX="/home/xiaoranzzz/.qvodplayer" wine "C:\\Program Files\\Baidu\\AddressBar\\ASBarBroker.exe" /runasAdmin /SVCUninstall
+Type=Application
+StartupWMClass=Wine
+Comment=卸载百度地址栏
+Icon=9bc5_addressbar

@@ -1,0 +1,4 @@
+fbsetroot|-foreground rgb:4/6/8  -background rgb:3/48/6 -gradient flatcrossdiagonalgradient|style|:1.0
+fbsetroot||style|:0.0
+fbsetroot|-foreground rgb:4/6/8  -background rgb:3/48/6 -gradient flatcrossdiagonalgradient|style|:3.0
+fbsetroot|-foreground rgb:4/6/8  -background rgb:3/48/6 -gradient flatcrossdiagonalgradient|style|:4.0

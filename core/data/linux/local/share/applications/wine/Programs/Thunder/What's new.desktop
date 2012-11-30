@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=What's new
+Exec=env WINEPREFIX="/home/xiaoranzzz/.wine" wine "C:\\windows\\command\\start.exe" "C:\\Program Files\\Thunder Network\\Thunder\\WhatsNew.txt"
+Type=Application
+StartupNotify=true
+Icon=/home/xiaoranzzz/.local/share/icons/3550_shell32.0.xpm

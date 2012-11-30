@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Settings>
+  <FilerWindow path="/myplace/home/gentoo/duel">
+    <X>216</X>
+    <Y>168</Y>
+    <Width>562</Width>
+    <Height>428</Height>
+  </FilerWindow>
+  <FilerWindow path="/myplace/resource/.x">
+    <X>1109</X>
+    <Y>47</Y>
+    <Width>316</Width>
+    <Height>812</Height>
+    <ShowHidden>0</ShowHidden>
+    <DisplayStyle>0</DisplayStyle>
+    <SortType>0</SortType>
+    <SortOrder>0</SortOrder>
+    <ViewType>0</ViewType>
+    <DetailsType>0</DetailsType>
+    <ShowThumbs>0</ShowThumbs>
+    <FilterType>0</FilterType>
+    <FilterDirectories>0</FilterDirectories>
+  </FilerWindow>
+  <FilerWindow path="/mnt/mulhome/gentoo/xiaoranzzz">
+    <X>107</X>
+    <Y>107</Y>
+    <Width>766</Width>
+    <Height>440</Height>
+  </FilerWindow>
+  <FilerWindow path="/home/xiaoranzzz">
+    <X>226</X>
+    <Y>162</Y>
+    <Width>651</Width>
+    <Height>438</Height>
+  </FilerWindow>
+  <FilerWindow path="/mnt/mulhome/debian/xiaoranzzz">
+    <X>215</X>
+    <Y>127</Y>
+    <Width>651</Width>
+    <Height>438</Height>
+  </FilerWindow>
+  <FilerWindow path="/myplace/home/debian/duel">
+    <Width>601</Width>
+    <Height>401</Height>
+  </FilerWindow>
+  <FilerWindow path="/share">
+    <X>226</X>
+    <Y>162</Y>
+    <Width>666</Width>
+    <Height>478</Height>
+  </FilerWindow>
+  <FilerWindow path="/mnt/mulhome/debian/duel">
+    <X>229</X>
+    <Y>202</Y>
+    <Width>663</Width>
+    <Height>408</Height>
+  </FilerWindow>
+  <FilerWindow path="/myplace/home/gentoo/xiaoranzzz">
+    <X>164</X>
+    <Y>119</Y>
+    <Width>625</Width>
+    <Height>385</Height>
+  </FilerWindow>
+</Settings>

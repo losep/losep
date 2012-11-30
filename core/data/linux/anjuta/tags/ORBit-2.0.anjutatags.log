@@ -1,0 +1,46 @@
+In file included from /tmp/4384_1202642528_1.cpp:1:
+/usr/include/orbit-2.0/orbit/poa/poa-basics.h:4:18: error: glib.h: No such file or directory
+In file included from /usr/include/orbit-2.0/orbit/util/orbit-util.h:6,
+                 from /usr/include/orbit-2.0/orbit/orbit-types.h:4,
+                 from /usr/include/orbit-2.0/orbit/poa/poa-defs.h:9,
+                 from /tmp/4384_1202642528_1.cpp:2:
+/usr/include/orbit-2.0/orbit/util/basic_types.h:5:27: error: glib/gunicode.h: No such file or directory
+/usr/include/orbit-2.0/orbit/util/basic_types.h:49:2: error: #error ""
+/usr/include/orbit-2.0/orbit/util/basic_types.h:50:2: error: #error "You don't G_HAVE_GINT64 defined in glib."
+/usr/include/orbit-2.0/orbit/util/basic_types.h:51:2: error: #error "Please make sure you don't have an old glibconfig.h lying around."
+/usr/include/orbit-2.0/orbit/util/basic_types.h:52:2: error: #error ""
+In file included from /usr/include/orbit-2.0/orbit/orb-core/orb-core.h:15,
+                 from /usr/include/orbit-2.0/orbit/orbit.h:17,
+                 from /usr/include/orbit-2.0/orbit/poa/poa-defs.h:1098,
+                 from /tmp/4384_1202642528_1.cpp:2:
+/usr/include/orbit-2.0/orbit/orb-core/corba-object.h:4:25: error: glib-object.h: No such file or directory
+In file included from /tmp/4384_1202642528_1.cpp:4:
+/usr/include/orbit-2.0/orbit-idl/orbit-idl-backend.h:28:26: error: glib/gmacros.h: No such file or directory
+/usr/include/orbit-2.0/orbit-idl/orbit-idl-backend.h:29:24: error: libIDL/IDL.h: No such file or directory
+Installing parsers: Asm, Asp, Awk, BETA, C, C++, C#, Fortran, Java, Lisp, Lua, Make, Pascal, Perl, PHP, Python, Ruby, Scheme, Sh, SML, SQL, Tcl, Vera, Verilog, Vim
+    Asm: 
+    Asp: 
+    Awk: 
+    BETA: 
+    C: 
+    C++: 
+    C#: 
+    Fortran: 
+    Java: 
+    Lisp: 
+    Lua: 
+    Make: 
+    Pascal: 
+    Perl: 
+    PHP: 
+    Python: 
+    Ruby: 
+    Scheme: 
+    Sh: 
+    SML: 
+    SQL: 
+    Tcl: 
+    Vera: 
+    Verilog: 
+    Vim: 
+OPENING /tmp/4384_1202642528_2.cpp as C++ language file

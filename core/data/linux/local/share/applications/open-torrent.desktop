@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Open Torrent
+GenericName=Open Torrent
+Comment=A torrent file opener
+Exec=r-open-torrent %F
+Icon=torrent
+Terminal=false
+Type=Application
+Categories=MyPlace;
+StartupNotify=false
+MimeType=application/x-bittorrent;
+

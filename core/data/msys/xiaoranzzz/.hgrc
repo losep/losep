@@ -1,0 +1,15 @@
+%include .hgauth
+
+[extensions]
+convert=
+color=
+rebase=
+progress=
+git=
+bookmarks=
+
+[ui]
+editor=vim
+username=Eotect Nahn <eotect@gmail.com>
+#ssh = ssh -i ~/.ssh/id_rsa -C
+ssh = ssh -C

@@ -1,0 +1,130 @@
+! $XTermId: XTerm.ad,v 1.83 2007/03/18 22:41:40 tom Exp $
+! $XFree86: xc/programs/xterm/XTerm.ad,v 3.37 2006/04/10 00:34:36 dickey Exp $
+
+!*saveLines: 1024
+
+*customization: -color
+*saveLines: 4096
+
+!Fixed 
+*vt100*font:-misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+!,-misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+*vt100*font2:-misc-fixed-medium-r-normal--138-120-75-75-c-80-iso10646-1
+*vt100*font3:-misc-fixed-medium-r-normal--14-130-75-75-c-70-iso10646-1
+*vt100*font4:-misc-fixed-medium-r-normal--15-140-75-75-c-90-iso10646-1
+*vt100*font5:-misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+*vt100*font6:-misc-fixed-medium-r-normal--20-200-75-75-c-100-iso10646-1
+*XimFont:-misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+
+*vt100.scrollBar: true
+*vt100.rightScrollBar: true
+*vt100.multiScroll: true
+*vt100.visualBell: true
+*vt100*metaSendsEscape:true
+
+xterm*background: Black
+xterm*foreground: White
+xterm_color*background: Black
+xterm_color*foreground: White
+
+
+
+Mrxvt.cursorColor:White
+Mrxvt.color0: black
+Mrxvt.color1: red3
+Mrxvt.color2: green3
+Mrxvt.color3: yellow3
+Mrxvt.color4: Blue3
+Mrxvt.color5: magenta3
+Mrxvt.color6: cyan3
+Mrxvt.color7: AntiqueWhite
+Mrxvt.color8: Grey25
+Mrxvt.color9: Red
+Mrxvt.color10: Green
+Mrxvt.color11: Yellow
+Mrxvt.color12: SteelBlue
+Mrxvt.color13: Magenta
+Mrxvt.color14: Cyan
+Mrxvt.color15: White
+Mrxvt.colorUL: green
+Mrxvt.colorBD: yellow
+Mrxvt.reverseVideo: false
+Mrxvt.foreground: White
+Mrxvt.background: Black
+Mrxvt.scrollBar_right: true
+Mrxvt.saveLines: 1024
+Mrxvt.cursorBlink: true
+
+! Examples for custom keysyms overrides
+
+!Mrxvt.keysym.KP_Up: ^[[A
+!Mrxvt.keysym.KP_Right: ^[[C
+!Mrxvt.keysym.KP_Left: ^[[D
+!Mrxvt.keysym.KP_Down: ^[[B
+!Mrxvt.keysym.KP_Insert: ^[[2~
+!Mrxvt.keysym.KP_Delete: ^[[3~
+!Mrxvt.keysym.KP_Add: +
+!Mrxvt.keysym.KP_Subtract: -
+!Mrxvt.keysym.KP_Multiply: *
+!Mrxvt.keysym.KP_Divide: /
+!Mrxvt.keysym.KP_Enter: ^M
+!transparency - true or false (default)
+!Mrxvt*transparent:true
+
+! tint with any color; i.e., blue, red, tomato4, olivedrab2, etc.
+!   some nice listings are at:
+!     http://www.nisrv.com/modules.php?name=Hex_Colors
+!     http://www.htmlgoodies.com/tutorials/colors/article.php/3478921
+!Mrxvt*tintColor:blue
+
+!shading - 0 to 99 darkens, 101 to 200 lightens.
+!Do not use with tintColor; use a darker or lighter color instead.
+Mrxvt*shading:40
+
+! scrollback buffer lines - 65535 is max (64 is default)
+Mrxvt*saveLines:12000
+
+! font color (default is black)
+Mrxvt*foreground:White
+
+! background color (prior to tinting) (default is white)
+Mrxvt*background:Black
+
+! xft fonts - anti-aliased xft font setup is nice, but can be choppy
+!Mrxvt*font: xft:Bitstream Vera Sans Mono:pixelsize=14
+!Rxvt*font: xft:Terminus:pixelsize=16
+
+! traditional fonts - a more traditional font setup in lieu of xft
+!Mrxvt*font:-*-courier-medium-r-normal-*-*-120-*-*-*-*-iso8859-1
+!Mrxvt*font:-*-terminus-medium-*-*-*-*-140-*-*-*-*-iso10646-1
+!Mrxvt*font:-*-courier 10 pitch-*-*-*-*-*-120-*-*-*-*-iso10646-1
+!Mrxvt*font:-*-courier-*-*-*-*-*-120-*-*-*-*-*-*
+!Mrxvt*font:-*-courier-medium-*-normal-*-*-140-*-*-*-*-iso8859-1
+!Mrxvt*font:-*-nimbus mono l-*-*-*-*-*-*-*-*-*-*-*-*
+!Mrxvt*boldFont:-*-courier-bold-r-normal-*-*-120-*-*-*-*-iso8859-1
+!Mrxvt*font:-misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+!Mrxvt*font: -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso10646-1,\
+!terminus-16,\
+!-wenquanyi-wenquanyi bitmap song-medium-r-normal--16-160-75-75-p-80-iso10646-1
+#Mrxvt.xft:true
+Mrxvt*font:-*-terminus-medium-*-*-*-*-140-*-*-*-*-iso8859-1
+Mrxvt*mfont:-wenquanyi-wenquanyi bitmap song-medium-r-normal--16-160-75-75-p-80-iso10646-1
+Mrxvt.xftFont:Courier New
+Mrxvt.xftmFont:WenQuanYi Bitmap Song
+Mrxvt.xftSize:11
+! Replace blue folder colors with a lighter shade for clarity. To
+! set colored folders and files within urxvt, xterm, and aterm, add
+! the following line to your ~/.bashrc ($HOME/.bashrc) file under
+! the heading "# User specific aliases and functions":
+!   alias ls="ls i-h --color=auto"
+Mrxvt*color4:RoyalBlue
+Mrxvt*color12:RoyalBlue
+
+! scrollbar - true (default) or false
+Mrxvt*scrollBar:true
+
+! scrollbar position - left=false (default) or right=true
+Mrxvt*scrollBar_right:false
+
+! scrollbar style - rxvt (default), plain, next, or xterm
+Mrxvt*scrollstyle:rxvt

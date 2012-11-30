@@ -1,0 +1,71 @@
+In file included from /tmp/5240_1202642554_1.cpp:2:
+/usr/include/glib-2.0/gobject/gvaluetypes.h:22:2: error: #error "Only <glib-object.h> can be included directly."
+In file included from /usr/include/glib-2.0/gobject/gvaluetypes.h:28,
+                 from /tmp/5240_1202642554_1.cpp:2:
+/usr/include/glib-2.0/gobject/gvalue.h:22:2: error: #error "Only <glib-object.h> can be included directly."
+In file included from /usr/include/glib-2.0/gobject/gvalue.h:28,
+                 from /usr/include/glib-2.0/gobject/gvaluetypes.h:28,
+                 from /tmp/5240_1202642554_1.cpp:2:
+/usr/include/glib-2.0/gobject/gtype.h:20:2: error: #error "Only <glib-object.h> can be included directly."
+In file included from /tmp/5240_1202642554_1.cpp:46:
+/usr/include/glib-2.0/glib/gi18n-lib.h:27:2: error: #error You must define GETTEXT_PACKAGE before including gi18n-lib.h.
+/usr/include/glib-2.0/glib/gi18n-lib.h:30:1: warning: "_" redefined
+In file included from /tmp/5240_1202642554_1.cpp:44:
+/usr/include/glib-2.0/glib/gi18n.h:25:1: warning: this is the location of the previous definition
+In file included from /tmp/5240_1202642554_1.cpp:46:
+/usr/include/glib-2.0/glib/gi18n-lib.h:31:1: warning: "Q_" redefined
+In file included from /tmp/5240_1202642554_1.cpp:44:
+/usr/include/glib-2.0/glib/gi18n.h:26:1: warning: this is the location of the previous definition
+In file included from /tmp/5240_1202642554_1.cpp:49:
+/usr/include/glib-2.0/gobject/gboxed.h:20:2: error: #error "Only <glib-object.h> can be included directly."
+In file included from /tmp/5240_1202642554_1.cpp:51:
+/usr/include/glib-2.0/gobject/gclosure.h:21:2: error: #error "Only <glib-object.h> can be included directly."
+In file included from /tmp/5240_1202642554_1.cpp:53:
+/usr/include/glib-2.0/gobject/genums.h:20:2: error: #error "Only <glib-object.h> can be included directly."
+In file included from /tmp/5240_1202642554_1.cpp:55:
+/usr/include/glib-2.0/gobject/gobject.h:20:2: error: #error "Only <glib-object.h> can be included directly."
+In file included from /tmp/5240_1202642554_1.cpp:57:
+/usr/include/glib-2.0/gobject/gparam.h:22:2: error: #error "Only <glib-object.h> can be included directly."
+In file included from /tmp/5240_1202642554_1.cpp:59:
+/usr/include/glib-2.0/gobject/gparamspecs.h:22:2: error: #error "Only <glib-object.h> can be included directly."
+In file included from /tmp/5240_1202642554_1.cpp:62:
+/usr/include/glib-2.0/gobject/gsignal.h:20:2: error: #error "Only <glib-object.h> can be included directly."
+In file included from /tmp/5240_1202642554_1.cpp:64:
+/usr/include/glib-2.0/gobject/gsourceclosure.h:20:2: error: #error "Only <glib-object.h> can be included directly."
+In file included from /tmp/5240_1202642554_1.cpp:66:
+/usr/include/glib-2.0/gobject/gtype.h:20:2: error: #error "Only <glib-object.h> can be included directly."
+In file included from /tmp/5240_1202642554_1.cpp:68:
+/usr/include/glib-2.0/gobject/gtypemodule.h:20:2: error: #error "Only <glib-object.h> can be included directly."
+In file included from /tmp/5240_1202642554_1.cpp:70:
+/usr/include/glib-2.0/gobject/gtypeplugin.h:20:2: error: #error "Only <glib-object.h> can be included directly."
+In file included from /tmp/5240_1202642554_1.cpp:72:
+/usr/include/glib-2.0/gobject/gvalue.h:22:2: error: #error "Only <glib-object.h> can be included directly."
+In file included from /tmp/5240_1202642554_1.cpp:74:
+/usr/include/glib-2.0/gobject/gvaluearray.h:22:2: error: #error "Only <glib-object.h> can be included directly."
+Installing parsers: Asm, Asp, Awk, BETA, C, C++, C#, Fortran, Java, Lisp, Lua, Make, Pascal, Perl, PHP, Python, Ruby, Scheme, Sh, SML, SQL, Tcl, Vera, Verilog, Vim
+    Asm: 
+    Asp: 
+    Awk: 
+    BETA: 
+    C: 
+    C++: 
+    C#: 
+    Fortran: 
+    Java: 
+    Lisp: 
+    Lua: 
+    Make: 
+    Pascal: 
+    Perl: 
+    PHP: 
+    Python: 
+    Ruby: 
+    Scheme: 
+    Sh: 
+    SML: 
+    SQL: 
+    Tcl: 
+    Vera: 
+    Verilog: 
+    Vim: 
+OPENING /tmp/5240_1202642554_2.cpp as C++ language file

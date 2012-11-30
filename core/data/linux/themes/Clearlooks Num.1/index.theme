@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Clearlooks Num.1
+Type=X-GNOME-Metatheme
+Comment=
+
+[X-GNOME-Metatheme]
+GtkTheme=Clearlooks
+MetacityTheme=Clearlooks
+IconTheme=gnome
+GtkColorScheme=fg_color:#eef4f253e19a,bg_color:#1711251530c4,text_color:#c1d4d453cc70,base_color:#0000080907b4,selected_fg_color:#000000000000,selected_bg_color:#f7bdf7bdf7bd,tooltip_fg_color:#4c3c0e9b0e9b,tooltip_bg_color:#f5f5f5f5b5b5
+CursorTheme=redhat9
+CursorSize=24

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Launch Thunder5
+Exec=env WINEPREFIX="/home/xiaoranzzz/.wine" wine "C:\\Program Files\\Thunder Network\\Thunder\\ThunderShell.exe" 
+Type=Application
+StartupNotify=true
+Icon=/home/xiaoranzzz/.local/share/icons/0c9b_thundershell.0.xpm

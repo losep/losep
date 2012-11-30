@@ -1,0 +1,2 @@
+#!/bin/sh
+/share/lib/firefox3/firefox -P firefox3 "$@"

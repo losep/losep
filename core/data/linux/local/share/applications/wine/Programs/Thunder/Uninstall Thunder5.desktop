@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Uninstall Thunder5
+Exec=env WINEPREFIX="/home/xiaoranzzz/.wine" wine "C:\\Program Files\\Thunder Network\\Thunder\\unins000.exe" 
+Type=Application
+StartupNotify=true
+Icon=/home/xiaoranzzz/.local/share/icons/0c9b_unins000.0.xpm

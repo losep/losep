@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=卸载仟家信黄金分析软件
+Exec=env WINEPREFIX="/home/xiaoranzzz/.wine" wine "C:\\仟家信黄金分析软件\\UNINSTALL.EXE" 
+Type=Application
+StartupNotify=true
+Path=/home/xiaoranzzz/.wine/dosdevices/c:/users/Public/Start Menu/仟家信黄金分析软件
+Icon=/home/xiaoranzzz/.local/share/icons/e1d9_uninstall.0.png

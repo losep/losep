@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Vncviewer
+Comment=Access remote desktops
+Comment[zh_CN]=访问远程桌面
+Comment[zh_HK]=存取遠端桌面
+Comment[zh_TW]=存取遠端桌面
+Exec=vncviewer %U
+Icon=preferences-desktop-remote-desktop
+Terminal=false
+MimeType=application/x-remote-connection;x-scheme-handler/vnc;
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Network;RemoteAccess;MyPlace;Internet;

@@ -1,0 +1,24 @@
+% /etc/X11/ude/appmenu.hook resp. /etc/X11/ude/uwmrc-wm.hook
+% Automatically generated file. Do not edit (see /usr/share/doc/menu/html)
+
+% These are some macros which can be used by uwm's advanced feature of
+% preprocessing the config files with a C preprocessor. You've to
+% (un)comment two lines in '/etc/menu-methods/uwm' to use it with the
+% Debian menu system. Feel free to change the TERMCOMMAND to your
+% favourite xterm. But do it in '/etc/menu-methods/uwm' to preserve
+% your settings since this file gets overwritten with every update-menu!
+
+#define QUOTE(X) #X
+#define TERMCOMMAND(ARGS) QUOTE(/usr/bin/X11/xterm -ls ARGS)
+
+OtherWMs = aewm++
+OtherWMs = afterstep
+OtherWMs = e16
+OtherWMs = startfluxbox
+OtherWMs = flwm
+OtherWMs = fvwm2
+OtherWMs = lwm
+OtherWMs = openbox
+OtherWMs = stumpwm
+OtherWMs = twm
+OtherWMs = wm2

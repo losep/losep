@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<session>
+  <history>
+    <bookmark name="Computer" icon="gnome-fs-client" uri="computer:///"/>
+    <bookmark name="disk" icon="gnome-fs-directory" uri="file:///media/disk"/>
+    <bookmark name="/" icon="gnome-fs-directory" uri="file:///"/>
+  </history>
+</session>

@@ -1,0 +1,428 @@
+shell_patterns=0
+
+=+ t t | t d | t r
+l       Create symbol links of files
+        if [ -n "%t" ] ; then
+		set %t
+	else
+		set %f
+	fi
+	for src in "$@" ; do
+	    ln -Tsvf "%d/$src" "%D/$src"
+	done
+=+  t d | t t | tr
+L       Create symbol links and prefix a dot(.)
+        if [ -n "%t" ] ; then
+		set %t
+	else
+		set %f
+	fi
+	for src in "$@" ; do
+	    ln -sTvf "%d/$src" "%D/.$src"
+	done
+
+=+ f \.zip$ | f \.zpic$ | f \.zhtm$
+1       unzip
+        unzip %f
+	
+=+ f \.zip$ | f \.zpic$ | f \.zhtm$
+2       unzipfolder
+	unzipfolder %f
+
+=+ f \.zip$ | f \.zpic$ | f \.zhtm$ | f \.rar$
+3       qcomicbook
+	qcomicbook %f
+	
+=+ f \.zip$ | f \.zpic$ | f \.zhtm$ | f \.rar$
+4       comix
+	comix %f
+	
+=+ f \.zip$ | f \.zpic$ | f \.zhtm$ | f \.rar$
+5       cbrpager
+	cbrpager %f
+	
+
+= f \.zip$ | f \.zpic$ | f \.rar$ | f \.cbr$
+6       comicsviewer
+	comicsviewer %f 2>/dev/null
+	
++ f \.iso$
+m       Mount with vcdrom
+	vcdrom1 %f
+	
++ f * 
+v       Edit with Vim
+        set %s;
+        vim-cli "$@"
+
++ ! t t
+@       Do something on the current file
+	CMD=%{Enter command}
+	$CMD %f
+
++ t t
+@       Do something on the tagged files
+	set %t; CMD=%{Enter command}
+	while [ -n "$1" ]; do
+	  $CMD "$1"
+	  shift
+	done
+	
+=+ t t | t d
+f       Run feh on selected subdirectory
+        fehdir %f
+        
+=+ t t | t d
+M       Make ZBook on selected directories
+	set %s;
+	makezbook "$@"
+	
+=+ t t | t d
+M       Make ZPIC on selected directories
+	set %s;
+	zipimgfd "$@"
+	
++ t t | t d
+D       Delete selected directories
+        set %s;
+        xrmdir "$@"
+        
+=+ f \.1$ | f \.3$ | f \.4$ | f \.5$ | f \.6$ | f \.7$ | f \.8$ | f \.man$ & t r
+m       Display the file with roff -man
+	nroff -man %f | less
+
++ t d
+z       Compress the current subdirectory (tar.gz)
+	Pwd=`basename "%d" /`
+	echo -n "Name of the compressed file (without extension) [$Pwd]: "
+	read tar
+        if [ "$tar"x = x ]; then tar="$Pwd"; fi
+	cd .. && \
+	tar cf - "$Pwd" | gzip -f9 > "$tar.tar.gz" && \
+	echo "../$tar.tar.gz created."
+=+ f \.zjpg | f \.comic.zip
+v	View with comix
+	set %s;
+	comix "$@"
+
+=+ f \.zbook
+r	View with zhReader
+	set %s;
+	zhreader "$1"
+	
+#= t d & t n
+#       Compress the current subdirectory (tar.bz2)
+#	Pwd=`basename %d /`
+#	echo -n "Name of the compressed file (without extension) [$Pwd]: "
+#	read tar
+#        if [ "$tar"x = x ]; then tar="$Pwd"; fi
+#	cd .. && \
+#	tar cf - "$Pwd" | bzip2 -f > "$tar.tar.bz2" && \
+#	echo "../$tar.tar.bz2 created."
+
+#= f \.c$ & t r
+#+ f \.c$ & t r & ! t t
+#5       Compile and link current .c file
+#        make `basename %f .c` 2>/dev/null || cc -O -o `basename %f .c` %f
+#
+#+ t r & ! t t
+#a       Append file to opposite
+#	cat %f >>%D/%f
+#
+#+ t t
+#A       Append files to opposite files
+#	set %t
+#	while [ -n "$1" ]; do
+#	  cat $1 >>%D/$1
+#	  shift
+#	done
+#
+#+ t r & ! t t
+#d       Delete file if a copy exists in the other directory.
+#	if [ "%d" = "%D" ]; then
+#	  echo "The two directores must be different"
+#	  exit 1
+#	fi
+#  	if [ -f %D/%f ]; then        # if two of them, then
+#          if cmp -s %D/%f %f; then
+#            rm %f && echo %f: DELETED
+#          else
+#            echo "%f and %D/%f differ: NOT deleted"
+#            echo -n "Press RETURN "
+#            read key
+#          fi
+#	else
+#	  echo %f: No copy in %D/%f: NOT deleted.
+#        fi
+#
+#+ t t
+#D       Delete tagged files if a copy exists in the other directory.
+#	if [ "%d" = "%D" ]; then
+#	  echo "The two directores must be different"
+#	  exit 1
+#	fi 
+#        for i in %t
+#        do 
+#          if [ -f %D/$i ]; then
+#            SUM1="`sum $i`"
+#            SUM2="`sum %D/$i`"
+#            if [ "$SUM1" = "$SUM2" ]; then
+#	      rm $i && echo ${i}: DELETED
+#	    else
+#	      echo $i and %D/$i differ: NOT deleted.
+#	    fi
+#	  else
+#	    echo %f has no copy in %D/%f: NOT deleted.
+#          fi
+#        done
+#
+#m       View manual page
+#	MAN=%{Enter manual name}
+#	%view man -P cat $MAN
+#
+#= f \.gz$ & t r
+#+ ! t t
+#n       Inspect gzip'ed newsbatch file
+#        dd if=%f bs=1 skip=12|zcat|${PAGER-more}
+#        # assuming the cunbatch header is 12 bytes long.
+#
+#= t r &
+#+ ! t t
+#h       Strip headers from current newsarticle
+#	CHECK=`awk '{print $1 ; exit}' %f` 2>/dev/null
+#	case $CHECK in
+#	  Newsgroups:|Path:)
+#	      I=`mktemp ${MC_TMPDIR:-/tmp}/news.XXXXXX` || exit 1
+#	      cp %f $I && sed '/^'"$CHECK"' /,/^$/d' $I > %f
+#              [ "$?" = "0" ] && rm $I
+#	      echo %f: header removed
+#		;;
+#	  *)
+#	      echo %f is not a news article.
+#		;;
+#	esac
+#
+#+ t t
+#H       Strip headers from the marked newsarticles
+#	set %t
+#	while [ -n "$1" ]; do
+#	  CHECK=`awk '{print $1 ; exit}' $1` 2>/dev/null
+#	  WFILE=`mktemp ${MC_TMPDIR:-/tmp}/news.XXXXXX` || exit 1
+#	  case $CHECK in
+#	    Newsgroups:|Path:)
+#	      cp $1 $WFILE && sed '/^'"$CHECK"' /,/^$/d' $WFILE > $1
+#              if [ "$?" = "0" ]; then
+#		rm $WFILE; echo $1 header removed. OK.
+#	      else
+#		echo "Oops! Please check $1 against $WFILE"
+#	      fi
+#		;;
+#	    *)
+#	      echo $1 skipped: Not a news article.
+#		;;
+#	  esac
+#	  shift
+#	done
+#
+#= t r
+#+ ! t t
+#r       Copy file to remote host
+#	echo -n "To which host?: "
+#        read Host
+#        echo -n "To which directory on $Host?: "
+#        read Dir
+#        rcp -p %f ${Host}:$Dir
+#
+#+ t t
+#R       Copy files to remote host (no error checking)
+#	echo -n "Copy files to which host?: "
+#        read Host
+#        echo -n "To which directory on $Host? :"
+#        read Dir
+#        rcp -pr %u ${Host}:$Dir
+#
+#= f \.tex$ & t r
+#+ f \.tex$ & t r & ! t t
+#t       Run latex on file and show it with xdvi
+#        latex %f && xdvi `basename %f .tex`.dvi
+#
+#=+ f ^part | f ^Part | f uue & t r
+#+ t t
+#U       Uudecode marked news articles (needs work)
+#	set %t
+#        (
+#	while [ -n "$1" ]; do # strip headers
+#	  FIRST=`awk '{print $1 ; exit}' $1`
+#	  cat $1 | sed '/^'"$FIRST"' /,/^$/d'; shift
+#	done
+#	) |sed '/^$/d' |sed -n '/^begin 6/,/^end$/p' | uudecode
+#	if [ "$?" != "0" ]; then
+#	  echo "Cannot decode %t"
+#	fi
+#	echo "Please test the output file before deleting anything"
+#
+#=+ f \.tar\.gz$ | f \.tar\.z$ | f \.tgz$ | f \.tpz$ | f \.tar\.Z$| f \.tar\.bz2$ & t r
+#x       Extract the contents of a compressed tar file
+#	unset EXT
+#	case %f in 
+#	    *.tar.bz2) EXT=tar_bz2;;
+#	esac
+#	if [ "$EXT" = "tar_bz2" ]; then
+#	  bunzip2 -c %f | tar xvf -
+#	else
+#	  gzip -dc %f | tar xvf -
+#	fi
+#
+#= t r
+#+ ! t t
+#y       Gzip or gunzip current file
+#        unset DECOMP
+#	case %f in 
+#	    *.gz) DECOMP=-d;;
+#	    *.[zZ]) DECOMP=-d;;
+#	esac
+#        gzip $DECOMP -v %f
+#
+#+ t t
+#Y       Gzip or gunzip tagged files
+#        for i in %t
+#        do
+#          unset DECOMP
+#	  case $i in 
+#	    *.gz) DECOMP=-d;;
+#	    *.[zZ]) DECOMP=-d;;
+#	  esac
+#          gzip $DECOMP -v $i
+#        done
+#
+#+ ! t t
+#b       Bzip2 or bunzip2 current file
+#        unset DECOMP
+#	case %f in 
+#	    *.bz2) DECOMP=-d;;
+#	esac
+#        bzip2 $DECOMP -v %f
+#
+#+ t t
+#B       Bzip2 or bunzip2 tagged files
+#        for i in %t
+#        do
+#          unset DECOMP
+#	  case $i in 
+#	    *.bz2) DECOMP=-d;;
+#	  esac
+#          bzip2 $DECOMP -v $i
+#        done
+#
+#+ f \.tar.gz$ | f \.tgz$ | f \.tpz$ | f \.tar.Z$ | f \.tar.z$ | f \.tar.bz2$ | f \.tar.F$ & t r & ! t t
+#z       Extract compressed tar file to subdirectory
+#	unset D
+#	set gzip -cd
+#	case %f in
+#	  *.tar.gz) D="`basename %f .tar.gz`";;
+#	  *.tgz)    D="`basename %f .tgz`";;
+#	  *.tpz)    D="`basename %f .tpz`";;
+#	  *.tar.Z)  D="`basename %f .tar.Z`";;
+#	  *.tar.z)  D="`basename %f .tar.z`";;
+#	  *.tar.bz2) D="`basename %f .tar.bz2`"; set bunzip2 -c ;;
+#	  *.tar.F) D="`basename %f .tar.F`"; set freeze -dc;
+#	esac
+#	mkdir $D; cd $D && ($1 $2 ../%f | tar xvf -)
+#
+#+ t t
+#Z       Extract compressed tar files to subdirectories
+#	for i in %t
+#        do
+#	  set gzip -dc
+#          unset D
+#	  case $i in
+#	    *.tar.gz)  D="`basename $i .tar.gz`";;
+#	    *.tgz)     D="`basename $i .tgz`";;
+#	    *.tpz)     D="`basename $i .tpz`";;
+#	    *.tar.Z)   D="`basename $i .tar.Z`";;
+#	    *.tar.z)   D="`basename $i .tar.z`";;
+#	    *.tar.F)   D="`basename $i .tar.F`"; set freeze -dc;;
+#	    *.tar.bz2) D="`basename $i .tar.bz2`"; set bunzip2 -c;;
+#          esac
+#	  mkdir $D; (cd $D && $1 $2 ../$i | tar xvf -)
+#        done
+#
+#+ f \.gz$ | f \.tgz$ | f \.tpz$ | f \.Z$ | f \.z$ | f \.bz2$ & t r & ! t t
+#c       Convert gz<->bz2, tar.gz<->tar.bz2 & tgz->tar.bz2
+#	unset D
+#	unset EXT
+#	case %f in
+#	    *.tgz)	EXT=tgz;;
+#	    *.tpz)	EXT=tpz;;
+#	    *.Z)	EXT=Z;;
+#	    *.z)	EXT=z;;
+#	    *.gz)	EXT=gz;;
+#	    *.bz2)	EXT=bz2;;
+#	esac
+#        case $EXT in
+#	  tgz|tpz)	D="`basename %f .$EXT`.tar";;
+#	  gz|Z|z)	D="`basename %f .$EXT`";;
+#	  bz2)		D="`basename %f .bz2`";;
+#        esac
+#        if [ "$EXT" = "bz2" ]; then
+#	    bunzip2 -v %f ; gzip -f9 -v $D
+#	else
+#	    gunzip -v %f ; bzip2 -v $D
+#	fi
+#
+#+ t t
+#C       Convert gz<->bz2, tar.gz<->tar.bz2 & tgz->tar.bz2
+#	set %t
+#	while [ -n "$1" ]
+#        do
+#	  unset D
+#	  unset EXT
+#	  case $1 in
+#	    *.tgz)	EXT=tgz;;
+#	    *.tpz)	EXT=tpz;;
+#	    *.Z)	EXT=Z;;
+#	    *.z)	EXT=z;;
+#	    *.gz)	EXT=gz;;
+#	    *.bz2)	EXT=bz2;;
+#	  esac
+#	  case $EXT in
+#	      tgz)    D="`basename $1 .tgz`.tar";;
+#              tpz)    D="`basename $1 .tpz`.tar";;
+#	      gz|Z|z) D="`basename $1 .$EXT`";;
+#	      bz2)    D="`basename $1 .bz2`";;
+#	  esac
+#	  if [ "$EXT" = "bz2" ]; then
+#	    bunzip2 -v $1
+#	    gzip -f9 -v $D
+#	  else
+#	    gunzip -v $1
+#	    bzip2 -v $D
+#	  fi
+#	  shift
+#        done
+#
+#+ x /usr/bin/open | x /usr/local/bin/open & x /bin/sh
+#o       Open next a free console
+#        open -s -- sh
+#
+#=+ f \.dsc$ & t r
+#x       Extract the contents of a Debian source package
+#        dpkg-source -x %f
+#
+z0       Zim-insert-screenshot
+	cd %D
+	zim-insert-screenshot %d/%f
+	
+z1       Zim-insert-screenshot by hand
+	cd %D
+	zim-insert-screenshot --hand %d/%f
+	
+z2       Zim-insert-screenshot Directory
+	cd %D
+	dn=`dirname %D`
+	dn=`basename "$dn"`
+	#echo -e " *[[$dn|$dn]]>>../$dn.txt"
+	#exit 0
+	for i in %d/* ; do
+	    zim-insert-screenshot "$i"
+	done

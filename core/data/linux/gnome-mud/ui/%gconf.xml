@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="font" mtime="1246466394" type="string">
+                <stringvalue>Consolas 12</stringvalue>
+        </entry>
+</gconf>

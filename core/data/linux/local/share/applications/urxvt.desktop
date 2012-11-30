@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=URxvt
+Comment=Open Terminal Window
+Exec=urxvt
+Icon=terminal
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Application;MyPlace;Tools;
+X-Desktop-File-Install-Version=0.10
+GenericName[en_US]=URxvt

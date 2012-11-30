@@ -1,0 +1,63 @@
+CONF: config variable parser_version_3 set
+CONF: config variable c_system set
+CONF: Parsing built-in dosemu.conf file.
+CONF: config variable version_3_style_used set
+CONF: Parsing built-in global.conf file.
+CONF: config variable version_3_style_used unset
+CONF: config variable version_3_style_used set
+CONF: opened include file /etc/dosemu/dosemu.conf
+CONF: closed include file /etc/dosemu/dosemu.conf
+CONF: opened include file /home/xiaoranzzz/.dosemurc
+CONF: closed include file /home/xiaoranzzz/.dosemurc
+CONF: config variable skip_dosrc set
+CONF: mapping driver = 'auto'
+debug flags: -a+cw
+CONF: Disabling use of pentium timer
+CONF: dosbanner on
+CONF: timer freq=18, update=54925
+CONF: CPU set to 586
+CONF: JIT CPUEMU set to 0 for 586
+CONF: 2048k bytes EMS memory
+CONF: EMS-frame = 0xe400
+CONF: DPMI-Server on (0x5000)
+CONF: DPMI base addr = 0xffffffff
+CONF: PM DOS API Translator on
+CONF: No DJGPP NULL deref checks: off
+CONF: dosemu running on X
+CONF: x keycode 2 mode13fact 2 gamma 100 font 'terminus-bold-16' mgrab_key "Home"
+CONF: time mode = 'bios'
+SER: directory /var/lock namestub LCK.. binary No
+MOUSE: no device specified, type 0 using internaldriver: yes, emulate3buttons: no baudrate: 0
+CONF: Keyboard-layout keyb-user
+device: /home/xiaoranzzz/.dosemu/AMSD622.img type 2 h: 2  s: 18   t: 80 bootdisk
+CONF: **** Warning: floppy /dev/fd0 not accessable, disabled
+CONF: fastfloppy = 1
+CONF: IPX support off
+CONF(LPT0) f: (null)   c: lpr -l  t: 20  port: 0
+CONF(LPT1) f: (null)   c: lpr -l -P lpt2  t: 20  port: 0
+CONF: not allowing speaker port access
+CONF: Packet Driver enabled.
+device: /home/xiaoranzzz/.dosemu/drives/c type 4 h: -1  s: -1   t: -1 drive C:
+CONF: cdrom MSCD0001 on /dev/cdrom
+CONF: config variable c_system unset
+ERROR: Unknown CPU type!
+CONF: mostly running as USER: uid=1205 (cached 1205) gid=1205 (cached 1205)
+DBG_FD already set
+DOSEMU-1.4.0.0 is coming up on Linux version 2.6.26-2-686-bigmem #1 SMP Thu May 28 16:09:02 UTC 2009 i686
+Compiled with GCC version 4.3.1 -m32
+CONF: reserving 640Kb at 0x00000 for 'd' (Base DOS memory (first 640K))
+CONF: reserving 48Kb at 0xF4000 for 'r' (Dosemu reserved area)
+CONF: reserving 128Kb at 0xA0000 for 'v' (Video memory)
+CONF: reserving 8256Kb at 0x100000 for 'x' (Extended memory (HMA+XMS))
+Registering HWRAM, type=e base=0xb6224000 size=0x400000
+CONF: reserving 4096Kb at 0xB6224000 for 'e' (VGAEMU LFB)
+CONF: reserving 12Kb at 0xC0000 for 'V' (VGAEMU Video BIOS)
+SERIAL $Id: ser_init.c 1769 2007-05-04 05:59:48Z bartoldeman $
+PKT: Cannot allocate TAP device (dynamic): Operation not permitted
+CONF: detected layout is "auto"
+CONF: detected alternate layout: (null)
+CONF: reserving 64Kb at 0xE4000 for 'E' (EMS page frame)
+CONF: reserving 132Kb at 0xC3000 for 'U' (Upper Memory Block (UMB, XMS 3.0))
+TIME: using 9154 usec for updating ALRM timer
+leavedos(0|0x0) called - shutting down
+

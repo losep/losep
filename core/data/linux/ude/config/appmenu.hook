@@ -1,0 +1,309 @@
+% /etc/X11/ude/appmenu.hook resp. /etc/X11/ude/uwmrc-wm.hook
+% Automatically generated file. Do not edit (see /usr/share/doc/menu/html)
+
+% These are some macros which can be used by uwm's advanced feature of
+% preprocessing the config files with a C preprocessor. You've to
+% (un)comment two lines in '/etc/menu-methods/uwm' to use it with the
+% Debian menu system. Feel free to change the TERMCOMMAND to your
+% favourite xterm. But do it in '/etc/menu-methods/uwm' to preserve
+% your settings since this file gets overwritten with every update-menu!
+
+#define QUOTE(X) #X
+#define TERMCOMMAND(ARGS) QUOTE(/usr/bin/X11/xterm -ls ARGS)
+
+SUBMENU "Applications" {
+SUBMENU "Accessibility" {
+  ITEM "Xmag":"xmag";
+}
+SUBMENU "Data Management" {
+  ITEM "gjots2":"/usr/bin/gjots2";
+  ITEM "zim":"/usr/bin/zim";
+}
+SUBMENU "Editors" {
+  ITEM "e16keyedit":"e16keyedit";
+  ITEM "e16menuedit2":"/usr/bin/e16menuedit2";
+  ITEM "Gedit":"/usr/bin/gedit";
+  ITEM "GHex":"/usr/bin/ghex2";
+  ITEM "GVIM":"/usr/bin/vim.gtk -g -f";
+  ITEM "LeafPad":"/usr/bin/leafpad";
+  ITEM "wmcb":"/usr/bin/wmcb";
+  ITEM "Xedit":"xedit";
+}
+SUBMENU "Emulators" {
+  ITEM "Bochs":"/usr/bin/bochs";
+  ITEM "DeSmuME (Gtk)":"/usr/games/desmume";
+  ITEM "DeSmuME (Gtk-Glade)":"/usr/games/desmume-glade";
+  ITEM "DOSBox":"/usr/bin/dosbox";
+  ITEM "Dos Emulator":"/usr/bin/xdosemu";
+  ITEM "ZSNES":"/usr/bin/zsnes";
+}
+SUBMENU "File Management" {
+  ITEM "Baobab":"/usr/bin/baobab";
+  ITEM "File-Roller":"/usr/bin/file-roller";
+  ITEM "GNOME Search Tool":"/usr/bin/gnome-search-tool";
+  ITEM "mc":"x-terminal-emulator  -T \"mc\" -e sh -c \"/usr/bin/mc\"";
+  ITEM "Nautilus":"/usr/bin/nautilus";
+}
+SUBMENU "Graphics" {
+  ITEM "Dia (GNOME)":"/usr/bin/dia-gnome";
+  ITEM "GNOME Screenshot Tool":"/usr/bin/gnome-panel-screenshot";
+  ITEM "GNU Paint":"/usr/bin/gpaint";
+  ITEM "gtkfontsel":"gtkfontsel";
+  ITEM "ImageMagick":"/usr/bin/display logo:";
+  ITEM "mtPaint":"/usr/bin/mtpaint";
+  ITEM "X Window Snapshot":"xwd | xwud";
+}
+SUBMENU "Network" {
+  ITEM "amule":"/usr/bin/amule";
+  ITEM "aMule Remote GUI":"/usr/bin/amulegui";
+SUBMENU "Communication" {
+  ITEM "Evolution":"/usr/bin/evolution";
+  ITEM "Mutt":"x-terminal-emulator  -T \"Mutt\" -e sh -c \"/usr/bin/mutt\"";
+  ITEM "Pidgin":"/usr/bin/pidgin";
+  ITEM "Xbiff":"xbiff";
+}
+  ITEM "Downloader for X":"/usr/bin/nt";
+SUBMENU "File Transfer" {
+  ITEM "Deluge BitTorrent Client":"/usr/bin/deluge";
+  ITEM "gFTP":"/usr/bin/gftp-gtk";
+}
+  ITEM "GnoeMoe":"/usr/bin/gnoemoe";
+  ITEM "GNOME blog poster":"/usr/bin/gnome-blog-poster";
+  ITEM "Lynx":"x-terminal-emulator  -T \"Lynx\" -e sh -c \"/usr/bin/lynx\"";
+SUBMENU "Monitoring" {
+  ITEM "pppstatus":"x-terminal-emulator  -T \"pppstatus\" -e sh -c \"/usr/bin/pppstatus\"";
+}
+  ITEM "Telnet":"x-terminal-emulator  -T \"Telnet\" -e sh -c \"/usr/bin/telnet\"";
+SUBMENU "Web Browsing" {
+  ITEM "Epiphany web browser (Gecko)":"/usr/bin/epiphany-gecko";
+  ITEM "Iceweasel":"iceweasel";
+  ITEM "Links 2":"/usr/bin/links2 -g";
+  ITEM "Links 2 (text)":"x-terminal-emulator  -T \"Links 2 (text)\" -e sh -c \"/usr/bin/links2\"";
+}
+SUBMENU "Web News" {
+  ITEM "Liferea: Linux Feed Reader":"/usr/bin/liferea";
+}
+}
+SUBMENU "Office" {
+  ITEM "OpenOffice.org Calc":"/usr/bin/oocalc";
+  ITEM "OpenOffice.org Writer":"/usr/bin/oowriter";
+}
+SUBMENU "Programming" {
+  ITEM "anjuta":"/usr/bin/anjuta";
+  ITEM "DevHelp":"/usr/bin/devhelp";
+  ITEM "GDB":"x-terminal-emulator  -T \"GDB\" -e sh -c \"/usr/bin/gdb\"";
+  ITEM "Geany":"/usr/bin/geany";
+  ITEM "Glade 3":"/usr/bin/glade-3";
+  ITEM "Python (v2.4)":"x-terminal-emulator  -T \"Python (v2.4)\" -e sh -c \"/usr/bin/python2.4\"";
+  ITEM "Python (v2.5)":"x-terminal-emulator  -T \"Python (v2.5)\" -e sh -c \"/usr/bin/python2.5\"";
+  ITEM "regexxer":"/usr/bin/regexxer";
+  ITEM "Tclsh8.4":"x-terminal-emulator  -T \"Tclsh8.4\" -e sh -c \"/usr/bin/tclsh8.4\"";
+}
+SUBMENU "Project Management" {
+  ITEM "Planner":"/usr/bin/planner";
+}
+SUBMENU "Science" {
+SUBMENU "Engineering" {
+  ITEM "Dia":"/usr/bin/dia-normal";
+}
+SUBMENU "Mathematics" {
+  ITEM "Bc":"x-terminal-emulator  -T \"Bc\" -e sh -c \"/usr/bin/bc\"";
+  ITEM "Dc":"x-terminal-emulator  -T \"Dc\" -e sh -c \"/usr/bin/dc\"";
+  ITEM "GCalcTool":"/usr/bin/gcalctool";
+  ITEM "Xcalc":"xcalc";
+}
+}
+SUBMENU "Shells" {
+  ITEM "Bash":"x-terminal-emulator  -T \"Bash\" -e sh -c \"/bin/bash --login\"";
+  ITEM "Dash":"x-terminal-emulator  -T \"Dash\" -e sh -c \"/bin/dash -i\"";
+  ITEM "Sh":"x-terminal-emulator  -T \"Sh\" -e sh -c \"/bin/sh --login\"";
+  ITEM "tcsh":"x-terminal-emulator  -T \"tcsh\" -e sh -c \"/bin/tcsh\"";
+}
+SUBMENU "Sound" {
+  ITEM "Amarok":"/usr/bin/amarok";
+  ITEM "easytag":"/usr/bin/easytag";
+  ITEM "gmix (Gnome 2.0 Mixer)":"/usr/bin/gnome-volume-control";
+  ITEM "gnome-cd (Gnome 2.0 CD Player)":"/usr/bin/gnome-cd";
+  ITEM "grecord (GNOME 2.0 Recorder)":"/usr/bin/gnome-sound-recorder";
+  ITEM "Rhythmbox":"/usr/bin/rhythmbox";
+  ITEM "vumeter (Gnome 2.0 Volume Meter)":"/usr/bin/vumeter";
+  ITEM "WMMixer":"/usr/bin/wmmixer";
+  ITEM "WMMixer (Docked)":"/usr/bin/wmmixer -w";
+  ITEM "wmXMMS":"/usr/bin/wmxmms";
+  ITEM "XMMS":"/usr/bin/xmms";
+}
+SUBMENU "System" {
+SUBMENU "Administration" {
+  ITEM "alsaconf":"x-terminal-emulator  -T \"alsaconf\" -e sh -c \"su-to-root -p root -c /usr/sbin/alsaconf\"";
+  ITEM "Aptitude":"x-terminal-emulator  -T \"Aptitude\" -e sh -c \"/usr/bin/aptitude\"";
+  ITEM "bbrun":"/usr/bin/bbrun";
+  ITEM "Debian Task selector":"x-terminal-emulator  -T \"Debian Task selector\" -e sh -c \"su-to-root -c tasksel\"";
+  ITEM "DSL/PPPoE configuration tool":"x-terminal-emulator  -T \"DSL/PPPoE configuration tool\" -e sh -c \"/usr/sbin/pppoeconf\"";
+  ITEM "Editres":"editres";
+  ITEM "GDM flexiserver":"gdmflexiserver";
+  ITEM "GDM flexiserver in Xnest":"gdmflexiserver -n";
+  ITEM "GDM Photo Setup":"gdmphotosetup";
+  ITEM "GDM Setup":"su-to-root -X -p root -c /usr/sbin/gdmsetup";
+  ITEM "Gnome Control Center":"/usr/bin/gnome-control-center";
+  ITEM "GNOME partition editor":"su-to-root -X -c /usr/bin/gparted";
+  ITEM "GTK+ 2.0 theme manager":"/usr/bin/gtk-chtheme";
+  ITEM "KControl":"/usr/bin/kcontrol";
+  ITEM "Kicker":"/usr/bin/kicker";
+  ITEM "KInfoCenter":"/usr/bin/kinfocenter";
+  ITEM "Openbox Configuration Manager":"/usr/bin/obconf";
+  ITEM "Orphaner (all)":"x-terminal-emulator  -T \"Orphaner (all)\" -e sh -c \"su-to-root -c '/usr/sbin/orphaner -a'\"";
+  ITEM "Orphaner - editkeep":"x-terminal-emulator  -T \"Orphaner - editkeep\" -e sh -c \"su-to-root -c '/usr/sbin/editkeep'\"";
+  ITEM "Orphaner (libs)":"x-terminal-emulator  -T \"Orphaner (libs)\" -e sh -c \"su-to-root -c /usr/sbin/orphaner\"";
+  ITEM "QtConfig":"/usr/bin/qtconfig-qt4";
+  ITEM "Xclipboard":"xclipboard";
+  ITEM "Xfontsel":"xfontsel";
+  ITEM "Xkill":"xkill";
+  ITEM "Xrefresh":"xrefresh";
+}
+  ITEM "GkDebconf":"/usr/bin/gkdebconf";
+  ITEM "GNOME Network Tool":"/usr/bin/gnome-nettool";
+  ITEM "GNOME system monitor":"/usr/bin/gnome-system-monitor";
+SUBMENU "Hardware" {
+  ITEM "GNOME Floppy Formatter":"/usr/bin/gfloppy";
+  ITEM "Xvidtune":"xvidtune";
+}
+SUBMENU "Language Environment" {
+  ITEM "Belarusian environment":"x-terminal-emulator  -T \"Belarusian environment\" -e sh -c \"/usr/bin/set-language-env -l be\"";
+  ITEM "Bulgarian environment":"x-terminal-emulator  -T \"Bulgarian environment\" -e sh -c \"/usr/bin/set-language-env -l bg\"";
+  ITEM "Catalan environment":"x-terminal-emulator  -T \"Catalan environment\" -e sh -c \"/usr/bin/set-language-env -l ca\"";
+  ITEM "Danish environment":"x-terminal-emulator  -T \"Danish environment\" -e sh -c \"/usr/bin/set-language-env -l da\"";
+  ITEM "French environment":"x-terminal-emulator  -T \"French environment\" -e sh -c \"/usr/bin/set-language-env -l fr\"";
+  ITEM "German environment":"x-terminal-emulator  -T \"German environment\" -e sh -c \"/usr/bin/set-language-env -l de\"";
+  ITEM "Japanese environment":"x-terminal-emulator  -T \"Japanese environment\" -e sh -c \"/usr/bin/set-language-env -l ja\"";
+  ITEM "Korean environment":"x-terminal-emulator  -T \"Korean environment\" -e sh -c \"/usr/bin/set-language-env -l ko\"";
+  ITEM "Lithuanian environment":"x-terminal-emulator  -T \"Lithuanian environment\" -e sh -c \"/usr/bin/set-language-env -l lt\"";
+  ITEM "Macedonian environment":"x-terminal-emulator  -T \"Macedonian environment\" -e sh -c \"/usr/bin/set-language-env -l mk\"";
+  ITEM "Native Language Environment":"/usr/bin/tklanguage";
+  ITEM "Native Language Environment - remove":"x-terminal-emulator  -T \"Native Language Environment - remove\" -e sh -c \"/usr/bin/set-language-env -r\"";
+  ITEM "Polish environment":"x-terminal-emulator  -T \"Polish environment\" -e sh -c \"/usr/bin/set-language-env -l pl\"";
+  ITEM "Russian environment":"x-terminal-emulator  -T \"Russian environment\" -e sh -c \"/usr/bin/set-language-env -l ru\"";
+  ITEM "Serbian environment":"x-terminal-emulator  -T \"Serbian environment\" -e sh -c \"/usr/bin/set-language-env -l sr\"";
+  ITEM "Spanish environment":"x-terminal-emulator  -T \"Spanish environment\" -e sh -c \"/usr/bin/set-language-env -l es\"";
+  ITEM "Thai environment":"x-terminal-emulator  -T \"Thai environment\" -e sh -c \"/usr/bin/set-language-env -l th\"";
+  ITEM "Turkish environment":"x-terminal-emulator  -T \"Turkish environment\" -e sh -c \"/usr/bin/set-language-env -l tr\"";
+  ITEM "Ukrainian environment":"x-terminal-emulator  -T \"Ukrainian environment\" -e sh -c \"/usr/bin/set-language-env -l uk\"";
+}
+SUBMENU "Monitoring" {
+  ITEM "GNOME Log Viewer":"/usr/bin/gnome-system-log";
+  ITEM "Pstree":"x-terminal-emulator  -T \"Pstree\" -e sh -c \"/usr/bin/pstree.x11\"";
+  ITEM "Top":"x-terminal-emulator  -T \"Top\" -e sh -c \"/usr/bin/top\"";
+  ITEM "wmCPU":"/usr/bin/wmcpu";
+  ITEM "wmmisc":"/usr/bin/wmmisc";
+  ITEM "wmsysmon":"/usr/bin/wmsysmon";
+  ITEM "wmtop":"/usr/bin/wmtop";
+  ITEM "Xconsole":"xconsole -file /dev/xconsole";
+  ITEM "Xev":"x-terminal-emulator -e xev";
+  ITEM "Xload":"xload";
+}
+  ITEM "Mountapp":"/usr/bin/mount.app";
+  ITEM "Network Admin":"/usr/bin/network-admin";
+  ITEM "Openbox Menu Editor":"/usr/bin/obmenu";
+SUBMENU "Package Management" {
+  ITEM "Synaptic Package Manager":"/usr/bin/su-to-root -X -c /usr/sbin/synaptic";
+  ITEM "xara-gtk":"/usr/bin/xara";
+}
+  ITEM "reportbug":"x-terminal-emulator  -T \"reportbug\" -e sh -c \"/usr/bin/reportbug --exit-prompt\"";
+  ITEM "ROX Filer":"/usr/bin/rox";
+  ITEM "Services Admin":"/usr/bin/services-admin";
+  ITEM "Shares Admin":"/usr/bin/shares-admin";
+  ITEM "Time Admin":"/usr/bin/time-admin";
+  ITEM "User accounts Admin":"/usr/bin/users-admin";
+  ITEM "WMmon":"/usr/bin/wmmon";
+  ITEM "wmmount":"wmmount -- -w -s";
+  ITEM "WMnd":"/usr/bin/wmnd";
+}
+SUBMENU "Terminal Emulators" {
+  ITEM "Eterm":"/usr/bin/Eterm";
+  ITEM "Gnome Terminal":"/usr/bin/gnome-terminal";
+  ITEM "Tilda terminal":"/usr/bin/tilda";
+  ITEM "XTerm":"xterm";
+  ITEM "X-Terminal as root (GKsu)":"/usr/bin/gksu -u root /usr/bin/x-terminal-emulator";
+  ITEM "XTerm (Unicode)":"uxterm";
+}
+SUBMENU "Text" {
+  ITEM "Character map":"/usr/bin/gucharmap";
+  ITEM "GNOME Dictionary":"/usr/bin/gnome-dictionary";
+  ITEM "GutenPy":"/usr/bin/gutenpy.py";
+  ITEM "stardic (fanti)":"/usr/bin/stardic-ft";
+  ITEM "stardic (jianti)":"/usr/bin/stardic";
+  ITEM "stardict":"/usr/bin/stardict";
+}
+SUBMENU "Tools" {
+  ITEM "aMule Link Creator":"/usr/bin/alc";
+  ITEM "aMule Stats":"/usr/bin/wxcas";
+  ITEM "appbar":"/usr/bin/aewm++_appbar";
+  ITEM "bbsload":"/usr/bin/bbsload";
+  ITEM "fbpager":"/usr/bin/fbpager";
+  ITEM "fluxconf":"/usr/bin/fluxconf";
+  ITEM "fluxkeys":"/usr/bin/fluxkeys";
+  ITEM "fluxmenu":"/usr/bin/fluxmenu";
+  ITEM "fspanel (aewm++-goodies version)":"/usr/bin/aewm++_fspanel";
+  ITEM "wmcpuload":"/usr/bin/wmcpuload";
+}
+SUBMENU "Video" {
+  ITEM "SMPlayer":"smplayer";
+}
+SUBMENU "Viewers" {
+  ITEM "comix":"/usr/bin/comix";
+  ITEM "E-book reader":"FBReader";
+  ITEM "Evince":"/usr/bin/evince";
+  ITEM "Eye of GNOME":"/usr/bin/eog";
+  ITEM "GImageView":"/usr/bin/gimv";
+  ITEM "GnoCHM":"/usr/bin/gnochm";
+  ITEM "gThumb Image Viewer":"/usr/bin/gthumb";
+  ITEM "GV":"/usr/bin/gv";
+  ITEM "QComicBook":"/usr/bin/qcomicbook";
+  ITEM "Xditview":"xditview";
+  ITEM "Xpdf":"/usr/bin/xpdf";
+}
+}
+SUBMENU "Games" {
+SUBMENU "Action" {
+  ITEM "SuperTux":"/usr/games/supertux";
+}
+SUBMENU "Adventure" {
+  ITEM "GNOME-Mud":"/usr/games/gnome-mud";
+  ITEM "Tintin++":"x-terminal-emulator  -T \"Tintin++\" -e sh -c \"/usr/games/tt++\"";
+}
+SUBMENU "Toys" {
+  ITEM "Oclock":"oclock";
+  ITEM "Screenlets":"screenlets-manager";
+  ITEM "Xclock (analog)":"xclock -analog";
+  ITEM "Xclock (digital)":"xclock -digital -update 1";
+  ITEM "Xeyes":"xeyes";
+  ITEM "Xlogo":"xlogo";
+  ITEM "Xpenguins - start":"/usr/bin/xpenguins";
+  ITEM "Xpenguins - stop":"/usr/bin/xpenguins-stop";
+}
+}
+SUBMENU "Help" {
+  ITEM "APT HOWTO":"/usr/bin/apt-howto";
+  ITEM "Debian Reference":"/usr/bin/debian-reference";
+  ITEM "Doc-Central":"x-terminal-emulator  -T \"Doc-Central\" -e sh -c \"/usr/bin/doccentral\"";
+  ITEM "Info":"x-terminal-emulator  -T \"Info\" -e sh -c \"info\"";
+  ITEM "Man2html":"/usr/bin/hman -P sensible-browser";
+  ITEM "Xman":"xman";
+  ITEM "yelp":"/usr/bin/yelp";
+}
+SUBMENU "Screen" {
+SUBMENU "Locking" {
+  ITEM "Lock Screen (XScreenSaver)":"/usr/bin/xscreensaver-command -lock";
+}
+SUBMENU "Saving" {
+  ITEM "Activate ScreenSaver (Next)":"/usr/bin/xscreensaver-command -next";
+  ITEM "Activate ScreenSaver (Previous)":"/usr/bin/xscreensaver-command -prev";
+  ITEM "Activate ScreenSaver (Random)":"/usr/bin/xscreensaver-command -activate";
+  ITEM "Demo Screen Hacks":"/usr/bin/xscreensaver-command -demo";
+  ITEM "Disable XScreenSaver":"/usr/bin/xscreensaver-command -exit";
+  ITEM "Enable XScreenSaver":"/usr/bin/xscreensaver";
+  ITEM "Reinitialize XScreenSaver":"/usr/bin/xscreensaver-command -restart";
+  ITEM "ScreenSaver Preferences":"/usr/bin/xscreensaver-command -prefs";
+}
+}
+SUBMENU "Window Managers" {
+}

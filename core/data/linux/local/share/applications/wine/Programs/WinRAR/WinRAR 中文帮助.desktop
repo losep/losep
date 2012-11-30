@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=WinRAR 中文帮助
+Exec=env WINEPREFIX="/home/duel/.wine" wine "C:\\windows\\command\\start.exe" "X:\\program\\winrar\\WinRAR.chm"
+Type=Application
+StartupWMClass=Wine
+Comment=处理 RAR、 ZIP 和其他压缩格式
+Icon=3550_shell32.0

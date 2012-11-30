@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=World of Warcraft
+Type=Application
+Name[en]=World of Warcraft
+Name[de]=World of Warcraft
+Name[cs]=World of Warcraft
+GenericName=A RPG Game
+GenericName[en]=A RPG Game
+Icon=wow.png
+Exec=loadwow
+Terminal=false
+StartupNotify=false
+Categories=Application;MyPlace;
+X-Desktop-File-Install-Version=0.10

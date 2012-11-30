@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Uninstall
+Exec=env WINEPREFIX="/home/xiaoranzzz/.wine" wine "C:\\MULTIBOOT\\uninstal.exe" 
+Type=Application
+StartupWMClass=Wine
+Path=/home/xiaoranzzz/.wine/dosdevices/c:/MULTIBOOT
+Icon=6256_uninstal.0

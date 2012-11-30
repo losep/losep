@@ -1,0 +1,46 @@
+In file included from /usr/include/gnome-vfs-2.0/libgnomevfs/gnome-vfs-resolve.h:24,
+                 from /tmp/5406_1202642558_1.cpp:1:
+/usr/include/gnome-vfs-2.0/libgnomevfs/gnome-vfs-result.h:29:26: error: glib/gmacros.h: No such file or directory
+In file included from /usr/include/gnome-vfs-2.0/libgnomevfs/gnome-vfs-resolve.h:25,
+                 from /tmp/5406_1202642558_1.cpp:1:
+/usr/include/gnome-vfs-2.0/libgnomevfs/gnome-vfs-address.h:27:18: error: glib.h: No such file or directory
+/usr/include/gnome-vfs-2.0/libgnomevfs/gnome-vfs-address.h:28:25: error: glib-object.h: No such file or directory
+In file included from /tmp/5406_1202642558_1.cpp:2:
+/usr/include/gnome-vfs-2.0/libgnomevfs/gnome-vfs-init.h:27:25: error: glib/gtypes.h: No such file or directory
+In file included from /usr/include/gnome-vfs-2.0/libgnomevfs/gnome-vfs-file-info.h:32,
+                 from /usr/include/gnome-vfs-2.0/libgnomevfs/gnome-vfs-xfer.h:27,
+                 from /tmp/5406_1202642558_1.cpp:3:
+/usr/include/gnome-vfs-2.0/libgnomevfs/gnome-vfs-uri.h:27:24: error: glib/glist.h: No such file or directory
+In file included from /usr/include/gnome-vfs-2.0/libgnomevfs/gnome-vfs.h:30,
+                 from /tmp/5406_1202642558_1.cpp:6:
+/usr/include/gnome-vfs-2.0/libgnomevfs/gnome-vfs-async-ops.h:28:29: error: glib/giochannel.h: No such file or directory
+In file included from /usr/include/gnome-vfs-2.0/libgnomevfs/gnome-vfs.h:51,
+                 from /tmp/5406_1202642558_1.cpp:6:
+/usr/include/gnome-vfs-2.0/libgnomevfs/gnome-vfs-utils.h:30:28: error: glib/gmessages.h: No such file or directory
+Installing parsers: Asm, Asp, Awk, BETA, C, C++, C#, Fortran, Java, Lisp, Lua, Make, Pascal, Perl, PHP, Python, Ruby, Scheme, Sh, SML, SQL, Tcl, Vera, Verilog, Vim
+    Asm: 
+    Asp: 
+    Awk: 
+    BETA: 
+    C: 
+    C++: 
+    C#: 
+    Fortran: 
+    Java: 
+    Lisp: 
+    Lua: 
+    Make: 
+    Pascal: 
+    Perl: 
+    PHP: 
+    Python: 
+    Ruby: 
+    Scheme: 
+    Sh: 
+    SML: 
+    SQL: 
+    Tcl: 
+    Vera: 
+    Verilog: 
+    Vim: 
+OPENING /tmp/5406_1202642558_2.cpp as C++ language file

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=FlashGet
+Exec=env WINEPREFIX="/home/xiaoranzzz/.qvodplayer" wine "C:\\Program Files\\FlashGet\\FlashGet.exe" 
+Type=Application
+StartupWMClass=Wine
+Path=/home/xiaoranzzz/.qvodplayer/dosdevices/c:/Program Files/FlashGet
+Icon=770c_flashget.0

@@ -1,0 +1,44 @@
+# This is an automatically generated file.
+# Please see <file:/usr/share/doc/menu/README> for information.
+
+# to use your own menu, copy this to ~/.fluxbox/menu, then edit
+# ~/.fluxbox/init and change the session.menuFile path to ~/.fluxbox/menu
+
+[begin] (Fluxbox)
+   [submenu] (Fluxbox)
+   [config] (Configuration)
+    [submenu] (Edit Fluxbox)
+	[exec]	(init)		        {xterm -e "vim ~/.fluxbox/init"}
+	[exec]	(keys)		        {xterm -e "vim ~/.fluxbox/keys"}
+	[exec]	(menu)		        {xterm -e "vim ~/.fluxbox/menu"}
+	[exec]	(menudefs.hook)		{xterm -e "vim ~/.fluxbox/menudefs.hook"}
+	[exec]	(overlay)		{xterm -e "vim ~/.fluxbox/overlay"}
+	[exec]	(slitlist)		{xterm -e "vim ~/.fluxbox/slitlist"}
+	[exec]	(startup)		{xterm -e "vim ~/.fluxbox/startup"}
+	[exec]	(sysmenu)		{xterm -e "vim ~/.fluxbox/sysmenu"}
+	[exec]	(usermenu)		{xterm -e "vim ~/.fluxbox/usermenu"}
+        [exec]  (style)                 {xterm -e "fluxbox-edit style"}
+    [end]
+   [submenu] (Styles) {}
+      [submenu] (<User>)
+      [stylesdir] (~/.fluxbox/styles)
+      [end]
+      [submenu] (<System>)
+      [sytlesdir] (/usr/share/fluxbox/menu.d/styles)
+      [stylesdir] (/usr/share/fluxbox/styles)
+      [end]
+   [end]
+   [workspaces] (Workspaces)
+#   [submenu] (Wallpapers)
+#       [wallpapermenu] (/share/pictures/Wallpaper) 
+#   [end]
+   [commanddialog] (Fluxbox Command) 
+   [reconfig] (Reconfigure)
+   [restart] (Restart)
+   [exec] (About) {(fluxbox -v; fluxbox -info | sed 1d) 2> /dev/null | xmessage -file - -center} 
+   [end]
+   [separator]
+   [exec] (Lock screen) {xlock} 
+   [exec] (New login) {gdmflexiserver}
+   [exit] (Logout)
+[end]

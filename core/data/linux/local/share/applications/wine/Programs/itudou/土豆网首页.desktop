@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=土豆网首页
+Exec=env WINEPREFIX="/home/duel/.wine" wine "C:\\windows\\command\\start.exe" "E:\\apps\\iTudou\\http:\\www.tudou.com"
+Type=Application
+StartupWMClass=Wine
+Comment=土豆网(www.Tudou.com)
+Path=/home/duel/.wine/dosdevices/e:/apps/iTudou
+Icon=99a4_itudou
