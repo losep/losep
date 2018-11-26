@@ -1,9 +1,0 @@
-[auth]
-gc_ws_vcsplace.prefix = ws.vcsplace.googlecode.com/hg
-gc_ws_vcsplace.username = eotect
-gc_ws_vcsplace.password = dQ3Dw6Gu4tw2
-gc_ws_vcsplace.schemes = http https ssh
-gc.prefix = *
-gc.username = eotect
-gc.password = dQ3Dw6Gu4tw2
-gc.schemes = http https ssh

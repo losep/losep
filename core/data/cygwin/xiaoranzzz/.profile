@@ -1,1 +1,1 @@
-/myplace/workspace/homebase/profile
+.bash_profile

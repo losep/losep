@@ -1,0 +1,7 @@
+#split
+#end
+#sess nt6local localhost 5000
+#alias {:nt6local} {#sess nt6local localhost 5000}
+#nt6local
+
+:nt6local

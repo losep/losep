@@ -1,0 +1,78 @@
+[inpmc.fm.mkdir]
+0=Uploadings
+
+[input-def]
+0=*
+
+[input2]
+0=/cygdrive/f/sync/MyPlace/Uploading
+
+[cmdline]
+0=cd /myplace/.x/
+1=cd ..
+2=cd income
+3=
+
+[Dir Hist New Right Panel]
+0=/cygdrive/f/sync/Bitsdist
+1=/cygdrive/f/sync
+2=/cygdrive/f/sync/MyPlace/Uploads/Stone/.x
+3=/cygdrive/f/sync/MyPlace/BaiduYun/.baohe.cache/.delete
+4=/cygdrive/f/sync/MyPlace/BaiduYun/.baohe.cache/.download
+5=/cygdrive/f/sync/MyPlace/BaiduYun/.baohe.cache
+6=/cygdrive/f/sync/MyPlace/BaiduYun/computers
+7=/cygdrive/f/sync/MyPlace/BaiduYun/Rolling/.x/byhand
+8=/cygdrive/f/sync/MyPlace/BaiduYun/Rolling/.x
+9=/cygdrive/f/sync/MyPlace/BaiduYun/Rolling
+10=/cygdrive/f/sync/MyPlace/BaiduYun/Rock/myplace/system/app/Security
+11=/cygdrive/f/sync/MyPlace/BaiduYun/Rock/myplace/system/app/Downloader
+12=/cygdrive/f/sync/MyPlace/BaiduYun/Rock/myplace/system/app
+13=/cygdrive/f/sync/MyPlace/BaiduYun/Rock/myplace/system
+14=/cygdrive/f/sync/MyPlace/BaiduYun/Rock/myplace
+15=/cygdrive/f/sync/MyPlace/BaiduYun/Rock/USYS
+16=/cygdrive/f/sync/MyPlace/BaiduYun/Rock
+17=/cygdrive/f/sync/MyPlace/BaiduYun
+18=/cygdrive/f/sync/MyPlace/Uploads/Stone
+19=/cygdrive/f/sync/MyPlace/Uploads
+20=/cygdrive/f/sync/MyPlace/Uploadings
+21=/cygdrive/f/sync/MyPlace
+22=/cygdrive/f/sync/MyPlace/Uploading
+23=/cygdrive/f/sync/MyPlace/Uploading/Stone
+24=/cygdrive/f/sync/MyPlace/Uploading/Stone/.x
+25=/cygdrive/f/sync/MyPlace/Uploading/Stone/.x/leakage
+26=/cygdrive/f/sync/MyPlace/Uploading/Stone/.x/leakage/冠希·陈
+27=/cygdrive/f/sync/MyPlace/Uploading/Stone/.x/leakage/冠希·陈/钟欣桐
+28=/cygdrive/f/sync/MyPlace/Uploading/Stone/.x/leakage/冠希·陈/钟欣桐/gill gif
+29=/cygdrive/q/System Volume Information/datapool/hotstuffs/all
+30=/myplace/.x
+31=/myplace/.x/hotstuffs
+
+[Dir Hist New Left Panel]
+0=/cygdrive/f/sync/Bitsdist/360云盘/.360cache/files
+1=/cygdrive/f/sync/Bitsdist/360云盘/.360cache
+2=/cygdrive/f/sync/Bitsdist/Kuaipan
+3=/cygdrive/f/sync/Bitsdist/Local Backups
+4=/cygdrive/f/sync/Bitsdist/UStore/.x
+5=/cygdrive/f/sync/Bitsdist/UStore
+6=/cygdrive/f/sync/Bitsdist/百度云同步盘/Files
+7=/cygdrive/f/sync/Bitsdist/百度云同步盘/Inbetweener
+8=/cygdrive/f/sync/Bitsdist/百度云同步盘
+9=/cygdrive/f/sync/Bitsdist/360云盘/Videos#韩国
+10=/cygdrive/f/sync/Bitsdist/360云盘/UStore/Dot.X
+11=/cygdrive/f/sync/Bitsdist/360云盘/UStore
+12=/cygdrive/f/sync/Bitsero/=Upload
+13=/cygdrive/f/sync/Bitsero
+14=/cygdrive/f/sync/MyPlace/BaiduYun
+15=/cygdrive/f/sync/MyPlace/Uploads/Stone/.x
+16=/cygdrive/f/sync/MyPlace/Uploads/Stone
+17=/cygdrive/f/sync/MyPlace/Uploads
+18=/cygdrive/f/sync/MyPlace
+19=/cygdrive/f/sync
+20=/cygdrive/f/sync/Bitsdist/Upload/Stone/.x
+21=/cygdrive/f/sync/Bitsdist/Upload/Stone
+22=/cygdrive/f/sync/Bitsdist/Upload
+23=/cygdrive/f/sync/Bitsdist/360云盘
+24=/cygdrive/f/sync/Bitsdist
+25=/cygdrive/q/System Volume Information/datapool/hotstuffs/all
+26=/cygdrive/q/System Volume Information/datapool/hotstuffs/income
+27=/cygdrive/q/System Volume Information/datapool/hotstuffs

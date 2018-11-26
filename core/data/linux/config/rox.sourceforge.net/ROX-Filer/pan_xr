@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<panel side="Bottom">
-  <start>
-    <icon label="Home">~</icon>
-  </start>
-  <end/>
-</panel>

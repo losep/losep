@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Start FlashGet 
-Exec=env WINEPREFIX="/home/xiaoranzzz/.wine" wine "C:\\Program Files\\FlashGet Network\\FlashGet\\FlashGet3.exe" 
-Type=Application
-StartupWMClass=Wine
-Path=/home/xiaoranzzz/.wine/dosdevices/c:/Program Files/FlashGet Network/FlashGet
-Icon=b83d_flashget3.0

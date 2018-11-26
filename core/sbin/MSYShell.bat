@@ -37,6 +37,14 @@ goto getopt
 :getopt_done
 
 
+:sub_AUTOLOAD
+for /L %%i in (0,1,9) DO (
+	for /L %%j in (0,1,9) DO (
+		for %%f in (%~1\%%i%%j*.bat) DO call "%%~f"
+	)
+)
+goto :eof
+
 :SET_S
 IF "%SHELL_INHERIT_PARENT%"=="" (set FS_ROOT=&set PATH=)
 SET SHELL_INHERIT_PARENT=
@@ -116,19 +124,15 @@ set NEWPATH=%FS_Core%\sbin;%FS_Core%\bin;%FS_Core_BIN%
 REM %NEWPATH%
 
 
-for /L %%i in (0,1,16) DO (
-    for %%j in (%FS_Core_BIN%\AUTO\%%i*.bat) DO call "%%~j"
-)
 
+call :sub_AUTOLOAD "%FS_CORE_BIN%\AUTO"
 if exist "%FS_ROOT%\Workspace\init.bat" call "%FS_ROOT%\Workspace\init.bat"
 
 if exist %FS_System%\init.bat call "%FS_System%\init.bat"
 if exist %FS_System%\bin\NUL set NEWPATH=%FS_SYSTEM%\bin;%NEWPATH%
 if exist %FS_System%\sbin\NUL set NEWPATH=%FS_SYSTEM%\sbin;%NEWPATH%
 if exist %FS_System_BIN%\NUL set NEWPATH=%FS_System_BIN%;%NEWPATH%
-for /L %%i in (0,1,16) DO (
-    for %%j in (%FS_System_BIN%\AUTO\%%i*.bat) DO call "%%~j"
-)
+call :sub_AUTOLOAD "%FS_SYSTEM_BIN%\AUTO"
 
 
 

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=卸载 QvodPlayer
-Exec=env WINEPREFIX="/home/duel/.qvodplayer" wine "D:\\QvodPlayer\\QvodUninst.exe" 
-Type=Application
-StartupWMClass=Wine
-Path=/home/duel/.qvodplayer/dosdevices/d:/QvodPlayer
-Icon=6669_qvodplayer

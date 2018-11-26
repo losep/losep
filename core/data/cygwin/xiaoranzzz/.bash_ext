@@ -1,1 +1,1 @@
-/myplace/workspace/homebase/bash_ext
+alias home="pushd ~/"

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=极速酷6
-Exec=env WINEPREFIX="/home/duel/.wine" wine "E:\\apps\\酷6网\\极速酷6\\Ku6SpeedUpper.exe" 
-Type=Application
-StartupWMClass=Wine
-Path=/home/duel/.wine/dosdevices/e:/apps/酷6网/极速酷6
-Icon=c7e4_ku6speedupper.0

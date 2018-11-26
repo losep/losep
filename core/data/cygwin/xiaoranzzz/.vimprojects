@@ -1,1 +1,1397 @@
-/myplace/workspace/homebase/vimprojects
+
+taskspool=/myplace/workspace/afun/taskspool CD=. filter="*.md *.txt *.pl *.dq *.sh" {
+ README.md
+ ladies.txt
+	.MTD=.mtd filter="*"{
+  config
+  HISTORY.md
+  ignore
+  listener
+  localtasks
+  STATUS.md
+  SUMMARY.md
+  trace
+	}
+  sites=sites filter="*" {
+   DoUpdate.pl
+   ExtractID.pl
+   UpdateStatus.sh
+   WriteID.pl
+	weipai.cn=weipai.cn {
+   database - 副本.sq
+   database.sq
+   following.sq
+   id0x.txt
+   id1x.txt
+   id2x.txt
+   id3x.txt
+   id4x.txt
+   id5x.txt
+   MYSELF
+   Names.txt
+   URLS.txt
+   weipai.lst
+	}
+	vlook.cn=vlook.cn {
+   database.sq
+   database.sq.backup
+   FetchFollows.pl
+   following.sq
+   Following1384408.html
+   sesadit_20140923.sq
+	}
+	miaopai.com=miaopai.com {
+   database.sq
+	}
+	weibo.com=weibo.com {
+   database.keyduel.sq
+   database.sq
+   FetchFollows.pl
+	}
+	google.search.image=google.search.image {
+   database.sq
+	}
+  }
+  urlrule=urlrule {
+  README.md
+	sites=sites{
+   fromurls.20140914.md
+   fromurls.20140919.md
+   fromurls.md
+   README.md
+   weipai.cn.txt
+		vlook.cn=vlook.cn {
+    follows.txt
+		}
+		weipai.cn=weipai.cn {
+    ADD.md
+    AFS.md
+    FOLLOW.md
+    SAVE.md
+    SAVEURL.md
+    UPDATE.md
+    follows.txt
+    follow_likes.txt
+    likes_--201408023.txt
+    likes_-0201504225.txt
+    likes_-54da22c9a5640b846e8b45a4.txt
+    likes_1126702454.txt
+    likes_1224928981.txt
+    likes_1227075766.txt
+    likes_1298743368.txt
+    likes_1406179784.txt
+    likes_1940059672.txt
+    likes_20131220972.txt
+    likes_20140129677.txt
+    likes_201402031009.txt
+    likes_20140319639.txt
+    likes_20140408645.txt
+    likes_20140408uihf.txt
+    likes_20140501780.txt
+    likes_201405081152.txt
+    likes_201406111176.txt
+    likes_201407255.txt
+    likes_2014081833.txt
+    likes_2014120930.txt
+    likes_2014122648.txt
+    likes_2015010230.txt
+    likes_2015010434.txt
+    likes_2015011917.txt
+    likes_201502152790.txt
+    likes_2015022619.txt
+    likes_20150310181.txt
+    likes_2015031061.txt
+    likes_2015031166.txt
+    likes_20150313102.txt
+    likes_2015031333.txt
+    likes_2015031686.txt
+    likes_2015032410.txt
+    likes_2015040612.txt
+    likes_2015041026.txt
+    likes_20150414123.txt
+    likes_2274000405.txt
+    likes_2330273266.txt
+    likes_298612.txt
+    likes_331331.txt
+    likes_377469.txt
+    likes_397401033.txt
+    likes_504eefbb7d34944347000218.txt
+    likes_508775398134943b58000051.txt
+    likes_50df88967d3494277c00010e.txt
+    likes_50e505ec813494c8150001d9.txt
+    likes_5131101581349492350001ee.txt
+    likes_5150e026803494ec77000159.txt
+    likes_516a149b803494f64a000065.txt
+    likes_51a775095e8e87a839000048.txt
+    likes_51c2fcb68134946b2d00002b.txt
+    likes_51ca536b5c8e871e5e000002.txt
+    likes_51ceb91f7d34942b2400001a.txt
+    likes_51e6cb9480349409631758ad.txt
+    likes_51fa0593813494f075000000.txt
+    likes_520309009f6c00eb6a0075bd.txt
+    likes_520d20a68134945802400b00.txt
+    likes_521570607f34944241edfb5f.txt
+    likes_522aca209f6c008f1cdcb7ab.txt
+    likes_52497f167d3494164de0c2cf.txt
+    likes_5257e1147d3494136b4407f4.txt
+    likes_5258d7929f6c009e66aec8e1.txt
+    likes_52a4d5695e7feb774e8b456b.txt
+    likes_52b5c3daebeddbfa358b4567.txt
+    likes_52ccaab1803494821ce0f366.txt
+    likes_52df958677d3cc77408b458c.txt
+    likes_52e1a08579d3cc38298b456e.txt
+    likes_52e769aa78d3cc31648b458b.txt
+    likes_52f91b73813494c763ed6a73.txt
+    likes_5311526e9d67d9337b8b4567.txt
+    likes_531a62f7ebeddb241c8b45d7.txt
+    likes_5328d2fa504a13e9388b45d1.txt
+    likes_532d69324f4a1366588b45f7.txt
+    likes_532f09ceebeddb4c228b4577.txt
+    likes_533ae0bd9d67d955658b4568.txt
+    likes_53434cd6504a1386498b4569.txt
+    likes_53434cda504a13e3468b4607.txt
+    likes_5343ae5a803494124151a422.txt
+    likes_535db8ff504a13f9668b459c.txt
+    likes_5364f7c2ebeddbf97a8b456b.txt
+    likes_5368cc709d67d9f1238b4568.txt
+    likes_538095264f4a1373778b4567.txt
+    likes_538add4f803494a236e3a315.txt
+    likes_538ec98eebeddb17178b4567.txt
+    likes_53961695813494985418c0f9.txt
+    likes_53970a5debeddbb6288b45ce.txt
+    likes_539c7a2d8134940046003d1d.txt
+    likes_53aa5a70813494fd1810b083.txt
+    likes_53af08e4ebeddbf50b8b4567.txt
+    likes_53b1a8689d67d961228b477f.txt
+    likes_53bf72aeebeddb744f8b456d.txt
+    likes_53d1146ca7640b8b098b456b.txt
+    likes_53dec7c8a8640bf21c8b458e.txt
+    likes_53e7b34aa7640bf0378b45c0.txt
+    likes_53e8b70ba6640bb6258b4579.txt
+    likes_53eb7023a5640baa4e8b4574.txt
+    likes_53f380701890ede67e8b4594.txt
+    likes_5401e1f9a8640b7d368b4570.txt
+    likes_5402f6a5a6640ba13b8b4580.txt
+    likes_5412f8c4a5640bbf3e8b4582.txt
+    likes_542ff0d7a7640b80698b4592.txt
+    likes_5449fa78a6640b65648b458a.txt
+    likes_545f917fa7640ba2228b457e.txt
+    likes_546155d8a5640bb90d8b45a6.txt
+    likes_546583f6a5640b2b678b45a2.txt
+    likes_547016dba7640b5f608b45a7.txt
+    likes_54841204a8640b1b6a8b457e.txt
+    likes_548eedafa6640b0a228b458c.txt
+    likes_549d2be0a6640bc9058b45bd.txt
+    likes_54a61eafa5640b833f8b4584.txt
+    likes_54b24700a8640b05438b4579.txt
+    likes_54ba7b9ba6640b78518b45bc.txt
+    likes_54bb1a7ba6640b2c528b45af.txt
+    likes_54cc81c9a8640b8d778b4569.txt
+    likes_54e2b595a7640bc7618b4567.txt
+    likes_54ee3bc1a7640b04468b4ba9.txt
+    likes_54f94272a7640be3348b456b.txt
+    likes_54fc484ba6640bed7c8b456a.txt
+    likes_54fce691a7640b31568b456b.txt
+    likes_54fde98aa7640b33538b4569.txt
+    likes_5500fe5aa5640be71c8b473e.txt
+    likes_55011897a7640be00c8b45c7.txt
+    likes_5502e4fca5640b260b8b4568.txt
+    likes_5508b041a7640b14578b457b.txt
+    likes_550d6ef8a5640be4658b4574.txt
+    likes_551018c9a6640b142d8b4568.txt
+    likes_5516c14ba5640bac3a8b4568.txt
+    likes_576117778.txt
+    likes_587569523.txt
+    likes_5沉睡森林.txt
+    likes_627271551.txt
+    likes_632851836.txt
+    likes_739058857.txt
+    likes_745769059.txt
+    likes_785645040.txt
+    likes_825548608.txt
+    likes_884177549.txt
+    likes_930279305.txt
+    likes_963247290.txt
+    likes_Abby_关乐乐.txt
+    likes_ABC滴.txt
+    likes_acx1777.txt
+    likes_Aen图图.txt
+    likes_aibao.txt
+    likes_ainyyang.txt
+    likes_alexander012.txt
+    likes_Alin20150101.txt
+    likes_all.txt
+    likes_Amice艾米.txt
+    likes_Angel走私.txt
+    likes_answer.txt
+    likes_A懒怂.txt
+    likes_bloodbath.txt
+    likes_BOBC.txt
+    likes_Bonnie9116.txt
+    likes_C-oooo.txt
+    likes_Camshow.txt
+    likes_cccop.txt
+    likes_Cc王依萱.txt
+    likes_CjCyi.txt
+    likes_cocofish8888.txt
+    likes_coffee_tea_or_me.txt
+    likes_csRUI.txt
+    likes_CV.txt
+    likes_C冰红茶.txt
+    likes_D-fans.txt
+    likes_Da依依.txt
+    likes_dfgj.txt
+    likes_Doom20150415.txt
+    likes_DoubleD.txt
+    likes_DX2.txt
+    likes_e020141119.txt
+    likes_EasonLiu.txt
+    likes_eDisoN.txt
+    likes_Elva刘美馨.txt
+    likes_ErickIx.txt
+    likes_FEEL4520.txt
+    likes_FFsstyle.txt
+    likes_fox小青.txt
+    likes_gao841201.txt
+    likes_gs147361.txt
+    likes_gysj2002.txt
+    likes_hanjinli789.txt
+    likes_hao7006.txt
+    likes_H慧子baby.txt
+    likes_j1n.txt
+    likes_knopg.txt
+    likes_lailieqiang.txt
+    likes_Linda琳达爱爱.txt
+    likes_love晶.txt
+    likes_luofei8023.txt
+    likes_Lyn_____n.txt
+    likes_MAIGELEIDI.txt
+    likes_Mark20141025.txt
+    likes_mile.txt
+    likes_miss大妞子.txt
+    likes_Mokyn.txt
+    likes_Molla_梦然.txt
+    likes_Mr一凡.txt
+    likes_mr小嗯俊.txt
+    likes_Mr幽狼.txt
+    likes_Onetwo20150327.txt
+    likes_One晚美推.txt
+    likes_OnlyLonly.txt
+    likes_oUo.txt
+    likes_PAPAGAO-.txt
+    likes_PartyGirl.txt
+    likes_patjui.txt
+    likes_ppkkzc.txt
+    likes_Qinxiansen.txt
+    likes_qzuser2013110857.txt
+    likes_Rebecca芊芊.txt
+    likes_Remember-胡美辰.txt
+    likes_ryan_tt.txt
+    likes_S5777.txt
+    likes_Sannbaby.txt
+    likes_Sao_Man.txt
+    LIKES_SCORE.txt
+    likes_Sesadit.txt
+    likes_Sevenseven.txt
+    likes_Smilejune.txt
+    likes_sm只属于我的温柔.txt
+    likes_snow花心.txt
+    likes_sxb73315.txt
+    likes_tengqd.txt
+    likes_TheTing潘金莲.txt
+    likes_tianshiluoji.txt
+    likes_tiramisu呦呦.txt
+    likes_ugeuknxxkm.txt
+    likes_Victoria_雅熙.txt
+    likes_vip34344.txt
+    likes_walker7.txt
+    likes_wangjie0621.txt
+    likes_wangyongwc0817.txt
+    likes_WANGYUXIBABY.txt
+    likes_Weareone20.txt
+    likes_woshinibaba20140820.txt
+    likes_w大宝贝.txt
+    likes_W女王baby.txt
+    likes_xhhfhg.txt
+    likes_Yongjie丶.txt
+    likes_yu姐.txt
+    likes_yysub.txt
+    likes_Zezhou.txt
+    likes_zhoupengko.txt
+    likes___-_-.txt
+    likes_____VICKY曼爷.txt
+    likes________再见.txt
+    likes__我是飘飘的飘.txt
+    likes_一人一世界20150108.txt
+    likes_一亿个伤心20140811.txt
+    likes_一介凡夫俗子.txt
+    likes_一双手插兜.txt
+    likes_一脚定江山66.txt
+    likes_丁薇薇愛生活.txt
+    likes_三日打鱼两日晒网.txt
+    likes_三月初八.txt
+    likes_上海菲雅模特拓展.txt
+    likes_不了情20140912.txt
+    likes_专属我是海-琢磨不透.txt
+    likes_世界被伦陷.txt
+    likes_丝袜来了.txt
+    likes_丨唧唧歪歪丨.txt
+    likes_丨王爺丨.txt
+    likes_中国20150102.txt
+    likes_中指男神.txt
+    likes_丹江口六三网联.txt
+    likes_久病成疾.txt
+    likes_乔大叔.txt
+    likes_五月天20150118.txt
+    likes_从背后辣的啊.txt
+    likes_伊人美昕.txt
+    likes_佛山.txt
+    likes_你到底是谁.txt
+    likes_你妈妈的吻咯.txt
+    likes_你慧姐.txt
+    likes_你爹20150410.txt
+    likes_倩倩baby.txt
+    likes_倪霏雨NFY.txt
+    likes_做爱叫操逼.txt
+    likes_傷020131112.txt
+    likes_像海洋.txt
+    likes_光头-狠强.txt
+    likes_兔兔爱吃哥哥的大香蕉ww.txt
+    likes_兔子先生Anthony.txt
+    likes_关注福利更新.txt
+    likes_其实我要的并不.txt
+    likes_冰块20140926.txt
+    likes_冲洞.txt
+    likes_凹凸有序.txt
+    likes_出了旅店说分手.txt
+    likes_分水岭.txt
+    likes_刘点点dazzling.txt
+    likes_别说话吻我.txt
+    likes_加伦哥哥.txt
+    likes_勇敢的心20150323.txt
+    likes_十三叔20140626.txt
+    likes_午后的卡布奇诺.txt
+    likes_半夏富贵.txt
+    likes_卑鄙的我啊.txt
+    likes_单反小伙.txt
+    likes_卡莎儿.txt
+    likes_厌倦生活.txt
+    likes_厑亠.txt
+    likes_又香又甜.txt
+    likes_双鱼座颖儿.txt
+    likes_吖020150414.txt
+    likes_含含hh.txt
+    likes_吴晴Kate.txt
+    likes_咋起不了名字呢.txt
+    likes_咪乐乐.txt
+    likes_咸扯蛋蛋蛋.txt
+    likes_哈哈wpaimi.txt
+    likes_哎呀Orz.txt
+    likes_哥来扯淡滴.txt
+    likes_唐晨曦Amblek.txt
+    likes_唐龙2.txt
+    likes_啊华20141114.txt
+    likes_啊夫20150416.txt
+    likes_喜欢街拍.txt
+    likes_嗯凌乱.txt
+    likes_嘸攋瀧仯.txt
+    likes_回复
+    298612.txt
+    likes_回复
+    唐龙2.txt
+    likes_国际大牌-铁甲钢权.txt
+    likes_地瓜-.txt
+    likes_夏侯瑾轩20150322.txt
+    likes_夏雨kiss.txt
+    likes_夜归人20150412.txt
+    likes_夜来香丿.txt
+    likes_大DDDDDD.txt
+    likes_大俅俅.txt
+    likes_大唐先生.txt
+    likes_大桥未久隐退了.txt
+    likes_大牌范女王文姐.txt
+    likes_大美妞范儿oooooooo.txt
+    likes_大龟.txt
+    likes_天凉好过秋.txt
+    likes_天然呆的沉寂.txt
+    likes_夲爺經婰.txt
+    likes_奇葩的我.txt
+    likes_女神丁薇薇.txt
+    likes_女神唐晨曦.txt
+    likes_好资源的搬运工2.txt
+    likes_妳的床我來過.txt
+    likes_媚力小女人.txt
+    likes_媚娘Baby.txt
+    likes_子望呀.txt
+    likes_孟婆汤20140215.txt
+    likes_孤独的一叶舟.txt
+    likes_安于现状丶20131202.txt
+    likes_安景莫.txt
+    likes_宝宝很饿.txt
+    likes_宿命的轮回.txt
+    likes_寂寞爱上孤独.txt
+    likes_寻找小鲜肉1.txt
+    likes_小包20150111.txt
+    likes_小咪20150202.txt
+    likes_小小范范.txt
+    likes_小钟丽提宝贝baby.txt
+    likes_尤物大王.txt
+    likes_就好过哈哈.txt
+    likes_就是Jay样.txt
+    likes_川妹筱筱.txt
+    likes_巩大美.txt
+    likes_帅哥的哥.txt
+    likes_干爹教我学低调.txt
+    likes_幻山.txt
+    likes_庸俗20150310.txt
+    likes_张钊20150417.txt
+    likes_張先生5.txt
+    likes_微信号1742123831.txt
+    likes_微拍VIP大尺度视频专卖QQ2593636756.txt
+    likes_微拍大哥.txt
+    likes_微拍小枪手.txt
+    likes_微风清凉20150415.txt
+    likes_徽信qianfei2012.txt
+    likes_徽徽ooxx.txt
+    likes_心Baby.txt
+    likes_心妮丝丝.txt
+    likes_心痛20140831.txt
+    likes_心随乐动.txt
+    likes_思念20140618.txt
+    likes_性感女神团.txt
+    likes_想通想开.txt
+    likes_感受你的大大大滴巴.txt
+    likes_慕容七雅.txt
+    likes_懂你20140830.txt
+    likes_懒兽兽Annie.txt
+    likes_我想吃你的香蕉.txt
+    likes_我想花姑娘啊.txt
+    likes_我是你隔壁老王.txt
+    likes_我爱你宝贝.txt
+    likes_我的关注好多福利.txt
+    likes_或有或无.txt
+    likes_戴妮妮.txt
+    likes_戴小鑫.txt
+    likes_技术流龙龙.txt
+    likes_抗忙昂北鼻够够够.txt
+    likes_提百万gaga.txt
+    likes_摔不死的螳螂.txt
+    likes_昊恩洋娃娃.txt
+    likes_明天会更好1111.txt
+    likes_是毅丝不是d丝.txt
+    likes_是谁迷恋哥.txt
+    likes_晔诚.txt
+    likes_暴力绅士.txt
+    likes_更多福利微信doubugei.txt
+    likes_最爱大花花.txt
+    likes_期待当中.txt
+    likes_未亡丶人.txt
+    likes_未婚妈妈万人骑.txt
+    likes_本山欧巴.txt
+    likes_杨凡20141125.txt
+    likes_杰西卡朱七七.txt
+    likes_极致lucky.txt
+    likes_林可可-coco.txt
+    likes_林妹妹l.txt
+    likes_柒柒柒柒你妹.txt
+    likes_椈0.txt
+    likes_楚小姐.txt
+    likes_正能量-发哥.txt
+    likes_沟沟.txt
+    likes_泞020140804.txt
+    likes_泡泡小黑.txt
+    likes_波仔20140623.txt
+    likes_淡淡的烟草味淡淡的伤.txt
+    likes_淫男.txt
+    likes_淫的一手好湿好湿好湿.txt
+    likes_深深爱你ll.txt
+    likes_温柔的艹泥马.txt
+    likes_渴望性福啊啊啊.txt
+    likes_灰太狼也有春天.txt
+    likes_点我福利多多.txt
+    likes_烈焰争霸.txt
+    likes_烟圈晕了眸.txt
+    likes_爱020140228.txt
+    likes_爱做梦的小铃铛.txt
+    likes_爱吃麻辣烫的洋洋很性福.txt
+    likes_爱生活爱美馨Ai.txt
+    likes_爱美女.txt
+    likes_爱蔓妞3.txt
+    likes_牟心.txt
+    likes_猫莣了鱼尾纱.txt
+    likes_猴子身边的逗比.txt
+    likes_玉军20141127.txt
+    likes_王小吉201412152.txt
+    likes_王梦语Vanessa.txt
+    likes_王綺梦Annie.txt
+    likes_玩时尚.txt
+    likes_现实残酷20140912.txt
+    likes_理想20150228.txt
+    likes_琪宝kiki.txt
+    likes_琼花观.txt
+    likes_甜1098567845.txt
+    likes_用户3627133317.txt
+    likes_田甜Tammy.txt
+    likes_电动小萝卜.txt
+    likes_男p.txt
+    likes_男男男.txt
+    likes_疯狂小萝莉.txt
+    likes_疯癫小美妞.txt
+    likes_百合菊花.txt
+    likes_相信自己20150314.txt
+    likes_相爱3o年.txt
+    likes_看头像认证号码.txt
+    likes_看看侃侃.txt
+    likes_真真爱.txt
+    likes_睡太平间.txt
+    likes_硪怕了.txt
+    likes_神马是love.txt
+    likes_福利工程师.txt
+    likes_秋夕小崖.txt
+    likes_秦勉.txt
+    likes_笣旮眀.txt
+    likes_等哥来临性.txt
+    likes_签名设计.txt
+    likes_米可baby.txt
+    likes_粉色樱粟花.txt
+    likes_精彩一生.txt
+    likes_红石20150415.txt
+    likes_给我一支烟20150412.txt
+    likes_维信qianfei2012.txt
+    likes_缘定今生20141006.txt
+    likes_缦玉.txt
+    likes_美秀场微拍号.txt
+    likes_美美美美馨Ai.txt
+    likes_美臂美腿集合.txt
+    likes_老熙.txt
+    likes_耳听爱情.txt
+    likes_耶耶耶耶耶耶.txt
+    likes_聊到你高潮.txt
+    likes_自古骚逼配狗卵.txt
+    likes_臻熙雨萱.txt
+    likes_舜间DE颤栗.txt
+    likes_舞娘娘.txt
+    likes_色淫师.txt
+    likes_艺晓.txt
+    likes_花香随风落.txt
+    likes_范2R青年.txt
+    likes_范范0.txt
+    likes_草样年华20140921.txt
+    likes_莫骨徒.txt
+    likes_菊花三人开.txt
+    likes_萌了个萌纯儿Abby.txt
+    likes_萌萌焕.txt
+    likes_萌面多多.txt
+    likes_蓝鲸霖.txt
+    likes_行走的风.txt
+    likes_西域风情.txt
+    likes_西安雷峰电子.txt
+    likes_西成东就.txt
+    likes_訫牆.txt
+    likes_说话的雕像.txt
+    likes_请叫我Cc.txt
+    likes_超ai.txt
+    likes_远富_.txt
+    likes_迷失掩盖了寂寞v.txt
+    likes_迷恋-香格里拉的情调.txt
+    likes_逆寻.txt
+    likes_那时年少20150312.txt
+    likes_醉卧美人怀.txt
+    likes_醉驾不扣分.txt
+    likes_重庆整形美容机构.txt
+    likes_金龙刚.txt
+    likes_銑斬後辏.txt
+    likes_鍵盤上的旋律.txt
+    likes_鍾愛楊梅頭.txt
+    likes_镜611.txt
+    likes_阿星星.txt
+    likes_陈千槿.txt
+    likes_陈梦梦US.txt
+    likes_陈琳娜.txt
+    likes_陈筱贝.txt
+    likes_随心所玉911.txt
+    likes_隔壁的香蕉哥.txt
+    likes_霜儿儿.txt
+    likes_青蛙王子20150312.txt
+    likes_韦韦佳佳.txt
+    likes_韩国主流服饰.txt
+    likes_韩田稀.txt
+    likes_风住尘香.txt
+    likes_风雨笠中人.txt
+    likes_饱死眼睛饿死卵.txt
+    likes_马家沟草泥马.txt
+    likes_马小跳跳丶.txt
+    likes_马蚤女那女那.txt
+    likes_骑驴找你.txt
+    likes_骚逼被插.txt
+    likes_黎月明.txt
+    likes_黑妮.txt
+    likes_默默的点赞着.txt
+		}
+		weibo.com=weibo.com {
+    AFS.md
+    follows.txt
+		}
+		google.search.image=google.search.image {
+    follows.txt
+		}
+		miaopai.com=miaopai.com {
+    follows.txt
+		}
+	}
+ }
+ ladies=ladies filter="*.pl *.sh"{
+  ListDup.pl
+  ListVideosWithoutCover.pl
+  SaveById.pl
+  UpdateProfileById.pl
+  CleanFilenames.sh
+  ListEmpty.sh
+ }
+}
+
+MyPlace::Tasks=/myplace/workspace/perl/modules/MyPlace CD=. filter="Tasks.* Tasks/*" {
+ Tasks/Builder.pm
+ Tasks/Center.pm
+ Tasks::Center=Tasks/Center/ filter="*" {
+  Git.pm
+ }
+ Tasks/File.pm
+ Tasks/Listener.pm
+ Tasks/Task.pm
+ Tasks/Tasks.pm
+ Tasks/Utils.pm
+ Tasks/Worker.pm
+}
+
+libmyplace=/myplace/workspace/libmyplace CD=. {
+ Makefile
+ Makefile.am
+ Makefile.in
+ TODO.tasks
+ aclocal.m4
+ config.guess
+ config.log
+ config.status
+ config.sub
+ configure
+ configure.ac
+ copying
+ depcomp
+ install
+ install-sh
+ libmyplace.anjuta
+ libtool
+ ltmain.sh
+ missing
+ myconfig.sh
+ myplace-0.1.pc
+ myplace-0.1.pc.in
+    src=./myplace
+	CD=. {
+  FileList.cc
+  FileList.hh
+  FileList.lo
+  HelloWorld.cc
+  HelloWorld.hh
+  HelloWorld.lo
+  Makefile
+  Makefile.am
+  Makefile.in
+  cppcomplete.tags
+  libmyplace-0.1.la
+  libmyplace.la
+  FileList.cc~
+  FileList.hh~
+  FileList.o
+  HelloWorld.cc~
+  HelloWorld.hh~
+  HelloWorld.o
+    }
+}
+
+batchman=/myplace/workspace/c/batchman CD=/share/wokspace/c/batchman filter="*.ac *.am" {
+ Source=src CD=/myplace/workspace/c/batchman filter="*.c *.h *.am config.h.in" {
+ }
+}
+
+lget=/share/workspace/c/lget/lget-0.1 CD=/share/workspace/c/lget/lget-0.1 filter="*.ac *.am *.in *.spec" {
+ Makefile.in
+ configure.bat.in
+ configure.in
+ stamp-h.in
+ lget.spec
+ Source=src CD=/share/workspace/c/lget/lget-0.1 filter="*.c *.h *.am *.ac *.in" {
+  alloca.c
+  ansi2knr.c
+  cmpt.c
+  connect.c
+  convert.c
+  cookies.c
+  ftp-basic.c
+  ftp-ls.c
+  ftp-opie.c
+  ftp.c
+  gen-md5.c
+  getopt.c
+  gnu-md5.c
+  gnutls.c
+  hash.c
+  host.c
+  html-parse.c
+  html-url.c
+  http-ntlm.c
+  http.c
+  init.c
+  log.c
+  main.c
+  mswindows.c
+  netrc.c
+  openssl.c
+  progress.c
+  ptimer.c
+  recur.c
+  res.c
+  retr.c
+  safe-ctype.c
+  snprintf.c
+  test.c
+  url.c
+  utils.c
+  version.c
+  xmalloc.c
+  config-post.h
+  config.h
+  connect.h
+  convert.h
+  cookies.h
+  ftp.h
+  gen-md5.h
+  getopt.h
+  gnu-md5.h
+  hash.h
+  host.h
+  html-parse.h
+  http-ntlm.h
+  http.h
+  init.h
+  lget.h
+  log.h
+  mswindows.h
+  netrc.h
+  options.h
+  progress.h
+  ptimer.h
+  recur.h
+  res.h
+  retr.h
+  safe-ctype.h
+  ssl.h
+  sysdep.h
+  test.h
+  url.h
+  utils.h
+  xmalloc.h
+  Makefile.in
+  config.h.in
+ }
+}
+
+
+zhReader=/myplace/workspace/firefox/zhreader CD=. filter="*" {
+ chrome.manifest
+ install.rdf
+ install.rdfe
+ content=content CD=. {
+  overlay.js
+  overlay.xul
+  pref.js
+  xrlin.pref.js
+ }
+ locale=locale {
+  en-US=en-US {
+   overlay.dtd
+   zhreader.dtd
+  }
+ }
+ skin=skin {
+  zhreader.png
+ }
+}
+
+
+Websaver=/share/workspace/firefox/websaver CD=. filter="*" {
+ chrome.manifest
+ install.rdf
+ websaver.xpi
+ content=content CD=. {
+  contmenu.js
+  contmenu.xul
+  database.js
+  dbopXML.js
+  flatview.js
+  flatview.xul
+  managestore.js
+  managestore.xul
+  options.js
+  options.xul
+  savestore.js
+  savestore.xul
+  setfolder.js
+  setfolder.xul
+  statusbar.js
+  statusbar.xul
+  websaverapp.js
+  websavervar.js
+  xrlin.base.js
+  xrlin.debug.js
+  xrlin.fileio.js
+  xrlin.pref.js
+  xrlin.system.js
+  xrlin.xml.js
+  xrlin.zip.js
+ }
+ defaults=defaults CD=. {
+  preferences=preferences CD=. {
+   prefs.js
+  }
+ }
+ locale=locale CD=. {
+  en-US=en-US CD=. {
+   contents.rdf
+   websaver.description
+   websaver.dtd
+   websaver.properties
+  }
+ }
+ skin=skin CD=. {
+  classic=classic CD=. {
+   browse.png
+   contents.rdf
+   delete.png
+   down.png
+   edit.png
+   managestore.css
+   new.png
+   options.css
+   separator.png
+   up.png
+   websaver.css
+   websaver16.png
+   websaver24.png
+   websaver32.png
+  }
+ }
+}
+
+
+WebSaver2=/myplace/workspace/firefox/websaver2 CD=. filter="*" {
+ CHANGE
+ Changes
+ README.markdown
+ build_extension.sh
+ chrome.manifest
+ config_build.sh
+ install.rdf
+ chrome=chrome {
+  content=content CD=. {
+   cataedit3.js
+   cataedit3.xul
+   catalogHandler.js
+   catalogedit.js
+   catalogedit.xul
+   contmenu.js
+   database.js
+   dbopFS.js
+   dbopWiki.js
+   dbopXML.js
+   flatview.js
+   flatview.xul
+   global.js
+   global.xul
+   managestore.js
+   managestore.xul
+   options.js
+   options.xul
+   pref.js
+   savetopic.js
+   seltopic.js
+   seltopic.xul
+   shared.js
+   statusbar.js
+   tags
+   topicedit.js
+   topicedit.xul
+   xrlin.base.js
+   xrlin.debug.js
+   xrlin.dom.js
+   xrlin.fileio.js
+   xrlin.menu.js
+   xrlin.pref.js
+   xrlin.string.js
+   xrlin.system.js
+   xrlin.utils.js
+   xrlin.window.js
+   xrlin.xml.js
+   xrlin.zip.js
+   xulapps.js
+  }
+  locale=locale {
+   en-US=en-US CD=. {
+    contents.rdf
+    websaver2.description
+    websaver2.dtd
+    websaver2.properties
+   }
+  }
+  skin=skin {
+   classic=classic {
+    browse.png
+    contents.rdf
+    delete.png
+    down.png
+    edit.png
+    managestore.css
+    new.png
+    options.css
+    separator.png
+    up.png
+    websaver2.css
+    websaver216.png
+    websaver224.png
+    websaver232.png
+   }
+  }
+ }
+ defaults=defaults {
+  preferences=preferences {
+   prefs.js
+  }
+ }
+}
+
+
+xrLiN=/share/workspace/firefox/xrlinlib CD=. filter="*" {
+ xrlin.base.js
+ xrlin.debug.js
+ xrlin.dom.js
+ xrlin.fileio.js
+ xrlin.menu.js
+ xrlin.pref.js
+ xrlin.string.js
+ xrlin.system.js
+ xrlin.window.js
+ xrlin.xml.js
+ xrlin.zip.js
+}
+
+
+
+gm_scripts=/myplace/workspace/gm_scripts CD=. filter="*" {
+ config.xml
+ config.xml.backup~
+ 400gb.com_work_with_adblock=400gb.com_work_with_adblock {
+  182106.user.js
+ }
+ backups=backups {
+  P_
+  _N
+  Anti-Disabler=Anti-Disabler {
+   30096.user.js
+  }
+  Eotect_Golbal_Panel=Eotect_Golbal_Panel {
+   eotect_golbal_panel.user.js
+  }
+  form_filler=form_filler {
+   form_filler.user.js
+  }
+  github_mod=github_mod {
+   github_mod.user.js
+  }
+  google_loader=google_loader {
+   google_loader.user.js
+   jsapi
+  }
+  Google_Mod=Google_Mod {
+   google_mod.user.js
+  }
+  google_reader_helper=google_reader_helper {
+   google_reader_helper.user.js
+  }
+  Google_Result-Privacy=Google_Result-Privacy {
+   107272.user.js
+  }
+  HttpPost=HttpPost {
+   HttpPost.user.js
+  }
+  ikeepuMod=ikeepuMod {
+   ikeepuMod.user.js
+  }
+  ImageAlbumPanel=ImageAlbumPanel {
+   data_miner.js
+   get_sites.pl
+   imagealbumpanel.user.js
+  }
+  invite=invite {
+   invite.user.js
+  }
+  JQuery=JQuery {
+   jquery-1.10.2.min.js
+   jquery-ui.min.js
+   jquery.user.js
+   update_jquery.sh
+  }
+  jquery_install=jquery_install {
+   jquery-uimin.js
+   jquery.user.js
+   jquerymin.js
+  }
+  Large_Icon=Large_Icon {
+   Large_Icon.user.js
+  }
+  linkbucks_skipper=linkbucks_skipper {
+   linkbucks_skipper.user.js
+  }
+  LinksNavigator=LinksNavigator {
+   linksnavigator.user.js
+  }
+  LinksPanel=LinksPanel {
+   linkspanel.user.js
+   panel.js
+   share.js
+  }
+  Objects-Catcher=Objects-Catcher {
+   objects-catcher.user.js
+   panel.js
+  }
+  Pages_Lister=Pages_Lister {
+   pages_lister.user.js
+  }
+  QVOD=QVOD {
+   qvod.user.js
+  }
+  RandomFormFiller=RandomFormFiller {
+   randomformfiller.user.js
+  }
+  rapidsharenowaiting=rapidsharenowaiting {
+   rapidsharenowaiting.user.js
+  }
+  redirectionhelper=redirectionhelper {
+   redirectionhelper.user.js
+  }
+  reg_form_filler=reg_form_filler {
+   form_filler.user.js
+  }
+  SearchDirectly=SearchDirectly {
+   searchdirectly.user.js
+   share.js
+  }
+  Secure_HTTP=Secure_HTTP {
+   secure_http.user.js
+  }
+  ShowBookmarks=ShowBookmarks {
+   ShowBookmarks.user.js
+  }
+  show_just_image_2=show_just_image_2 {
+   show_just_image_2.user.js
+   sji2.png
+  }
+  Utils=Utils {
+   share.js
+   utils.user.js
+  }
+  websnapr=websnapr {
+   websnapr.user.js
+  }
+  百度专辑批理转存=百度专辑批理转存 {
+   百度专辑批理转存.user.js
+  }
+  百度云网盘批量转存=百度云网盘批量转存 {
+   dialog.user.js
+   百度云网盘批量转存.user.js
+  }
+  百度云通用脚本=百度云通用脚本 {
+   百度云通用脚本.user.js
+  }
+  百度网盘文件管理=百度网盘文件管理 {
+   百度网盘文件管理.user.js
+  }
+ }
+ codes=codes {
+  yun.baidu.com=yun.baidu.com {
+   ALL.js
+   file-selector.js
+   FileCopyMoveManager.js
+   FileRename.js
+   speed-disk-home.js
+  }
+  yun.baidu.com1=yun.baidu.com1 {
+   pcloud_album_all.js
+   viewshare_all.js
+   yun_friend_personal_speed_all.js
+   yun_home_speed_all.js
+   yun_inbox_all.js
+  }
+ }
+ hack_push01=hack_push01 {
+  hack_push01.user.js
+ }
+ myplace=myplace {
+  myplace.user.js
+ }
+ myplace.baidu.yun.albums=myplace.baidu.yun.albums {
+  myplace.baidu.yun.albums.user.js
+ }
+ myplace.baidu.yun.common=myplace.baidu.yun.common {
+  myplace.baidu.yun.common.user.js
+ }
+ myplace.baidu.yun.fileman=myplace.baidu.yun.fileman {
+  myplace.baidu.yun.fileman.user.js
+ }
+ myplace.baidu.yun.fileselector=myplace.baidu.yun.fileselector {
+ }
+ myplace.baidu.yun.panel=myplace.baidu.yun.panel {
+  myplace.baidu.yun.panel.user.js
+ }
+ myplace.baidu.yun.share=myplace.baidu.yun.share {
+  myplace.baidu.yun.share.user.js
+ }
+ myplace.baidu.yun.share.home=myplace.baidu.yun.share.home {
+  myplace.baidu.yun.share.home.user.js
+ }
+ myplace.baidu.yun.share.link=myplace.baidu.yun.share.link {
+  myplace.baidu.yun.share.link.user.js
+ }
+ myplace.baidu.yun.wap=myplace.baidu.yun.wap {
+  myplace.baidu.yun.wap.user.js
+ }
+ myplace.bbs.register=myplace.bbs.register {
+  myplace.bbs.register.user.js
+ }
+ myplace.imagesalbum=myplace.imagesalbum {
+  myplace.imagesalbum.user.js
+  myplace.lib.dataminer.js
+  myplace.lib.datashower.js
+ }
+ myplace.jquery=myplace.jquery {
+  jquery-1.10.2.min.js
+  jquery-ui.min.js
+  myplace.jquery.user.js
+ }
+ myplace.mod.google=myplace.mod.google {
+  myplace.mod.google.user.js
+ }
+ myplace.navigator=myplace.navigator {
+  myplace.navigator.user.js
+ }
+ myplace.panel=myplace.panel {
+  myplace.panel.user.js
+ }
+ myplace.relilnk=myplace.relilnk {
+  myplace.relilnk.user.js
+ }
+ myplace.sslib.search=myplace.sslib.search {
+  myplace.sslib.search.user.js
+ }
+ myplace.utils.formfiller=myplace.utils.formfiller {
+  myplace.utils.formfiller.user.js
+ }
+ myplace.utils.prevnext=myplace.utils.prevnext {
+  myplace.utils.prevnext.user.js
+ }
+ myplace.utils.showbookmark=myplace.utils.showbookmark {
+  myplace.utils.showbookmark.user.js
+ }
+ source=source {
+  generate_links.sh
+  jquery-1.10.2.min.js
+  jquery-ui.min.js
+  links.html
+  myplace.baidu.yun.albums.user.js
+  myplace.baidu.yun.common.user.js
+  myplace.baidu.yun.fileman.user.js
+  myplace.baidu.yun.panel.user.js
+  myplace.baidu.yun.share.home.user.js
+  myplace.baidu.yun.share.link.user.js
+  myplace.baidu.yun.share.user.js
+  myplace.bbs.register.user.js
+  myplace.imagesalbum.user.js
+  myplace.jquery.user.js
+  myplace.lib.dataminer.js
+  myplace.lib.datashower.js
+  myplace.mod.google.user.js
+  myplace.navigator.user.js
+  myplace.panel.user.js
+  myplace.user.js
+  myplace.utils.formfiller.user.js
+  myplace.utils.prevnext.user.js
+  myplace.utils.showbookmark.user.js
+  README.md
+  Update.bat
+  Update.sh
+ }
+}
+
+nightgun=/myplace/workspace/perl/nightgun CD=. filter="*" {
+ Build
+ Build.PL
+ Changes
+ Config.PL
+ Lingua.PL
+ MANIFEST
+ MANIFEST.SKIP
+ META.yml
+ Makefile
+ Makefile.PL
+ configure
+ nightgun-1.1.tar.gz
+ tags
+ bin=bin {
+  nightgun
+ }
+ lib=lib {
+  NightGun.pm
+  MyPlace=MyPlace {
+   Archive.pm
+   Encode.pm
+   Gtk2.pm
+   Archive=Archive CD=. {
+    7z.pm
+    7za.pm
+    7zr.pm
+    Bzip2.pm
+    Gzip.pm
+    Rar.pm
+    Tar.pm
+    Zip.pm
+   }
+  }
+  NightGun=NightGun {
+   App.pm
+   Debug.pm
+   Encode.pm
+   Format.pm
+   Gui.pm
+   History.pm
+   Store.pm
+   StoreLoader.pm
+   Gui=Gui {
+    ContentView.pm
+    HTMLView.pm
+    TextView.pm
+    View.pm
+   }
+   Store=Store CD=. {
+    Archive.pm
+    Base.pm
+    Files.pm
+    LocalMedia.pm
+    WWW.pm
+    WebSaver.pm
+    Zbook.pm
+   }
+  }
+ }
+ share=share {
+  applications=applications {
+   nightgun.desktop
+  }
+  mime=mime {
+   packages=packages {
+    nightgun.xml
+   }
+  }
+  nightgun=nightgun {
+   Unsaved 2.glade
+   default.pm
+   main.glade
+   nightgun.pl
+   nightgun.png
+   doc=doc {
+   }
+   plugins=plugins {
+   }
+  }
+  pixmaps=pixmaps {
+   nightgun.png
+  }
+ }
+}
+
+
+
+wiki=/myplace/workspace/wiki/source cd=. {
+ fixgetid.pl
+ fsencoding.pl
+ tags
+ testzim
+ xrzdebug.pl
+ xrzpage.pl
+ zim.pl
+ zimstyle.pl
+}
+
+tombloo=/myplace/workspace/firefox/extensions/tombloo@brasil.to/chrome/content/ filter="*" {
+ about.xul
+ browser.xul
+ completion.css
+ completion.xml
+ eval.js
+ prefs.css
+ prefs.xul
+ quickPostForm.css
+ quickPostForm.js
+ quickPostForm.xul
+ wsh.js
+ library=library cd=. {
+  00_MochiKit.js
+  00_component.js
+  00_prototype.js
+  01_utility.js
+  10_Database.js
+  10_Progress.js
+  10_TabWatcher.js
+  20_Tombloo.js
+  20_Tumblr.js
+  20_Wedata.js
+  20_model.js
+  21_Clipp.js
+  30_Tombloo.Service.js
+  31_Tombloo.Service.actions.js
+  31_Tombloo.Service.extractors.js
+  40_ui.js
+  login.xul
+  progressDialog.xul
+ }
+}
+
+tombloo-data=/myplace/workspace/tombloo/script cd=. filter="*.*" {
+ 19.model.common.js
+ 22.model.baidu-cang.js
+ 22.model.baidu-pan.js
+ 22.model.clipp.js
+ 22.model.diandian.js
+ 22.model.googleplus.js
+ 22.model.huaban.js
+ 22.model.ikeepu.js
+ 22.model.imgfave.js
+ 22.model.jipin.js
+ 22.model.juxtapost.js
+ 22.model.localbookmark.js
+ 22.model.pinterest.js
+ 22.model.pp.sohu.js
+ 22.model.renren.js
+ 22.model.tombloo-bridge.js
+ 22.model.visualizeus.js
+ 22.model.vshoucang.js
+ 22.model.weheartit.js
+ 22.model.xiangce.baidu.js
+ 23.model.firefoxmedia.js
+ 23.model.patch.delicious.js
+ 23.model.patch.js
+ 23.model.patch.tumblr.js
+ 32.tombloo.services.js
+ action.backupConfig.js
+ action.restart.js
+}
+

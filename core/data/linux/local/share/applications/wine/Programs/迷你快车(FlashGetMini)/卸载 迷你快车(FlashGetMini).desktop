@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=卸载 迷你快车(FlashGetMini)
-Exec=env WINEPREFIX="/home/xiaoranzzz/.qvodplayer" wine "C:\\Program Files\\FlashGet Network\\FlashGet Mini\\uninst.exe" 
-Type=Application
-StartupWMClass=Wine
-Path=/home/xiaoranzzz/.qvodplayer/dosdevices/c:/windows/temp
-Icon=5ce8_uninst.0

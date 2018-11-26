@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=QVOD 电视播放器
-Exec=env WINEPREFIX="/home/duel/.wine" wine "C:\\Program Files\\QvodPlayer\\QvodTVPlayer.exe" 
-Type=Application
-StartupWMClass=Wine
-Comment=QVOD 电视播放器
-Path=/home/duel/.wine/dosdevices/c:/Program Files/QvodPlayer
-Icon=1b3d_qvodtvplayer

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=WinRAR
-Exec=env WINEPREFIX="/home/duel/.wine" wine "D:\\apps\\archiver\\winrar\\WinRAR.exe" 
-Type=Application
-StartupWMClass=Wine
-Comment=Process RAR, ZIP and other archive formats
-Icon=3550_shell32.0

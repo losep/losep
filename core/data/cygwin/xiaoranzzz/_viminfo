@@ -2,27 +2,28 @@
 # You may edit it if you're careful!
 
 # Value of 'encoding' when this file was written
-*encoding=cp936
+*encoding=utf-8
 
 
 # hlsearch on (H) or off (h):
-~h
+~H
+# Last Substitute Search Pattern:
+~MSle0~&noiframe
+
+# Last Substitute String:
+$no3script
+
 # Command Line History (newest to oldest):
 :qa
-:echo $HOME
-:echo $MYVIMRC
-:echo $VIMRUNTIME
-:set
-:q
-:edit $MYVIMRC
-:option
-:options
-:export
-:var
-:$
-:q!
+:w
+:%s/noiframe/no3script/g
+:12,31y
+:tabedit ..\myplace.adblock.no3script\myplace.adblock.no3script.user.js
+:tabedit ..\myplace.adblock.noiframe\myplace.adblock.noiframe.user.js
+:wqa
 
 # Search String History (newest to oldest):
+? noiframe
 
 # Expression History (newest to oldest):
 
@@ -30,31 +31,136 @@
 
 # Input Line History (newest to oldest):
 
-# Registers:
+# 寄存器:
+"0	LINE	0
+	if(!unsafeWindow) {
+		unsafeWindow = window;
+	}
+	(function(){
+		var $myPlace = $myPlace || unsafeWindow.$myPlace || {};
+		unsafeWindow.$myPlace = $myPlace;
+		$myPlace.adblock = $myPlace.adblock || {};
+		$myPlace.adblock.noiframe = function() {
+			var doc = unsafeWindow ? unsafeWindow.document : document;
+			var ifas = doc.getElementsByTagName('iframe');
+			var fl = ifas.length;
+			for(var i=0;i<fl;i++) {
+				ifas[i].parentNode.removeChild(ifas[i]);
+			}
+			return fl;
+		};
+		window.addEventListener('load',$myPlace.adblock.noiframe);
+		$myPlace.adblock.noiframe();
+		$myPlace.adblock.noiframe();
+	})();
+"1	LINE	0
+	
+"2	LINE	0
+				ifas[i].parentNode.removeChild(ifas[i]);
+"3	LINE	0
+	// idle
+"4	LINE	0
+	
+"5	LINE	0
+		return;
+"6	LINE	0
+		if(!$myPlace
+""-	CHAR	0
+	h
 
-# File marks:
-'0  1  0  ~\.vimrc
-'1  1  0  d:\myplace\appdata\firefox\profiles\xiaoranzzz\gm_scripts\dropbox_auto_create\dropbox_auto_create.user.js
+# 文件标记:
+'0  28  1  D:\myplace\appdata\firefox\profiles\afun\gm_scripts\myplace.adblock.noiframe\myplace.adblock.noiframe.user.js
+'1  1  0  D:\myplace\appdata\firefox\profiles\afun\gm_scripts\myplace.adblock.noiframe\myplace.adblock.noiframe.user.js
+'2  15  0  D:\myplace\appdata\firefox\profiles\afun\gm_scripts\myplace.adblock.noiframe\myplace.adblock.noiframe.user.js
+'3  1  0  D:\myplace\appdata\firefox\profiles\afun\gm_scripts\myplace.adblock.noiframe\myplace.adblock.noiframe.user.js
 
-# Jumplist (newest first):
--'  1  0  ~\.vimrc
--'  8  0  D:\myplace\core\cmd\vim.bat
--'  1  0  D:\myplace\core\cmd\vim.bat
--'  1  0  d:\myplace\appdata\firefox\profiles\xiaoranzzz\gm_scripts\dropbox_auto_create\dropbox_auto_create.user.js
--'  1  0  d:\myplace\appdata\firefox\profiles\xiaoranzzz\gm_scripts\dropbox_auto_create\dropbox_auto_create.user.js
--'  1  0  ~\.vimrc
--'  8  0  D:\myplace\core\cmd\vim.bat
--'  1  0  D:\myplace\core\cmd\vim.bat
--'  1  0  d:\myplace\appdata\firefox\profiles\xiaoranzzz\gm_scripts\dropbox_auto_create\dropbox_auto_create.user.js
--'  1  0  d:\myplace\appdata\firefox\profiles\xiaoranzzz\gm_scripts\dropbox_auto_create\dropbox_auto_create.user.js
+# 跳转列表 (从新到旧):
+-'  28  1  D:\myplace\appdata\firefox\profiles\afun\gm_scripts\myplace.adblock.noiframe\myplace.adblock.noiframe.user.js
+-'  3  25  D:\myplace\appdata\firefox\profiles\afun\gm_scripts\myplace.utils.prevnext\myplace.utils.prevnext.user.js
+-'  1  0  D:\myplace\appdata\firefox\profiles\afun\gm_scripts\myplace.utils.prevnext\myplace.utils.prevnext.user.js
+-'  1  0  D:\myplace\appdata\firefox\profiles\afun\gm_scripts\myplace.adblock.noiframe\myplace.adblock.noiframe.user.js
+-'  1  0  D:\myplace\appdata\firefox\profiles\afun\gm_scripts\myplace.adblock.no3script\myplace.adblock.no3script.user.js
+-'  15  0  D:\myplace\appdata\firefox\profiles\afun\gm_scripts\myplace.adblock.noiframe\myplace.adblock.noiframe.user.js
+-'  3  0  D:\myplace\appdata\firefox\profiles\afun\gm_scripts\myplace.adblock.noiframe\myplace.adblock.noiframe.user.js
+-'  7  11  D:\myplace\appdata\firefox\profiles\afun\gm_scripts\myplace.adblock.noiframe\myplace.adblock.noiframe.user.js
 
-# History of marks within files (newest to oldest):
+# 文件内的标记历史记录 (从新到旧):
 
-> D:\myplace\core\cmd\vim.bat
-	"	8	0
+> D:\myplace\appdata\firefox\profiles\afun\gm_scripts\myplace.utils.prevnext\myplace.utils.prevnext.user.js
+	"	16	7
 
-> ~\.vimrc
-	"	1	0
+> D:\myplace\appdata\firefox\profiles\afun\gm_scripts\myplace.adblock.noiframe\myplace.adblock.noiframe.user.js
+	"	28	1
+	^	28	2
+	.	28	1
+	+	31	4
+	+	23	0
+	+	21	8
+	+	25	1
+	+	24	8
+	+	21	0
+	+	21	15
+	+	21	0
+	+	21	0
+	+	7	14
+	+	22	21
+	+	23	16
+	+	7	25
+	+	8	0
+	+	20	58
+	+	21	15
+	+	3	30
+	+	4	0
+	+	12	0
+	+	16	3
+	+	17	34
+	+	19	40
+	+	20	3
+	+	21	4
+	+	22	3
+	+	23	4
+	+	24	5
+	+	25	3
+	+	27	1
+	+	26	12
+	+	31	0
+	+	29	35
+	+	26	9
+	+	28	58
+	+	29	3
+	+	30	0
+	+	31	0
+	+	7	24
+	+	8	0
+	+	23	14
+	+	28	1
+	+	29	1
+	+	7	26
+	+	28	0
+	+	29	0
+	+	28	87
+	+	7	24
+	+	28	1
 
-> d:\myplace\appdata\firefox\profiles\xiaoranzzz\gm_scripts\dropbox_auto_create\dropbox_auto_create.user.js
-	"	1	0
+> D:\myplace\appdata\firefox\profiles\afun\gm_scripts\myplace.adblock.no3script\myplace.adblock.no3script.user.js
+	"	25	3
+	^	6	26
+	.	6	26
+	+	6	0
+	+	10	0
+	+	11	0
+	+	18	0
+	+	20	45
+	+	32	0
+	+	22	25
+	+	26	58
+	+	31	0
+	+	31	0
+	+	33	0
+	+	29	7
+	+	30	31
+	+	31	0
+	+	23	25
+	+	27	12
+	+	30	12
+	+	6	26

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Uninst QvodPlayer
-Exec=env WINEPREFIX="/home/xiaoranzzz/.qvodplayer" wine "D:\\QvodPlayer\\QvodUninst.exe" 
-Type=Application
-StartupWMClass=Wine
-Path=/home/xiaoranzzz/.qvodplayer/dosdevices/d:/QvodPlayer
-Icon=6669_qvodplayer

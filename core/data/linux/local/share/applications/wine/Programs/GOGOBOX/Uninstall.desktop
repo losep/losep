@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Uninstall
-Exec=env WINEPREFIX="/home/duel/.wine" wine "C:\\Program Files\\NextLink\\GOGOBOX\\GOGOBOXUninstall.exe" 
-Type=Application
-StartupWMClass=Wine
-Path=/home/duel/.wine/dosdevices/c:/Program Files/NextLink/GOGOBOX
-Icon=de5c_gogoboxuninstall.0

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/x-extension-do_sync_from_bedroom_to_bookroom">
-  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
-  <comment>do_sync_from_bedroom_to_bookroom document</comment>
-  <glob pattern="*.do_sync_from_bedroom_to_bookroom"/>
-</mime-type>

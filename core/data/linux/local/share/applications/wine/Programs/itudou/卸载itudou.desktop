@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=卸载itudou
-Exec=env WINEPREFIX="/home/duel/.wine" wine "E:\\apps\\iTudou\\uninst.exe" 
-Type=Application
-StartupWMClass=Wine
-Path=/home/duel/.wine/dosdevices/e:/apps/iTudou
-Icon=99a4_uninst.0

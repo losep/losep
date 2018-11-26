@@ -1,1 +1,0 @@
-for /d %%i in (*) do d:\system\winrar\winrar.exe D -inul -afzip -r "%%i.zhtm" "%%i\*.db" "%%i\*.ini"

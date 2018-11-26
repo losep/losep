@@ -1,0 +1,10 @@
+BoldAsFont=no
+Columns=143
+Rows=45
+Font=Consolas
+FontHeight=10
+CopyOnSelect=yes
+CopyAsRTF=no
+ForegroundColour=255,255,255
+BackgroundColour=3,23,61
+Language=zh_CN

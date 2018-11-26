@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=RaySource
-Exec=env WINEPREFIX="/home/xiaoranzzz/.wine" wine "C:\\Program Files\\RaySource\\RaySource.exe" 
-Type=Application
-StartupNotify=true
-Path=/home/xiaoranzzz/.wine/dosdevices/c:/Program Files/RaySource/skin1
-Icon=/home/xiaoranzzz/.local/share/icons/fa1e_raysource.0.png

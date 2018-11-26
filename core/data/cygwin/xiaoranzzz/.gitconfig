@@ -1,1 +1,18 @@
-/myplace/workspace/homebase/gitconfig
+[user]
+	name = Eotect Nahn
+	email = eotect@gmail.com
+[alias]
+	br = branch
+	brav = branch -av
+	conf = config
+	gconf = config --global
+	lsconf = config -l
+	st = status
+[color]
+	ui = true
+[pack]
+	packSizeLimit = 80m
+[http]
+	sslVerify = false
+[push]
+	default = matching

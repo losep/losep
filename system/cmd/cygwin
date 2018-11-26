@@ -1,0 +1,2 @@
+#!/bin/sh
+exec cygwin.bat --no-login&

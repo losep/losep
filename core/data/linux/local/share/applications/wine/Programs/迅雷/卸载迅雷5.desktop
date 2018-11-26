@@ -1,6 +1,0 @@
-[Desktop Entry]
-Name=卸载迅雷5
-Exec=env WINEPREFIX="/home/duel/.wine" wine "E:\\Apps\\internet\\thunder5.5.6.274\\unins000.exe" 
-Type=Application
-StartupWMClass=Wine
-Icon=3550_shell32.0

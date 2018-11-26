@@ -1,7 +1,0 @@
-[paths]
-#gc.profile = http://profile.eotect.googlecode.com/hg
-#gc.profile-push = https://profile.eotect.googlecode.com/hg
-#gc.perl	= https://perl.zscripts.googlecode.com/hg
-#gc.perl-push = https://perl.zscripts.googlecode.com/hg
-#gc.reposman = http://reposman.vcsplace.googlecode.com/hg
-#gc.reposman-push = https://reposman.vcsplace.googlecode.com/hg

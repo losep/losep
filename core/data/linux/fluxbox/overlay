@@ -1,8 +1,0 @@
-
-menu.frame.font:                     dejavusans-9
-menu.title.font:                     dejavusans-9:bold
-window.font:                         WenQuanYi Bitmap Song-9
-! toolbar.height: 30
-toolbar*font:                        dejavusans-9
-toolbar.iconbar.focused.font:        WenQuanYi Bitmap Song-9:bold
-toolbar.iconbar.unfocused.font:      WenQuanYi Bitmap Song-9

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=What's New
-Exec=env WINEPREFIX="/home/xiaoranzzz/.qvodplayer" wine "C:\\windows\\command\\start.exe" "C:\\Program Files\\FlashGet\\WHATSNEW.TXT"
-Type=Application
-StartupWMClass=Wine
-Path=/home/xiaoranzzz/.qvodplayer/dosdevices/c:/Program Files/FlashGet
-Icon=3550_shell32.0

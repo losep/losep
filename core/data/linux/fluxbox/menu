@@ -1,7 +1,0 @@
-[begin] (Fluxbox) {} <>
-    [include] (~/.fluxbox/usermenu) {} <>
-    [submenu] (Applications)
-    [include] (~/.fluxbox/appmenu)
-    [end]
-    [include] (~/.fluxbox/sysmenu)  {} <>
-[end]

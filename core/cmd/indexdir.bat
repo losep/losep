@@ -1,1 +1,0 @@
-E:\WorkBench\VB\CreateFolderIndex\indexdir.exe %1 %2 %3

@@ -40,7 +40,7 @@ endif
 "set fileencodings=utf-8,latin1
 "set formatoptions=tcql
 "set guifont=Courier\ 10\ Pitch\ 11
-set guifont=Bitstream\ Vera\ Sans\ Mono,DejaVu\ Sans\ Mono\ 12,Mono
+set guifont=Consolas:h10,Bitstream\ Vera\ Sans\ Mono,DejaVu\ Sans\ Mono\ 12,Mono
 colorscheme darkocean 
 "darkdot "papayawhip
 set helplang=en
@@ -48,7 +48,7 @@ set history=50
 set hlsearch
 set mouse=a
 set ruler
-" set termencoding=utf-8
+"set termencoding=utf-8
 " set textwidth=78
 set viminfo='20,\"50
 "set spell
@@ -127,4 +127,9 @@ function CommandEdit(name)
     endif
 endfunction
 command -nargs=+ Cmdedit call CommandEdit(<f-args>)
+
+au GUIEnter * simalt ~x
+"set fileencoding=utf-8
+"set fileencodings=utf-8,cp936,latin1
+set binary
 

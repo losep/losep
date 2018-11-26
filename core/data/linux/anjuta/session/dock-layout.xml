@@ -1,4 +1,0 @@
-<?xml version="1.0"?>
-<dock-layout>
-	
-<layout name="__default__"><dock name="__dock_1" floating="no" width="-1" height="-1" floatx="0" floaty="0"><paned orientation="horizontal" locked="no" position="373"><item name="AnjutaDevhelpIndex" orientation="vertical" locked="no"/><notebook orientation="vertical" locked="no" page="3"><item name="AnjutaDocumentManager" orientation="vertical" locked="no"/><item name="AnjutaTodoPlugin" orientation="vertical" locked="no"/><item name="AnjutaClassInheritance" orientation="vertical" locked="no"/><item name="AnjutaDevhelpDisplay" orientation="vertical" locked="no"/></notebook></paned></dock></layout></dock-layout>

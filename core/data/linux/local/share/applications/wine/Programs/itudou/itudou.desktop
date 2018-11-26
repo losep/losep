@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=itudou
-Exec=env WINEPREFIX="/home/duel/.wine" wine "E:\\apps\\iTudou\\iTudou.exe" 
-Type=Application
-StartupWMClass=Wine
-Path=/home/duel/.wine/dosdevices/e:/apps/iTudou
-Icon=99a4_itudou.0

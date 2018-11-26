@@ -1,1 +1,3 @@
-/myplace/workspace/homebase/bash_logout
+if [ -z "$OSTYPE" ] ; then
+	clear
+fi

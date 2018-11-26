@@ -1,8 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Name=fehdir
-MimeType=image/jpeg;
-Exec=fehdir %f
-Type=Application
-Terminal=false
-NoDisplay=true

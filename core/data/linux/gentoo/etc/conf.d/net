@@ -1,3 +1,0 @@
-dns_domain_lo="hell"
-nis_domain_lo="hell"
-config_eth0=( "adsl" )

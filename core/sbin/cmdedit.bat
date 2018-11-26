@@ -1,6 +1,6 @@
 @ECHO OFF
 setlocal
-for %%d in ("%FS_SYSTEM_CMD%" "%FS_CORE_CMD%" "%FS_CORE%\sbin") do (
+for %%d in ("%FS_SYSTEM_CMD%" "%FS_CORE_CMD%" "%FS_CORE%\sbin" "%FS_SYSTEM%\bin") do (
     echo Tring %%~d\%1.bat ?
     if exist "%%~d\%~1" call :edit "%%~d\%~1"&goto end
     if exist "%%~d\%~1.bat" call :edit "%%~d\%~1.bat"&goto end

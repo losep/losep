@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=卸载i 酷
-Exec=env WINEPREFIX="/home/xiaoranzzz/.wine" wine "C:\\Program Files\\YouKu\\iKu\\uninstall.exe" 
-Type=Application
-StartupWMClass=Wine
-Path=/home/xiaoranzzz/.wine/dosdevices/c:/Program Files/YouKu/iKu
-Icon=0b04_uninstall.0

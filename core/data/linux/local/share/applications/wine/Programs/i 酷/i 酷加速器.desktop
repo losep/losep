@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=i 酷加速器
-Exec=env WINEPREFIX="/home/xiaoranzzz/.wine" wine "C:\\Program Files\\YouKu\\iKu\\iKuAcc.exe" 
-Type=Application
-StartupWMClass=Wine
-Comment=i 酷加速器。
-Path=/home/xiaoranzzz/.wine/dosdevices/c:/Program Files/YouKu/iKu
-Icon=0b04_ikuacc

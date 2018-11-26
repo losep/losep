@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Uninstall FlashGet 
-Exec=env WINEPREFIX="/home/xiaoranzzz/.wine" wine "C:\\Program Files\\FlashGet Network\\FlashGet\\uninst.exe" 
-Type=Application
-StartupWMClass=Wine
-Path=/home/xiaoranzzz/.wine/dosdevices/c:/Program Files/FlashGet Network/FlashGet/dat
-Icon=b83d_uninst.0

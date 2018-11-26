@@ -29,6 +29,7 @@ create_link('Power Shell.lnk', sbin_dir + 'mpshell.exe','run pwsh.bat','powershe
 create_link('Cygwin Shell.lnk',sbin_dir + 'mpshell.exe','call cygwin.bat', source_dir + '\\system\\app\\shell\\cygwin\\cygwin.ico','MyPlace Cygwin Shell');
 create_link('Shell Console.lnk',sbin_dir + 'mpshell.exe','run console2.bat',source_dir + '\\system\\app\\shell\\console2\\console.exe, 0','MyPlace Shell Console');
 create_link('Total Commander.lnk',sbin_dir + 'mpshell.exe','run totalcmd.bat', source_dir + '\\system\\app\\fileman\\totalcmd\\totalcmd.exe, 0', 'Total Commander');
+create_link('Total Commander Afun.lnk',sbin_dir + 'mpshell.exe','run totalcmd_afun.bat', source_dir + '\\system\\app\\fileman\\totalcmd_afun\\totalcmd.exe, 0', 'Total Commander Afun');
 
 
 

@@ -1,49 +1,18 @@
 @echo %DEBUG% off
-
 goto BEGIN
 
-REM setlocal
-REM 开始批处理文件中环境改动的本地化操作。在执行 SETLOCAL 之后
-REM 所做的环境改动只限于批处理文件。要还原原先的设置，必须执
-REM 行 ENDLOCAL。达到批处理文件结尾时，对于该批处理文件的每个
-REM 尚未执行的 SETLOCAL 命令，都会有一个隐含的 ENDLOCAL 被执行。
-
-REM SETLOCAL
-
-REM 如果命令扩展被启用，SETLOCAL 会如下改变:
-
-REM SETLOCAL 批命令现在可以接受可选参数:
-        REM ENABLEEXTENSIONS / DISABLEEXTENSIONS
-            REM 启用或禁用命令处理器扩展。这些
-            REM 参数比 CMD /E:ON 或 /E:OFF
-            REM 开关有优先权。请参阅 CMD /? 获取详细信息。
-        REM ENABLEDELAYEDEXPANSION / DISABLEDELAYEDEXPANSION
-            REM 启用或禁用延缓环境变量
-            REM 扩展。这些参数比 CMD
-            REM /V:ON 或 /V:OFF 开关有优先权。请参阅 CMD /? 获取详细信息。
-REM 无论在 SETLOCAL 命令之前它们的设置是什么，这些修改会一直
-REM 保留到匹配的 ENDLOCAL 命令。
-
-REM 如果有一个参数，
-REM SETLOCAL 命令将设置 ERRORLEVEL 的值。如果有两个有效参数中的一个，
-REM 该值则为零。
-REM 用下列技巧，您可以在批脚本中
-REM 使用这个来决定扩展是否可用:
-
-    REM VERIFY OTHER 2>nul
-    REM SETLOCAL ENABLEEXTENSIONS
-    REM IF ERRORLEVEL 1 echo Unable to enable extensions
-
-REM 这个方法之所以有效，是因为在 CMD.EXE 的旧版本上，SETLOCAL
-REM 未设置 ERRORLEVEL 值。具有不正确参数的 VERIFY 命令将
-REM ERRORLEVEL 值初始化成非零值。
-
-
+:SUB_AUTOLOAD
+for /L %%i in (0,1,1) DO (
+	for /L %%j in (0,1,9) DO (
+		for %%f in (%~1\%%i%%j*.bat) DO call "%%~f"
+	)
+)
+goto :eof
 
 
 :FS_INIT
 if ""=="%~2" goto :eof
-echo [SHELL] Initialize [%2]
+echo [MyPlace Shell] Initialize [%2]
 if not exist %FS_ROOT%\%1\NUL goto :eof
 call :MY_SET FS_%2 %FS_ROOT%\%1
 call :FS_SET %1 %2 cmd CMD
@@ -52,15 +21,9 @@ call :FS_SET %1 %2 data DATA
 for %%i in (sbin bin cmd) do if exist %FS_ROOT%\%1\%%i\NUL set NEWPATH=%FS_ROOT%\%1\%%~ni;!NEWPATH!
 set PATH=%NEWPATH%
 if exist %FS_ROOT%\%1\init.bat call %FS_ROOT%\%1\init.bat %*
-for /L %%i in (0,1,25) DO (
-	for %%j in (%FS_ROOT%\%1\auto.d\%%i*.bat) DO call "%%~j" 
-)
-for /L %%i in (0,1,25) DO (
-	for %%j in (%FS_ROOT%\%1\app\auto.d\%%i*.bat) DO call "%%~j" 
-)
-for /L %%i in (0,1,25) DO (
-    for %%j in (%FS_ROOT%\%1\cmd\auto.d\%%i*.bat) DO call "%%~j" 
-)
+call :SUB_AUTOLOAD "%FS_ROOT%\%1\auto.d"
+call :SUB_AUTOLOAD "%FS_ROOT%\%1\app\auto.d"
+call :SUB_AUTOLOAD "%FS_ROOT%\%1\cmd\auto.d"
 goto :eof
 
 :MY_SET
@@ -98,19 +61,19 @@ goto END
 :BEGIN
 setlocal ENABLEEXTENSIONS ENABLEDELAYEDEXPANSION 
 
-title Shell 
+title MyPlace Shell
 SET SHELL_CMD=
 SET SHELL_DIR=
 SET SHELL_INHERIT_PARENT=
 SET SHELL_MODE_NOCMDS=
 SET SHELL_D=%~d0
 SET SHELL_P=%~p0
-
+SET PROMPT=$p$_$+$g
 
 :getopt
 if "%~1"=="" goto getopt_done
 if /I "%~1"=="-h" goto usage
-if /I "%~1"=="-i" (set SHELL_INHERIT_PARENT=1&shift&goto getopt)
+if /I "%~1"=="-n" (set SHELL_NO_INHERIT=1&shift&goto getopt)
 if /I "%~1"=="-s" (set SHELL_MODE_NOCMDS=1&shift&goto getopt)
 if /I "%~1"=="-r" (set SHELL_FS_ROOT=%~2&shift&shift&goto getopt)
 if /I "%~1"=="-d" (set SHELL_DIR=%~2&shift&shift&goto getopt)
@@ -121,8 +84,8 @@ goto getopt
 
 
 :SET_S
-IF "%SHELL_INHERIT_PARENT%"=="" (set FS_ROOT=&set PATH=)
-SET SHELL_INHERIT_PARENT=
+IF "%SHELL_NO_INHERIT%"=="1" (set FS_ROOT=&set PATH=)
+SET SHELL_NO_INHERIT=
 IF NOT "%SHELL_FS_ROOT%"=="" set FS_ROOT=%SHELL_FS_ROOT%
 SET SHELL_FS_ROOT=
 
@@ -139,7 +102,7 @@ SET FS_ROOT=%SHELL_D%%SHELL_P%
 SET SHELL_D=
 SET SHELL_P=
 call :MY_SET FS_ROOT %FS_ROOT%
-echo [SHELL] Root in "%FS_ROOT%"
+echo [MyPlace Shell] Root in "%FS_ROOT%"
 IF "%PATH%" == "" set PATH=%SYSTEMROOT%\system32;%SYSTEMROOT%
 SET SHELL_OLD_PATH=%PATH%
 SET PATH=%~dp0;%PATH%
@@ -153,7 +116,7 @@ call :FS_INIT workspace WORKSPACE
 call :FS_INIT temp   TEMP
 set FS_APP=%FS_SYSTEM_APP%
 set FS_CMD=%FS_SYSTEM_CMD%
-echo [SHELL] Initialized.
+echo [MyPlace Shell] Initialized.
 
 set PATH=%NEWPATH:\\=\%
 set PATH=%PATH%;%SHELL_OLD_PATH%
@@ -170,7 +133,7 @@ rem SETX -m PATH "%PATH%"
 
 :CWD_S
 REM SET SHELL_PWD=%CD%
-if not "%SHELL_DIR%"=="" (echo [SHELL] Working under "%SHELL_DIR%"&CHDIR /D "%SHELL_DIR%")
+if not "%SHELL_DIR%"=="" (echo [MyPlace Shell] Working under "%SHELL_DIR%"&CHDIR /D "%SHELL_DIR%")
 :CWD_E
 set SHELL_DIR=
 
@@ -180,8 +143,8 @@ if "__BYCMD__" == "%SHELL_CMD%" goto CMD_E
 if "" == "%SHELL_CMD%" SET SHELL_CMD=cmd.exe
 :SHELL_CMD
 
-title "%SHELL_CMD%"
-echo [SHELL] %SHELL_CMD%
+rem title "%SHELL_CMD%"
+echo [MyPlace Shell] %SHELL_CMD%
 %SHELL_CMD%
 
 REM    CHDIR /D "%SHELL_PWD%"

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=更新信息
-Exec=env WINEPREFIX="/home/xiaoranzzz/.qvodplayer" wine "C:\\windows\\command\\start.exe" "C:\\Program Files\\FlashGet Network\\FlashGet Mini\\help\\changelog.txt"
-Type=Application
-StartupWMClass=Wine
-Path=/home/xiaoranzzz/.qvodplayer/dosdevices/c:/windows/temp
-Icon=3550_shell32.0

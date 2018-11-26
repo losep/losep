@@ -1,1 +1,1 @@
-/myplace/workspace/homebase/vim
+/myplace/appdata/vim

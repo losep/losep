@@ -1,5 +1,0 @@
-#!/bin/sh
-for rc in /etc/profile $HOME/.profile ; do
-    [ -r "$rc" ] && . "$rc"
-done
-
