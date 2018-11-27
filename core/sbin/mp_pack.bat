@@ -24,8 +24,8 @@ if exist "%dname%\MYPLACE.PACK.BAT" (
 )
 call %archiver% "%oname%_%suf%%ext%" "%dname%"
 echo.
-echo Directory: %dname%
-echo Archived:  %oname%_%suf%%ext%
+echo Directory : %dname%
+echo Archived  : %oname%_%suf%%ext%
 REM call %tester% "%oname%_%suf%%ext%"
 goto END
 
