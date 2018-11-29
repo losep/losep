@@ -1,4 +1,5 @@
 @echo %DEBUG% off
+rem v2.0
 goto BEGIN
 
 :SUB_AUTOLOAD
