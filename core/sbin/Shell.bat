@@ -2,7 +2,7 @@
 goto BEGIN
 
 :SUB_AUTOLOAD
-for /L %%i in (0,1,1) DO (
+for /L %%i in (0,1,9) DO (
 	for /L %%j in (0,1,9) DO (
 		for %%f in (%~1\%%i%%j*.bat) DO call "%%~f"
 	)
