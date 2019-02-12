@@ -1,10 +1,12 @@
 @ECHO OFF
 setlocal
-for %%d in ("%FS_SYSTEM_CMD%" "%FS_CORE_CMD%" "%FS_CORE%\sbin" "%FS_SYSTEM%\bin") do (
-    echo Tring %%~d\%1.bat ?
-    if exist "%%~d\%~1" call :edit "%%~d\%~1"&goto end
-    if exist "%%~d\%~1.bat" call :edit "%%~d\%~1.bat"&goto end
-    echo NO
+for %%d in ("." "%FS_SYSTEM_CMD%" "%FS_CORE%\cmd" "%FS_CORE%\bin" "%FS_CORE%\sbin" "%FS_SYSTEM%\bin" "%FS_WORKSPACE%\shellscript" "%FS_WORKSPACE%\perl") do (
+    echo %%~d\%1 ?
+    if not exist "%%~d\%~1\NUL" if exist "%%~d\%~1" call :edit "%%~d\%~1"&goto end
+	for %%e in (bat cmd vbs js wsh ps1 sh pl pm) do (
+		echo %%~d\%~1.%%e ?
+		if not exist "%%~d\%~1.%%e\NUL" if exist "%%~d\%~1.%%e" call :edit "%%~d\%~1.%%e"&goto end
+	)
 )
 echo Command not found: %1
 goto end

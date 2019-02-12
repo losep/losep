@@ -74,10 +74,10 @@ SET PROMPT=$p$_$+$g
 :getopt
 if "%~1"=="" goto getopt_done
 if /I "%~1"=="-h" goto usage
-if /I "%~1"=="-n" (set SHELL_NO_INHERIT=1&shift&goto getopt)
-if /I "%~1"=="-s" (set SHELL_MODE_NOCMDS=1&shift&goto getopt)
-if /I "%~1"=="-r" (set SHELL_FS_ROOT=%~2&shift&shift&goto getopt)
-if /I "%~1"=="-d" (set SHELL_DIR=%~2&shift&shift&goto getopt)
+if /I "%~1"=="-n" (set SHELL_NO_INHERIT=1 & shift & goto getopt)
+if /I "%~1"=="-s" (set SHELL_MODE_NOCMDS=1 & shift & goto getopt)
+if /I "%~1"=="-r" (set SHELL_FS_ROOT=%~2 & shift & shift & goto getopt)
+if /I "%~1"=="-d" (set SHELL_DIR=%~2 & shift & shift & goto getopt)
 set SHELL_CMD=%SHELL_CMD% %1
 shift
 goto getopt
@@ -90,15 +90,19 @@ SET SHELL_NO_INHERIT=
 IF NOT "%SHELL_FS_ROOT%"=="" set FS_ROOT=%SHELL_FS_ROOT%
 SET SHELL_FS_ROOT=
 
-:FSROOT_S
+
 IF NOT "%FS_ROOT%"=="" GOTO FSROOT_E
 REM SET FS_ROOT=%SHELL_D%%SHELL_P%
 SET FS_ROOT=%~DP0
+:FSROOT_S
 SET FS_ROOT=%FS_ROOT:\core\sbin\=%
 if exist "%FS_ROOT%\core\sbin\Shell.bat" goto FSROOT_E
 SET FS_ROOT=%SHELL_D%
+SET FS_ROOT=%FS_ROOT:\core\sbin\=%
 if exist "%FS_ROOT%\core\sbin\Shell.bat" goto FSROOT_E
 SET FS_ROOT=%SHELL_D%%SHELL_P%
+SET FS_ROOT=%FS_ROOT:\core\sbin\=%
+GOTO FSROOT_S
 :FSROOT_E
 SET SHELL_D=
 SET SHELL_P=

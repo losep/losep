@@ -1,12 +1,6 @@
 @ECHO OFF
 setlocal
 
-
-set notepad=%FS_SYSTEM_APP%\editor\notepad++\notepad++.exe
-for %%d in ("%FS_SYSTEM_APP%\notepad++\notepad++.exe" "%FS_SYSTEM_APP%\editor\notepad++\notepad++.exe" "%PROGRAMFILES%\notepad++\notepad++.exe" ) do (
-	if exist "%%~d" (set notepad=%%~d)
-)
-
 set session_d=%FS_ROOT%\appdata\notepad++\sessions
 
 
@@ -16,18 +10,17 @@ if "%~1" == "" goto normal
 if exist "%session_d%\%~1" goto session
 
 :normal
-echo start "notepad++" "%notepad%" %*
-start "notepad++" "%notepad%" %*
+apprund64 editor\notepad++ notepad++.exe notepad++.exe %*
 goto end
 
 :session
 set session=%session_d%\%~1
 shift
-echo start "notepad++" "%notepad%" -openSession "%session%"
-start "notepad++" "%notepad%" -openSession "%session%"
-if not "%~1" == "" goto options
+apprund64 editor\notepad++ notepad++.exe notepad++.exe -openSession "%session%" %1 %2 %3 %4 %5 %6 %7 %8 %9
 
 :end
+set pgd=
+set fsd=
 set notepad=
 set session_d=
 endlocal

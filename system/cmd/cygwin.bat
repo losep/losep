@@ -20,6 +20,7 @@ if "%~1" == "--no-login" (
 )
 if "%~1" == "--no-tty" (
 	SET TTY=%FS_SYSTEM_APP%\SHELL\CYGWIN\BIN\SH.EXE
+	SET NO_TTY=1
 	shift
 	goto check_opt
 ) 
@@ -46,13 +47,19 @@ if not "%STARTDIR%" == "" (
 	cd /d "%STARTDIR%"
 )
 REM echo %TTY% --title "%TITLE%" "%SHELLBIN%" %ARGS% %ARG2% 
+IF "%NO_TTY%" == "" GOTO WITH_TTY
+:NO_TTY
+"%SHELLBIN%" %ARGS% %ARG2%
+
+GOTO END
+:WITH_TTY
 %TTY% --title "%TITLE%" "%SHELLBIN%" %ARGS% %ARG2%
 
-rem %FS_SYSTEM_APP%\SHELL\CYGWIN\BIN\SH.EXE --login -i
-
+:END
 set TTY=
 set ARGS=
 set ARG2=
 set STARTDIR=
 SET TITLE=
+SET NO_TTY=
 endlocal

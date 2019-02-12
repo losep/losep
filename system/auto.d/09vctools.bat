@@ -11,6 +11,7 @@ if not "%OS%"=="Windows_NT" set VCTOOLS=%VCTOOLS%\win9x;%VCTOOLS%
 goto end
 
 :x64
+:amd64
 :i64
 set VCTOOLS=%VCTOOLS%\winnt;%VCTOOLS%
 

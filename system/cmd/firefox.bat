@@ -1,13 +1,24 @@
 @ECHO OFF
 setlocal
+IF "AMD64" == "%PROCESSOR_ARCHITEW6432%" goto archit32in64
+IF "AMD64" == "%PROCESSOR_ARCHITECTURE%" goto archit64
 
+:archit32
 set firefox=%PROGRAMFILES%\Mozilla Firefox\firefox.exe
-for %%d in ("%PROGRAMFILES%\Mozilla Firefox\firefox.exe" "%FS_SYSTEM_APP%\firefox\firefox.exe" "%FS_SYSTEM_APP%\internet\firefox\firefox.exe" "%FS_SYSTEM_APP%\internet\Mozilla firefox\firefox.exe") do (
+for %%d in ("%PROGRAMFILES%\Mozilla Firefox\firefox.exe" "%FS_SYSTEM%\app32\firefox\firefox.exe" "%FS_SYSTEM%\app32\internet\firefox\firefox.exe" "%FS_SYSTEM%\app32\internet\Mozilla firefox\firefox.exe") do (
 	if exist "%%~d" (set firefox=%%~d&goto profile)
 )
-
+goto profile
+:archit32in64
+:archit64
+set firefox=%ProgramW6432%\Mozilla Firefox\firefox.exe
+for %%d in ("%ProgramW6432%\Mozilla Firefox\firefox.exe" "%FS_SYSTEM_APP%\firefox\firefox.exe" "%FS_SYSTEM_APP%\internet\firefox\firefox.exe" "%FS_SYSTEM_APP%\internet\Mozilla firefox\firefox.exe") do (
+	if exist "%%~d" (set firefox=%%~d&goto profile)
+)
+goto profile
 
 :profile
+echo %firefox%
 set profile_d=%FS_ROOT%\appdata\firefox\profiles
 set profile_n=xiaoranzzz
 set args=

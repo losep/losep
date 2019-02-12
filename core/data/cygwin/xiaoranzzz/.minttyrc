@@ -1,8 +1,8 @@
 BoldAsFont=no
-Columns=143
-Rows=45
-Font=Consolas
-FontHeight=10
+Columns=120
+Rows=40
+Font=YaHei Consolas Hybrid
+FontHeight=9
 CopyOnSelect=yes
 CopyAsRTF=no
 ForegroundColour=255,255,255

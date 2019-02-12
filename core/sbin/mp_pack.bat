@@ -3,7 +3,9 @@ REM cscript /nologo "%~dp0\mp_pack.vbs" %*
 REM goto end
 setlocal
 if "%~1" == "" goto usage
+:SUB_PACK
 set dname=%~1
+shift
 if not exist "%dname%" goto error_dir
 set oname=%dname:\=.%
 echo creating %oname% from %dname%
@@ -27,6 +29,8 @@ echo.
 echo Directory : %dname%
 echo Archived  : %oname%_%suf%%ext%
 REM call %tester% "%oname%_%suf%%ext%"
+:SUB_PACK_END
+if not "%~1" == "" goto SUB_PACK
 goto END
 
 :usage
@@ -34,7 +38,8 @@ echo Usage: %0 directory
 goto end
 
 :error_dir
-echo Target not exist
+echo Directory not found: %dname%
+goto SUB_PACK_END
 goto end
 
 :end

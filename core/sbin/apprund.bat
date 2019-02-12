@@ -1,6 +1,16 @@
 @ECHO %DEBUG% OFF
 if NOT "%DEBUG%"=="" @ECHO ON
 if "%~1"=="" GOTO USAGE
+
+IF "AMD64" == "%PROCESSOR_ARCHITEW6432%" goto archit64
+:archit32
+REM set FSAPP=%FS_SYSTEM%\app32
+goto :set_start
+:archit64
+REM set FSAPP=%FS_SYSTEM_APP%
+
+:set_start
+
 if "%~1"=="/D" (shift&goto set_d)
 
 :set_e

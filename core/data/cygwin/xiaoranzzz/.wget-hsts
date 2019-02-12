@@ -1,4 +1,13 @@
 # HSTS 1.0 Known Hosts database for GNU Wget.
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+spankbang.com	0	1	1548783345	15552000
+raw.githubusercontent.com	0	0	1545159262	31536000
+codeload.github.com	0	0	1545170512	31536000
+www.4dos.info	0	0	1546286834	604800
+sourceforge.net	0	0	1544809921	31536000
+m.spankbang.com	0	1	1548783346	15552000
+eternallybored.org	0	1	1546280719	31536000
+svwh.dl.sourceforge.net	0	1	1545332179	31536000
 tumblr.com	0	0	1535570381	15552000
+github.com	0	1	1545158885	31536000

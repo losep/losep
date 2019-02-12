@@ -25,7 +25,7 @@ call mpshell.message -t 1 App not installed: %appn%
 goto :eof
 :dosetup
 rem call mpshell.message -t 1 OK
-set NEWPATH=%NEWPATH%;%FS_SYSTEM_APP%\%app_path%
+set NEWPATH=%FS_SYSTEM_APP%\%app_path%;%NEWPATH%
 set PATH=%NEWPATH%
 goto :eof
 
