@@ -18,12 +18,13 @@ set tt=%tt::=%
 set suf=%suf%%tt%
 set ext=.rar
 if exist "%dname%\MYPLACE.PACK.BAT" (
-	set archiver="%dname%\MYPLACE.PACK.BAT"
+	call "%dname%\MYPLACE.PACK.BAT"
 ) else (
 	set archiver=7z a -scsUTF-8 -mx=9 -r
 	set ext=.7z
 	set tester=7z t
 )
+echo %archiver% "%oname%_%suf%%ext%" "%dname%"
 call %archiver% "%oname%_%suf%%ext%" "%dname%"
 echo.
 echo Directory : %dname%
