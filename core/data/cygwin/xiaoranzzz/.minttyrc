@@ -1,7 +1,7 @@
 BoldAsFont=no
 Columns=120
 Rows=40
-Font=YaHei Consolas Hybrid
+Font=Consolas
 FontHeight=9
 CopyOnSelect=yes
 CopyAsRTF=no
